@@ -1,0 +1,19 @@
+running egg_info
+writing ../../../build/app_ultra_viewer/app_ultra_viewer.egg-info/PKG-INFO
+writing dependency_links to ../../../build/app_ultra_viewer/app_ultra_viewer.egg-info/dependency_links.txt
+writing entry points to ../../../build/app_ultra_viewer/app_ultra_viewer.egg-info/entry_points.txt
+writing requirements to ../../../build/app_ultra_viewer/app_ultra_viewer.egg-info/requires.txt
+writing top-level names to ../../../build/app_ultra_viewer/app_ultra_viewer.egg-info/top_level.txt
+reading manifest file '../../../build/app_ultra_viewer/app_ultra_viewer.egg-info/SOURCES.txt'
+writing manifest file '../../../build/app_ultra_viewer/app_ultra_viewer.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+running install_egg_info
+removing '/home/xytron/xycar_ws/install/app_ultra_viewer/lib/python3.10/site-packages/app_ultra_viewer-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../../build/app_ultra_viewer/app_ultra_viewer.egg-info to /home/xytron/xycar_ws/install/app_ultra_viewer/lib/python3.10/site-packages/app_ultra_viewer-0.0.0-py3.10.egg-info
+running install_scripts
+Installing app_ultra_viewer script to /home/xytron/xycar_ws/install/app_ultra_viewer/lib/app_ultra_viewer
+writing list of installed files to '/home/xytron/xycar_ws/build/app_ultra_viewer/install.log'

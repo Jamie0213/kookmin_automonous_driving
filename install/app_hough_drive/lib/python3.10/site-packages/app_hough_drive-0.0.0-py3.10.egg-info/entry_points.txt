@@ -1,0 +1,3 @@
+[console_scripts]
+my_driver = app_hough_drive.app_hough_drive:main
+

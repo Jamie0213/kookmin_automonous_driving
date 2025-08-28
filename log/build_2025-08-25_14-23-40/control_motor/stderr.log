@@ -1,0 +1,2 @@
+/home/xytron/xycar_ws/install/control_motor/lib/python3.10/site-packages/control_motor/rubbercone_driver_node.py:56: SyntaxWarning: 'tuple' object is not callable; perhaps you missed a comma?
+  ('yaw_gain', 4.0)

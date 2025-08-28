@@ -1,0 +1,5 @@
+[console_scripts]
+motor_test = xycar_motor.motor_test:main
+vesc_test = xycar_motor.vesc_test:main
+xycar_motor = xycar_motor.xycar_motor:main
+

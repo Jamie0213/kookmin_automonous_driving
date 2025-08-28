@@ -1,0 +1,23 @@
+[2.182s] Invoking command in '/home/xytron/xycar_ws/src/xycar_device/xycar_imu': PYTHONPATH=/home/xytron/xycar_ws/build/xycar_imu/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/xytron/xycar_ws/install/xycar_imu/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/xycar_imu build --build-base /home/xytron/xycar_ws/build/xycar_imu/build install --record /home/xytron/xycar_ws/build/xycar_imu/install.log --single-version-externally-managed install_data
+[2.532s] running egg_info
+[2.533s] writing ../../../build/xycar_imu/xycar_imu.egg-info/PKG-INFO
+[2.533s] writing dependency_links to ../../../build/xycar_imu/xycar_imu.egg-info/dependency_links.txt
+[2.534s] writing entry points to ../../../build/xycar_imu/xycar_imu.egg-info/entry_points.txt
+[2.534s] writing requirements to ../../../build/xycar_imu/xycar_imu.egg-info/requires.txt
+[2.534s] writing top-level names to ../../../build/xycar_imu/xycar_imu.egg-info/top_level.txt
+[2.537s] reading manifest file '../../../build/xycar_imu/xycar_imu.egg-info/SOURCES.txt'
+[2.537s] adding license file 'LICENSE'
+[2.538s] writing manifest file '../../../build/xycar_imu/xycar_imu.egg-info/SOURCES.txt'
+[2.538s] running build
+[2.538s] running build_py
+[2.541s] running install
+[2.541s] running install_lib
+[2.543s] running install_data
+[2.544s] running install_egg_info
+[2.546s] removing '/home/xytron/xycar_ws/install/xycar_imu/lib/python3.10/site-packages/xycar_imu-1.2.0-py3.10.egg-info' (and everything under it)
+[2.546s] Copying ../../../build/xycar_imu/xycar_imu.egg-info to /home/xytron/xycar_ws/install/xycar_imu/lib/python3.10/site-packages/xycar_imu-1.2.0-py3.10.egg-info
+[2.548s] running install_scripts
+[2.569s] Installing display_3D_visualization_node script to /home/xytron/xycar_ws/install/xycar_imu/lib/xycar_imu
+[2.569s] Installing imu_node script to /home/xytron/xycar_ws/install/xycar_imu/lib/xycar_imu
+[2.570s] writing list of installed files to '/home/xytron/xycar_ws/build/xycar_imu/install.log'
+[2.644s] Invoked command in '/home/xytron/xycar_ws/src/xycar_device/xycar_imu' returned '0': PYTHONPATH=/home/xytron/xycar_ws/build/xycar_imu/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/xytron/xycar_ws/install/xycar_imu/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/xycar_imu build --build-base /home/xytron/xycar_ws/build/xycar_imu/build install --record /home/xytron/xycar_ws/build/xycar_imu/install.log --single-version-externally-managed install_data

@@ -1,0 +1,21 @@
+[2.048s] Invoking command in '/home/xytron/xycar_ws/src/xycar_planner': PYTHONPATH=/home/xytron/xycar_ws/build/xycar_planner/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/xytron/xycar_ws/install/xycar_planner/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/xycar_planner build --build-base /home/xytron/xycar_ws/build/xycar_planner/build install --record /home/xytron/xycar_ws/build/xycar_planner/install.log --single-version-externally-managed install_data
+[2.351s] running egg_info
+[2.352s] writing ../../build/xycar_planner/xycar_planner.egg-info/PKG-INFO
+[2.352s] writing dependency_links to ../../build/xycar_planner/xycar_planner.egg-info/dependency_links.txt
+[2.352s] writing entry points to ../../build/xycar_planner/xycar_planner.egg-info/entry_points.txt
+[2.353s] writing requirements to ../../build/xycar_planner/xycar_planner.egg-info/requires.txt
+[2.353s] writing top-level names to ../../build/xycar_planner/xycar_planner.egg-info/top_level.txt
+[2.356s] reading manifest file '../../build/xycar_planner/xycar_planner.egg-info/SOURCES.txt'
+[2.357s] writing manifest file '../../build/xycar_planner/xycar_planner.egg-info/SOURCES.txt'
+[2.357s] running build
+[2.357s] running build_py
+[2.357s] running install
+[2.358s] running install_lib
+[2.359s] running install_data
+[2.359s] running install_egg_info
+[2.362s] removing '/home/xytron/xycar_ws/install/xycar_planner/lib/python3.10/site-packages/xycar_planner-0.0.0-py3.10.egg-info' (and everything under it)
+[2.362s] Copying ../../build/xycar_planner/xycar_planner.egg-info to /home/xytron/xycar_ws/install/xycar_planner/lib/python3.10/site-packages/xycar_planner-0.0.0-py3.10.egg-info
+[2.363s] running install_scripts
+[2.390s] Installing xycar_planner_static_test script to /home/xytron/xycar_ws/install/xycar_planner/lib/xycar_planner
+[2.390s] writing list of installed files to '/home/xytron/xycar_ws/build/xycar_planner/install.log'
+[2.456s] Invoked command in '/home/xytron/xycar_ws/src/xycar_planner' returned '0': PYTHONPATH=/home/xytron/xycar_ws/build/xycar_planner/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/xytron/xycar_ws/install/xycar_planner/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/xycar_planner build --build-base /home/xytron/xycar_ws/build/xycar_planner/build install --record /home/xytron/xycar_ws/build/xycar_planner/install.log --single-version-externally-managed install_data

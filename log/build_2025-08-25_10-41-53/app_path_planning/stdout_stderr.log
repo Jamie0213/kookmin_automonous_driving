@@ -1,0 +1,20 @@
+running egg_info
+writing ../../../build/app_path_planning/app_path_planning.egg-info/PKG-INFO
+writing dependency_links to ../../../build/app_path_planning/app_path_planning.egg-info/dependency_links.txt
+writing entry points to ../../../build/app_path_planning/app_path_planning.egg-info/entry_points.txt
+writing requirements to ../../../build/app_path_planning/app_path_planning.egg-info/requires.txt
+writing top-level names to ../../../build/app_path_planning/app_path_planning.egg-info/top_level.txt
+reading manifest file '../../../build/app_path_planning/app_path_planning.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../../build/app_path_planning/app_path_planning.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+running install_egg_info
+removing '/home/xytron/xycar_ws/install/app_path_planning/lib/python3.10/site-packages/app_path_planning-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../../build/app_path_planning/app_path_planning.egg-info to /home/xytron/xycar_ws/install/app_path_planning/lib/python3.10/site-packages/app_path_planning-0.0.0-py3.10.egg-info
+running install_scripts
+Installing main script to /home/xytron/xycar_ws/install/app_path_planning/lib/app_path_planning
+writing list of installed files to '/home/xytron/xycar_ws/build/app_path_planning/install.log'

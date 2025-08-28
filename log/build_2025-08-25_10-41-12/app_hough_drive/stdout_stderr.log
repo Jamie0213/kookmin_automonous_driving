@@ -1,0 +1,37 @@
+running egg_info
+creating ../../../build/app_hough_drive/app_hough_drive.egg-info
+writing ../../../build/app_hough_drive/app_hough_drive.egg-info/PKG-INFO
+writing dependency_links to ../../../build/app_hough_drive/app_hough_drive.egg-info/dependency_links.txt
+writing entry points to ../../../build/app_hough_drive/app_hough_drive.egg-info/entry_points.txt
+writing requirements to ../../../build/app_hough_drive/app_hough_drive.egg-info/requires.txt
+writing top-level names to ../../../build/app_hough_drive/app_hough_drive.egg-info/top_level.txt
+writing manifest file '../../../build/app_hough_drive/app_hough_drive.egg-info/SOURCES.txt'
+reading manifest file '../../../build/app_hough_drive/app_hough_drive.egg-info/SOURCES.txt'
+writing manifest file '../../../build/app_hough_drive/app_hough_drive.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/xytron/xycar_ws/build/app_hough_drive/build
+creating /home/xytron/xycar_ws/build/app_hough_drive/build/lib
+creating /home/xytron/xycar_ws/build/app_hough_drive/build/lib/app_hough_drive
+copying app_hough_drive/__init__.py -> /home/xytron/xycar_ws/build/app_hough_drive/build/lib/app_hough_drive
+copying app_hough_drive/app_hough_drive.py -> /home/xytron/xycar_ws/build/app_hough_drive/build/lib/app_hough_drive
+running install
+running install_lib
+creating /home/xytron/xycar_ws/install/app_hough_drive/lib/python3.10/site-packages/app_hough_drive
+copying /home/xytron/xycar_ws/build/app_hough_drive/build/lib/app_hough_drive/__init__.py -> /home/xytron/xycar_ws/install/app_hough_drive/lib/python3.10/site-packages/app_hough_drive
+copying /home/xytron/xycar_ws/build/app_hough_drive/build/lib/app_hough_drive/app_hough_drive.py -> /home/xytron/xycar_ws/install/app_hough_drive/lib/python3.10/site-packages/app_hough_drive
+byte-compiling /home/xytron/xycar_ws/install/app_hough_drive/lib/python3.10/site-packages/app_hough_drive/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/xytron/xycar_ws/install/app_hough_drive/lib/python3.10/site-packages/app_hough_drive/app_hough_drive.py to app_hough_drive.cpython-310.pyc
+running install_data
+creating /home/xytron/xycar_ws/install/app_hough_drive/share/ament_index
+creating /home/xytron/xycar_ws/install/app_hough_drive/share/ament_index/resource_index
+creating /home/xytron/xycar_ws/install/app_hough_drive/share/ament_index/resource_index/packages
+copying resource/app_hough_drive -> /home/xytron/xycar_ws/install/app_hough_drive/share/ament_index/resource_index/packages
+copying package.xml -> /home/xytron/xycar_ws/install/app_hough_drive/share/app_hough_drive
+creating /home/xytron/xycar_ws/install/app_hough_drive/share/app_hough_drive/launch
+copying launch/app_hough_drive.launch.py -> /home/xytron/xycar_ws/install/app_hough_drive/share/app_hough_drive/launch
+running install_egg_info
+Copying ../../../build/app_hough_drive/app_hough_drive.egg-info to /home/xytron/xycar_ws/install/app_hough_drive/lib/python3.10/site-packages/app_hough_drive-0.0.0-py3.10.egg-info
+running install_scripts
+Installing my_driver script to /home/xytron/xycar_ws/install/app_hough_drive/lib/app_hough_drive
+writing list of installed files to '/home/xytron/xycar_ws/build/app_hough_drive/install.log'

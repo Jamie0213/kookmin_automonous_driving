@@ -1,0 +1,7 @@
+cv_bridge
+matplotlib
+numpy
+opencv-python
+rclpy
+setuptools
+xycar_msgs

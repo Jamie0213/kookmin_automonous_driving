@@ -1,0 +1,36 @@
+[6.070s] Invoking command in '/home/xytron/xycar_ws/src/xycar_application/app_pubsub': PYTHONPATH=/home/xytron/xycar_ws/build/app_pubsub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/xytron/xycar_ws/install/app_pubsub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/app_pubsub build --build-base /home/xytron/xycar_ws/build/app_pubsub/build install --record /home/xytron/xycar_ws/build/app_pubsub/install.log --single-version-externally-managed install_data
+[7.694s] running egg_info
+[7.706s] creating ../../../build/app_pubsub/app_pubsub.egg-info
+[7.707s] writing ../../../build/app_pubsub/app_pubsub.egg-info/PKG-INFO
+[7.712s] writing dependency_links to ../../../build/app_pubsub/app_pubsub.egg-info/dependency_links.txt
+[7.712s] writing entry points to ../../../build/app_pubsub/app_pubsub.egg-info/entry_points.txt
+[7.712s] writing requirements to ../../../build/app_pubsub/app_pubsub.egg-info/requires.txt
+[7.712s] writing top-level names to ../../../build/app_pubsub/app_pubsub.egg-info/top_level.txt
+[7.712s] writing manifest file '../../../build/app_pubsub/app_pubsub.egg-info/SOURCES.txt'
+[7.721s] reading manifest file '../../../build/app_pubsub/app_pubsub.egg-info/SOURCES.txt'
+[7.723s] adding license file 'LICENSE'
+[7.723s] writing manifest file '../../../build/app_pubsub/app_pubsub.egg-info/SOURCES.txt'
+[7.723s] running build
+[7.728s] running build_py
+[7.731s] creating /home/xytron/xycar_ws/build/app_pubsub/build
+[7.739s] creating /home/xytron/xycar_ws/build/app_pubsub/build/lib
+[7.739s] creating /home/xytron/xycar_ws/build/app_pubsub/build/lib/app_pubsub
+[7.739s] copying app_pubsub/__init__.py -> /home/xytron/xycar_ws/build/app_pubsub/build/lib/app_pubsub
+[7.740s] running install
+[7.740s] running install_lib
+[7.741s] creating /home/xytron/xycar_ws/install/app_pubsub/lib/python3.10/site-packages/app_pubsub
+[7.741s] copying /home/xytron/xycar_ws/build/app_pubsub/build/lib/app_pubsub/__init__.py -> /home/xytron/xycar_ws/install/app_pubsub/lib/python3.10/site-packages/app_pubsub
+[7.741s] byte-compiling /home/xytron/xycar_ws/install/app_pubsub/lib/python3.10/site-packages/app_pubsub/__init__.py to __init__.cpython-310.pyc
+[7.741s] running install_data
+[7.741s] creating /home/xytron/xycar_ws/install/app_pubsub/share/ament_index
+[7.741s] creating /home/xytron/xycar_ws/install/app_pubsub/share/ament_index/resource_index
+[7.742s] creating /home/xytron/xycar_ws/install/app_pubsub/share/ament_index/resource_index/packages
+[7.742s] copying resource/app_pubsub -> /home/xytron/xycar_ws/install/app_pubsub/share/ament_index/resource_index/packages
+[7.742s] copying package.xml -> /home/xytron/xycar_ws/install/app_pubsub/share/app_pubsub
+[7.742s] creating /home/xytron/xycar_ws/install/app_pubsub/share/app_pubsub/launch
+[7.742s] copying launch/app_pubsub.launch.py -> /home/xytron/xycar_ws/install/app_pubsub/share/app_pubsub/launch
+[7.742s] running install_egg_info
+[7.750s] Copying ../../../build/app_pubsub/app_pubsub.egg-info to /home/xytron/xycar_ws/install/app_pubsub/lib/python3.10/site-packages/app_pubsub-0.0.0-py3.10.egg-info
+[7.750s] running install_scripts
+[7.934s] writing list of installed files to '/home/xytron/xycar_ws/build/app_pubsub/install.log'
+[8.227s] Invoked command in '/home/xytron/xycar_ws/src/xycar_application/app_pubsub' returned '0': PYTHONPATH=/home/xytron/xycar_ws/build/app_pubsub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/xytron/xycar_ws/install/app_pubsub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/app_pubsub build --build-base /home/xytron/xycar_ws/build/app_pubsub/build install --record /home/xytron/xycar_ws/build/app_pubsub/install.log --single-version-externally-managed install_data

@@ -1,0 +1,3 @@
+[console_scripts]
+app_8_drive = app_8_drive.app_8_drive:main
+

@@ -1,0 +1,87 @@
+[1.020s] Invoking command in '/home/xytron/xycar_ws/src/study/control_motor': AMENT_PREFIX_PATH=/home/xytron/xycar_ws/install/xycar_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/xytron/xycar_ws/install/xycar_msgs LD_LIBRARY_PATH=/home/xytron/xycar_ws/install/xycar_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/xytron/xycar_ws/build/control_motor/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/xytron/xycar_ws/install/control_motor/lib/python3.10/site-packages:/home/xytron/xycar_ws/install/xycar_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/control_motor build --build-base /home/xytron/xycar_ws/build/control_motor/build install --record /home/xytron/xycar_ws/build/control_motor/install.log --single-version-externally-managed install_data
+[1.419s] running egg_info
+[1.420s] creating ../../../build/control_motor/control_motor.egg-info
+[1.421s] writing ../../../build/control_motor/control_motor.egg-info/PKG-INFO
+[1.423s] writing dependency_links to ../../../build/control_motor/control_motor.egg-info/dependency_links.txt
+[1.423s] writing entry points to ../../../build/control_motor/control_motor.egg-info/entry_points.txt
+[1.424s] writing requirements to ../../../build/control_motor/control_motor.egg-info/requires.txt
+[1.424s] writing top-level names to ../../../build/control_motor/control_motor.egg-info/top_level.txt
+[1.425s] writing manifest file '../../../build/control_motor/control_motor.egg-info/SOURCES.txt'
+[1.432s] reading manifest file '../../../build/control_motor/control_motor.egg-info/SOURCES.txt'
+[1.435s] writing manifest file '../../../build/control_motor/control_motor.egg-info/SOURCES.txt'
+[1.436s] running build
+[1.437s] running build_py
+[1.438s] creating /home/xytron/xycar_ws/build/control_motor/build
+[1.438s] creating /home/xytron/xycar_ws/build/control_motor/build/lib
+[1.439s] creating /home/xytron/xycar_ws/build/control_motor/build/lib/control_motor
+[1.439s] copying control_motor/__init__.py -> /home/xytron/xycar_ws/build/control_motor/build/lib/control_motor
+[1.439s] copying control_motor/collision_avoidance.py -> /home/xytron/xycar_ws/build/control_motor/build/lib/control_motor
+[1.440s] copying control_motor/new_lane_detection.py -> /home/xytron/xycar_ws/build/control_motor/build/lib/control_motor
+[1.440s] copying control_motor/new_slidingwindow.py -> /home/xytron/xycar_ws/build/control_motor/build/lib/control_motor
+[1.440s] copying control_motor/new_rubbercone_driver_node.py -> /home/xytron/xycar_ws/build/control_motor/build/lib/control_motor
+[1.441s] copying control_motor/kmu_motor_node.py -> /home/xytron/xycar_ws/build/control_motor/build/lib/control_motor
+[1.441s] copying control_motor/slidingwindow.py -> /home/xytron/xycar_ws/build/control_motor/build/lib/control_motor
+[1.441s] copying control_motor/obstacle.py -> /home/xytron/xycar_ws/build/control_motor/build/lib/control_motor
+[1.442s] copying control_motor/new_utils.py -> /home/xytron/xycar_ws/build/control_motor/build/lib/control_motor
+[1.442s] copying control_motor/trafficlight.py -> /home/xytron/xycar_ws/build/control_motor/build/lib/control_motor
+[1.442s] copying control_motor/rubbercone_driver_node.py -> /home/xytron/xycar_ws/build/control_motor/build/lib/control_motor
+[1.443s] copying control_motor/is_orange.py -> /home/xytron/xycar_ws/build/control_motor/build/lib/control_motor
+[1.443s] copying control_motor/fast_rubbercone_driver_node.py -> /home/xytron/xycar_ws/build/control_motor/build/lib/control_motor
+[1.443s] copying control_motor/is_vehicle.py -> /home/xytron/xycar_ws/build/control_motor/build/lib/control_motor
+[1.444s] copying control_motor/lane_detection.py -> /home/xytron/xycar_ws/build/control_motor/build/lib/control_motor
+[1.445s] running install
+[1.446s] running install_lib
+[1.448s] creating /home/xytron/xycar_ws/install/control_motor/lib/python3.10/site-packages/control_motor
+[1.448s] copying /home/xytron/xycar_ws/build/control_motor/build/lib/control_motor/__init__.py -> /home/xytron/xycar_ws/install/control_motor/lib/python3.10/site-packages/control_motor
+[1.448s] copying /home/xytron/xycar_ws/build/control_motor/build/lib/control_motor/collision_avoidance.py -> /home/xytron/xycar_ws/install/control_motor/lib/python3.10/site-packages/control_motor
+[1.448s] copying /home/xytron/xycar_ws/build/control_motor/build/lib/control_motor/new_lane_detection.py -> /home/xytron/xycar_ws/install/control_motor/lib/python3.10/site-packages/control_motor
+[1.449s] copying /home/xytron/xycar_ws/build/control_motor/build/lib/control_motor/new_slidingwindow.py -> /home/xytron/xycar_ws/install/control_motor/lib/python3.10/site-packages/control_motor
+[1.449s] copying /home/xytron/xycar_ws/build/control_motor/build/lib/control_motor/new_rubbercone_driver_node.py -> /home/xytron/xycar_ws/install/control_motor/lib/python3.10/site-packages/control_motor
+[1.449s] copying /home/xytron/xycar_ws/build/control_motor/build/lib/control_motor/kmu_motor_node.py -> /home/xytron/xycar_ws/install/control_motor/lib/python3.10/site-packages/control_motor
+[1.449s] copying /home/xytron/xycar_ws/build/control_motor/build/lib/control_motor/slidingwindow.py -> /home/xytron/xycar_ws/install/control_motor/lib/python3.10/site-packages/control_motor
+[1.449s] copying /home/xytron/xycar_ws/build/control_motor/build/lib/control_motor/obstacle.py -> /home/xytron/xycar_ws/install/control_motor/lib/python3.10/site-packages/control_motor
+[1.450s] copying /home/xytron/xycar_ws/build/control_motor/build/lib/control_motor/new_utils.py -> /home/xytron/xycar_ws/install/control_motor/lib/python3.10/site-packages/control_motor
+[1.450s] copying /home/xytron/xycar_ws/build/control_motor/build/lib/control_motor/trafficlight.py -> /home/xytron/xycar_ws/install/control_motor/lib/python3.10/site-packages/control_motor
+[1.450s] copying /home/xytron/xycar_ws/build/control_motor/build/lib/control_motor/rubbercone_driver_node.py -> /home/xytron/xycar_ws/install/control_motor/lib/python3.10/site-packages/control_motor
+[1.450s] copying /home/xytron/xycar_ws/build/control_motor/build/lib/control_motor/is_orange.py -> /home/xytron/xycar_ws/install/control_motor/lib/python3.10/site-packages/control_motor
+[1.450s] copying /home/xytron/xycar_ws/build/control_motor/build/lib/control_motor/fast_rubbercone_driver_node.py -> /home/xytron/xycar_ws/install/control_motor/lib/python3.10/site-packages/control_motor
+[1.450s] copying /home/xytron/xycar_ws/build/control_motor/build/lib/control_motor/is_vehicle.py -> /home/xytron/xycar_ws/install/control_motor/lib/python3.10/site-packages/control_motor
+[1.451s] copying /home/xytron/xycar_ws/build/control_motor/build/lib/control_motor/lane_detection.py -> /home/xytron/xycar_ws/install/control_motor/lib/python3.10/site-packages/control_motor
+[1.455s] byte-compiling /home/xytron/xycar_ws/install/control_motor/lib/python3.10/site-packages/control_motor/__init__.py to __init__.cpython-310.pyc
+[1.455s] byte-compiling /home/xytron/xycar_ws/install/control_motor/lib/python3.10/site-packages/control_motor/collision_avoidance.py to collision_avoidance.cpython-310.pyc
+[1.458s] byte-compiling /home/xytron/xycar_ws/install/control_motor/lib/python3.10/site-packages/control_motor/new_lane_detection.py to new_lane_detection.cpython-310.pyc
+[1.468s] byte-compiling /home/xytron/xycar_ws/install/control_motor/lib/python3.10/site-packages/control_motor/new_slidingwindow.py to new_slidingwindow.cpython-310.pyc
+[1.473s] byte-compiling /home/xytron/xycar_ws/install/control_motor/lib/python3.10/site-packages/control_motor/new_rubbercone_driver_node.py to new_rubbercone_driver_node.cpython-310.pyc
+[1.479s] byte-compiling /home/xytron/xycar_ws/install/control_motor/lib/python3.10/site-packages/control_motor/kmu_motor_node.py to kmu_motor_node.cpython-310.pyc
+[1.480s] byte-compiling /home/xytron/xycar_ws/install/control_motor/lib/python3.10/site-packages/control_motor/slidingwindow.py to slidingwindow.cpython-310.pyc
+[1.482s] byte-compiling /home/xytron/xycar_ws/install/control_motor/lib/python3.10/site-packages/control_motor/obstacle.py to obstacle.cpython-310.pyc
+[1.490s] byte-compiling /home/xytron/xycar_ws/install/control_motor/lib/python3.10/site-packages/control_motor/new_utils.py to new_utils.cpython-310.pyc
+[1.492s] byte-compiling /home/xytron/xycar_ws/install/control_motor/lib/python3.10/site-packages/control_motor/trafficlight.py to trafficlight.cpython-310.pyc
+[1.495s] byte-compiling /home/xytron/xycar_ws/install/control_motor/lib/python3.10/site-packages/control_motor/rubbercone_driver_node.py to rubbercone_driver_node.cpython-310.pyc
+[1.504s] byte-compiling /home/xytron/xycar_ws/install/control_motor/lib/python3.10/site-packages/control_motor/is_orange.py to is_orange.cpython-310.pyc
+[1.504s] byte-compiling /home/xytron/xycar_ws/install/control_motor/lib/python3.10/site-packages/control_motor/fast_rubbercone_driver_node.py to fast_rubbercone_driver_node.cpython-310.pyc
+[1.511s] byte-compiling /home/xytron/xycar_ws/install/control_motor/lib/python3.10/site-packages/control_motor/is_vehicle.py to is_vehicle.cpython-310.pyc
+[1.522s] byte-compiling /home/xytron/xycar_ws/install/control_motor/lib/python3.10/site-packages/control_motor/lane_detection.py to lane_detection.cpython-310.pyc
+[1.525s] running install_data
+[1.526s] creating /home/xytron/xycar_ws/install/control_motor/share/ament_index
+[1.526s] creating /home/xytron/xycar_ws/install/control_motor/share/ament_index/resource_index
+[1.526s] creating /home/xytron/xycar_ws/install/control_motor/share/ament_index/resource_index/packages
+[1.526s] copying resource/control_motor -> /home/xytron/xycar_ws/install/control_motor/share/ament_index/resource_index/packages
+[1.526s] copying package.xml -> /home/xytron/xycar_ws/install/control_motor/share/control_motor
+[1.526s] creating /home/xytron/xycar_ws/install/control_motor/share/control_motor/launch
+[1.526s] copying launch/control_motor_new_version.launch.py -> /home/xytron/xycar_ws/install/control_motor/share/control_motor/launch
+[1.527s] running install_egg_info
+[1.531s] Copying ../../../build/control_motor/control_motor.egg-info to /home/xytron/xycar_ws/install/control_motor/lib/python3.10/site-packages/control_motor-0.0.0-py3.10.egg-info
+[1.533s] running install_scripts
+[1.599s] Installing collision_avoidance script to /home/xytron/xycar_ws/install/control_motor/lib/control_motor
+[1.600s] Installing fast_rubbercone_driver_node script to /home/xytron/xycar_ws/install/control_motor/lib/control_motor
+[1.600s] Installing is_orange script to /home/xytron/xycar_ws/install/control_motor/lib/control_motor
+[1.601s] Installing is_vehicle script to /home/xytron/xycar_ws/install/control_motor/lib/control_motor
+[1.601s] Installing kmu_motor_node script to /home/xytron/xycar_ws/install/control_motor/lib/control_motor
+[1.601s] Installing lane_detection script to /home/xytron/xycar_ws/install/control_motor/lib/control_motor
+[1.602s] Installing new_lane_detection script to /home/xytron/xycar_ws/install/control_motor/lib/control_motor
+[1.602s] Installing obstacle script to /home/xytron/xycar_ws/install/control_motor/lib/control_motor
+[1.602s] Installing rubbercone_driver_node script to /home/xytron/xycar_ws/install/control_motor/lib/control_motor
+[1.603s] Installing trafficlight script to /home/xytron/xycar_ws/install/control_motor/lib/control_motor
+[1.604s] writing list of installed files to '/home/xytron/xycar_ws/build/control_motor/install.log'
+[1.735s] Invoked command in '/home/xytron/xycar_ws/src/study/control_motor' returned '0': AMENT_PREFIX_PATH=/home/xytron/xycar_ws/install/xycar_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/xytron/xycar_ws/install/xycar_msgs LD_LIBRARY_PATH=/home/xytron/xycar_ws/install/xycar_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/xytron/xycar_ws/build/control_motor/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/xytron/xycar_ws/install/control_motor/lib/python3.10/site-packages:/home/xytron/xycar_ws/install/xycar_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/control_motor build --build-base /home/xytron/xycar_ws/build/control_motor/build install --record /home/xytron/xycar_ws/build/control_motor/install.log --single-version-externally-managed install_data

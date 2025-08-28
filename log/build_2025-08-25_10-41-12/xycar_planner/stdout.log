@@ -1,0 +1,35 @@
+running egg_info
+creating ../../build/xycar_planner/xycar_planner.egg-info
+writing ../../build/xycar_planner/xycar_planner.egg-info/PKG-INFO
+writing dependency_links to ../../build/xycar_planner/xycar_planner.egg-info/dependency_links.txt
+writing entry points to ../../build/xycar_planner/xycar_planner.egg-info/entry_points.txt
+writing requirements to ../../build/xycar_planner/xycar_planner.egg-info/requires.txt
+writing top-level names to ../../build/xycar_planner/xycar_planner.egg-info/top_level.txt
+writing manifest file '../../build/xycar_planner/xycar_planner.egg-info/SOURCES.txt'
+reading manifest file '../../build/xycar_planner/xycar_planner.egg-info/SOURCES.txt'
+writing manifest file '../../build/xycar_planner/xycar_planner.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/xytron/xycar_ws/build/xycar_planner/build
+creating /home/xytron/xycar_ws/build/xycar_planner/build/lib
+creating /home/xytron/xycar_ws/build/xycar_planner/build/lib/xycar_planner
+copying xycar_planner/__init__.py -> /home/xytron/xycar_ws/build/xycar_planner/build/lib/xycar_planner
+copying xycar_planner/xycar_planner_static_test.py -> /home/xytron/xycar_ws/build/xycar_planner/build/lib/xycar_planner
+running install
+running install_lib
+creating /home/xytron/xycar_ws/install/xycar_planner/lib/python3.10/site-packages/xycar_planner
+copying /home/xytron/xycar_ws/build/xycar_planner/build/lib/xycar_planner/__init__.py -> /home/xytron/xycar_ws/install/xycar_planner/lib/python3.10/site-packages/xycar_planner
+copying /home/xytron/xycar_ws/build/xycar_planner/build/lib/xycar_planner/xycar_planner_static_test.py -> /home/xytron/xycar_ws/install/xycar_planner/lib/python3.10/site-packages/xycar_planner
+byte-compiling /home/xytron/xycar_ws/install/xycar_planner/lib/python3.10/site-packages/xycar_planner/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/xytron/xycar_ws/install/xycar_planner/lib/python3.10/site-packages/xycar_planner/xycar_planner_static_test.py to xycar_planner_static_test.cpython-310.pyc
+running install_data
+creating /home/xytron/xycar_ws/install/xycar_planner/share/ament_index
+creating /home/xytron/xycar_ws/install/xycar_planner/share/ament_index/resource_index
+creating /home/xytron/xycar_ws/install/xycar_planner/share/ament_index/resource_index/packages
+copying resource/xycar_planner -> /home/xytron/xycar_ws/install/xycar_planner/share/ament_index/resource_index/packages
+copying package.xml -> /home/xytron/xycar_ws/install/xycar_planner/share/xycar_planner
+running install_egg_info
+Copying ../../build/xycar_planner/xycar_planner.egg-info to /home/xytron/xycar_ws/install/xycar_planner/lib/python3.10/site-packages/xycar_planner-0.0.0-py3.10.egg-info
+running install_scripts
+Installing xycar_planner_static_test script to /home/xytron/xycar_ws/install/xycar_planner/lib/xycar_planner
+writing list of installed files to '/home/xytron/xycar_ws/build/xycar_planner/install.log'

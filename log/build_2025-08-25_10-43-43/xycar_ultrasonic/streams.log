@@ -1,0 +1,25 @@
+[0.180s] Invoking command in '/home/xytron/xycar_ws/build/xycar_ultrasonic': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/xytron/xycar_ws/build/xycar_ultrasonic -- -j16 -l16
+[0.995s] [100%] Built target xycar_ultrasonic
+[1.027s] Invoked command in '/home/xytron/xycar_ws/build/xycar_ultrasonic' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/xytron/xycar_ws/build/xycar_ultrasonic -- -j16 -l16
+[1.032s] Invoking command in '/home/xytron/xycar_ws/build/xycar_ultrasonic': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/xytron/xycar_ws/build/xycar_ultrasonic
+[1.079s] -- Install configuration: ""
+[1.082s] -- Up-to-date: /home/xytron/xycar_ws/install/xycar_ultrasonic/lib/xycar_ultrasonic/xycar_ultrasonic
+[1.082s] -- Up-to-date: /home/xytron/xycar_ws/install/xycar_ultrasonic/share/xycar_ultrasonic/launch
+[1.083s] -- Up-to-date: /home/xytron/xycar_ws/install/xycar_ultrasonic/share/xycar_ultrasonic/launch/xycar_ultrasonic.launch.py
+[1.083s] -- Up-to-date: /home/xytron/xycar_ws/install/xycar_ultrasonic/share/xycar_ultrasonic/launch/xycar_ultrasonic_viewer.launch.py
+[1.083s] -- Up-to-date: /home/xytron/xycar_ws/install/xycar_ultrasonic/share/ament_index/resource_index/package_run_dependencies/xycar_ultrasonic
+[1.083s] -- Up-to-date: /home/xytron/xycar_ws/install/xycar_ultrasonic/share/ament_index/resource_index/parent_prefix_path/xycar_ultrasonic
+[1.083s] -- Up-to-date: /home/xytron/xycar_ws/install/xycar_ultrasonic/share/xycar_ultrasonic/environment/ament_prefix_path.sh
+[1.083s] -- Up-to-date: /home/xytron/xycar_ws/install/xycar_ultrasonic/share/xycar_ultrasonic/environment/ament_prefix_path.dsv
+[1.086s] -- Up-to-date: /home/xytron/xycar_ws/install/xycar_ultrasonic/share/xycar_ultrasonic/environment/path.sh
+[1.086s] -- Up-to-date: /home/xytron/xycar_ws/install/xycar_ultrasonic/share/xycar_ultrasonic/environment/path.dsv
+[1.087s] -- Up-to-date: /home/xytron/xycar_ws/install/xycar_ultrasonic/share/xycar_ultrasonic/local_setup.bash
+[1.087s] -- Up-to-date: /home/xytron/xycar_ws/install/xycar_ultrasonic/share/xycar_ultrasonic/local_setup.sh
+[1.087s] -- Up-to-date: /home/xytron/xycar_ws/install/xycar_ultrasonic/share/xycar_ultrasonic/local_setup.zsh
+[1.087s] -- Up-to-date: /home/xytron/xycar_ws/install/xycar_ultrasonic/share/xycar_ultrasonic/local_setup.dsv
+[1.087s] -- Installing: /home/xytron/xycar_ws/install/xycar_ultrasonic/share/xycar_ultrasonic/package.dsv
+[1.087s] -- Up-to-date: /home/xytron/xycar_ws/install/xycar_ultrasonic/share/ament_index/resource_index/packages/xycar_ultrasonic
+[1.087s] -- Up-to-date: /home/xytron/xycar_ws/install/xycar_ultrasonic/share/xycar_ultrasonic/cmake/xycar_ultrasonicConfig.cmake
+[1.087s] -- Up-to-date: /home/xytron/xycar_ws/install/xycar_ultrasonic/share/xycar_ultrasonic/cmake/xycar_ultrasonicConfig-version.cmake
+[1.087s] -- Up-to-date: /home/xytron/xycar_ws/install/xycar_ultrasonic/share/xycar_ultrasonic/package.xml
+[1.103s] Invoked command in '/home/xytron/xycar_ws/build/xycar_ultrasonic' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/xytron/xycar_ws/build/xycar_ultrasonic

@@ -1,0 +1,9 @@
+{
+  "package_name": "vesc_msgs",
+  "non_idl_tuples": [
+    "/home/xytron/xycar_ws/src/xycar_device/vesc/vesc_msgs:msg/VescState.msg",
+    "/home/xytron/xycar_ws/src/xycar_device/vesc/vesc_msgs:msg/VescStateStamped.msg",
+    "/home/xytron/xycar_ws/src/xycar_device/vesc/vesc_msgs:msg/VescImu.msg",
+    "/home/xytron/xycar_ws/src/xycar_device/vesc/vesc_msgs:msg/VescImuStamped.msg"
+  ]
+}

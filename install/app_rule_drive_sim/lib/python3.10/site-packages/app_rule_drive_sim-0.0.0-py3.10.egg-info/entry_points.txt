@@ -1,0 +1,3 @@
+[console_scripts]
+drive = app_rule_drive_sim.app_rule_drive_sim:main
+

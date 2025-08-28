@@ -1,0 +1,37 @@
+[5.811s] Invoking command in '/home/xytron/xycar_ws/src/xycar_planner': PYTHONPATH=/home/xytron/xycar_ws/build/xycar_planner/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/xytron/xycar_ws/install/xycar_planner/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/xycar_planner build --build-base /home/xytron/xycar_ws/build/xycar_planner/build install --record /home/xytron/xycar_ws/build/xycar_planner/install.log --single-version-externally-managed install_data
+[6.686s] running egg_info
+[6.687s] creating ../../build/xycar_planner/xycar_planner.egg-info
+[6.688s] writing ../../build/xycar_planner/xycar_planner.egg-info/PKG-INFO
+[6.689s] writing dependency_links to ../../build/xycar_planner/xycar_planner.egg-info/dependency_links.txt
+[6.690s] writing entry points to ../../build/xycar_planner/xycar_planner.egg-info/entry_points.txt
+[6.690s] writing requirements to ../../build/xycar_planner/xycar_planner.egg-info/requires.txt
+[6.690s] writing top-level names to ../../build/xycar_planner/xycar_planner.egg-info/top_level.txt
+[6.690s] writing manifest file '../../build/xycar_planner/xycar_planner.egg-info/SOURCES.txt'
+[6.703s] reading manifest file '../../build/xycar_planner/xycar_planner.egg-info/SOURCES.txt'
+[6.704s] writing manifest file '../../build/xycar_planner/xycar_planner.egg-info/SOURCES.txt'
+[6.704s] running build
+[6.704s] running build_py
+[6.704s] creating /home/xytron/xycar_ws/build/xycar_planner/build
+[6.705s] creating /home/xytron/xycar_ws/build/xycar_planner/build/lib
+[6.705s] creating /home/xytron/xycar_ws/build/xycar_planner/build/lib/xycar_planner
+[6.705s] copying xycar_planner/__init__.py -> /home/xytron/xycar_ws/build/xycar_planner/build/lib/xycar_planner
+[6.705s] copying xycar_planner/xycar_planner_static_test.py -> /home/xytron/xycar_ws/build/xycar_planner/build/lib/xycar_planner
+[6.705s] running install
+[6.706s] running install_lib
+[6.707s] creating /home/xytron/xycar_ws/install/xycar_planner/lib/python3.10/site-packages/xycar_planner
+[6.707s] copying /home/xytron/xycar_ws/build/xycar_planner/build/lib/xycar_planner/__init__.py -> /home/xytron/xycar_ws/install/xycar_planner/lib/python3.10/site-packages/xycar_planner
+[6.707s] copying /home/xytron/xycar_ws/build/xycar_planner/build/lib/xycar_planner/xycar_planner_static_test.py -> /home/xytron/xycar_ws/install/xycar_planner/lib/python3.10/site-packages/xycar_planner
+[6.708s] byte-compiling /home/xytron/xycar_ws/install/xycar_planner/lib/python3.10/site-packages/xycar_planner/__init__.py to __init__.cpython-310.pyc
+[6.709s] byte-compiling /home/xytron/xycar_ws/install/xycar_planner/lib/python3.10/site-packages/xycar_planner/xycar_planner_static_test.py to xycar_planner_static_test.cpython-310.pyc
+[6.712s] running install_data
+[6.712s] creating /home/xytron/xycar_ws/install/xycar_planner/share/ament_index
+[6.712s] creating /home/xytron/xycar_ws/install/xycar_planner/share/ament_index/resource_index
+[6.712s] creating /home/xytron/xycar_ws/install/xycar_planner/share/ament_index/resource_index/packages
+[6.712s] copying resource/xycar_planner -> /home/xytron/xycar_ws/install/xycar_planner/share/ament_index/resource_index/packages
+[6.712s] copying package.xml -> /home/xytron/xycar_ws/install/xycar_planner/share/xycar_planner
+[6.712s] running install_egg_info
+[6.715s] Copying ../../build/xycar_planner/xycar_planner.egg-info to /home/xytron/xycar_ws/install/xycar_planner/lib/python3.10/site-packages/xycar_planner-0.0.0-py3.10.egg-info
+[6.716s] running install_scripts
+[6.744s] Installing xycar_planner_static_test script to /home/xytron/xycar_ws/install/xycar_planner/lib/xycar_planner
+[6.744s] writing list of installed files to '/home/xytron/xycar_ws/build/xycar_planner/install.log'
+[6.850s] Invoked command in '/home/xytron/xycar_ws/src/xycar_planner' returned '0': PYTHONPATH=/home/xytron/xycar_ws/build/xycar_planner/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/xytron/xycar_ws/install/xycar_planner/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/xycar_planner build --build-base /home/xytron/xycar_ws/build/xycar_planner/build install --record /home/xytron/xycar_ws/build/xycar_planner/install.log --single-version-externally-managed install_data

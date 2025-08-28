@@ -1,0 +1,39 @@
+[5.895s] Invoking command in '/home/xytron/xycar_ws/src/xycar_application/app_rule_drive_sim': PYTHONPATH=/home/xytron/xycar_ws/build/app_rule_drive_sim/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/xytron/xycar_ws/install/app_rule_drive_sim/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/app_rule_drive_sim build --build-base /home/xytron/xycar_ws/build/app_rule_drive_sim/build install --record /home/xytron/xycar_ws/build/app_rule_drive_sim/install.log --single-version-externally-managed install_data
+[7.277s] running egg_info
+[7.278s] creating ../../../build/app_rule_drive_sim/app_rule_drive_sim.egg-info
+[7.278s] writing ../../../build/app_rule_drive_sim/app_rule_drive_sim.egg-info/PKG-INFO
+[7.281s] writing dependency_links to ../../../build/app_rule_drive_sim/app_rule_drive_sim.egg-info/dependency_links.txt
+[7.284s] writing entry points to ../../../build/app_rule_drive_sim/app_rule_drive_sim.egg-info/entry_points.txt
+[7.292s] writing requirements to ../../../build/app_rule_drive_sim/app_rule_drive_sim.egg-info/requires.txt
+[7.293s] writing top-level names to ../../../build/app_rule_drive_sim/app_rule_drive_sim.egg-info/top_level.txt
+[7.293s] writing manifest file '../../../build/app_rule_drive_sim/app_rule_drive_sim.egg-info/SOURCES.txt'
+[7.294s] reading manifest file '../../../build/app_rule_drive_sim/app_rule_drive_sim.egg-info/SOURCES.txt'
+[7.296s] writing manifest file '../../../build/app_rule_drive_sim/app_rule_drive_sim.egg-info/SOURCES.txt'
+[7.297s] running build
+[7.297s] running build_py
+[7.297s] creating /home/xytron/xycar_ws/build/app_rule_drive_sim/build
+[7.297s] creating /home/xytron/xycar_ws/build/app_rule_drive_sim/build/lib
+[7.297s] creating /home/xytron/xycar_ws/build/app_rule_drive_sim/build/lib/app_rule_drive_sim
+[7.297s] copying app_rule_drive_sim/__init__.py -> /home/xytron/xycar_ws/build/app_rule_drive_sim/build/lib/app_rule_drive_sim
+[7.297s] copying app_rule_drive_sim/app_rule_drive_sim.py -> /home/xytron/xycar_ws/build/app_rule_drive_sim/build/lib/app_rule_drive_sim
+[7.298s] running install
+[7.299s] running install_lib
+[7.303s] creating /home/xytron/xycar_ws/install/app_rule_drive_sim/lib/python3.10/site-packages/app_rule_drive_sim
+[7.303s] copying /home/xytron/xycar_ws/build/app_rule_drive_sim/build/lib/app_rule_drive_sim/__init__.py -> /home/xytron/xycar_ws/install/app_rule_drive_sim/lib/python3.10/site-packages/app_rule_drive_sim
+[7.304s] copying /home/xytron/xycar_ws/build/app_rule_drive_sim/build/lib/app_rule_drive_sim/app_rule_drive_sim.py -> /home/xytron/xycar_ws/install/app_rule_drive_sim/lib/python3.10/site-packages/app_rule_drive_sim
+[7.304s] byte-compiling /home/xytron/xycar_ws/install/app_rule_drive_sim/lib/python3.10/site-packages/app_rule_drive_sim/__init__.py to __init__.cpython-310.pyc
+[7.304s] byte-compiling /home/xytron/xycar_ws/install/app_rule_drive_sim/lib/python3.10/site-packages/app_rule_drive_sim/app_rule_drive_sim.py to app_rule_drive_sim.cpython-310.pyc
+[7.304s] running install_data
+[7.304s] creating /home/xytron/xycar_ws/install/app_rule_drive_sim/share/ament_index
+[7.305s] creating /home/xytron/xycar_ws/install/app_rule_drive_sim/share/ament_index/resource_index
+[7.305s] creating /home/xytron/xycar_ws/install/app_rule_drive_sim/share/ament_index/resource_index/packages
+[7.305s] copying resource/app_rule_drive_sim -> /home/xytron/xycar_ws/install/app_rule_drive_sim/share/ament_index/resource_index/packages
+[7.305s] copying package.xml -> /home/xytron/xycar_ws/install/app_rule_drive_sim/share/app_rule_drive_sim
+[7.305s] creating /home/xytron/xycar_ws/install/app_rule_drive_sim/share/app_rule_drive_sim/launch
+[7.307s] copying launch/app_rule_drive_sim.launch.py -> /home/xytron/xycar_ws/install/app_rule_drive_sim/share/app_rule_drive_sim/launch
+[7.314s] running install_egg_info
+[7.323s] Copying ../../../build/app_rule_drive_sim/app_rule_drive_sim.egg-info to /home/xytron/xycar_ws/install/app_rule_drive_sim/lib/python3.10/site-packages/app_rule_drive_sim-0.0.0-py3.10.egg-info
+[7.324s] running install_scripts
+[7.391s] Installing drive script to /home/xytron/xycar_ws/install/app_rule_drive_sim/lib/app_rule_drive_sim
+[7.398s] writing list of installed files to '/home/xytron/xycar_ws/build/app_rule_drive_sim/install.log'
+[7.568s] Invoked command in '/home/xytron/xycar_ws/src/xycar_application/app_rule_drive_sim' returned '0': PYTHONPATH=/home/xytron/xycar_ws/build/app_rule_drive_sim/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/xytron/xycar_ws/install/app_rule_drive_sim/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/app_rule_drive_sim build --build-base /home/xytron/xycar_ws/build/app_rule_drive_sim/build install --record /home/xytron/xycar_ws/build/app_rule_drive_sim/install.log --single-version-externally-managed install_data

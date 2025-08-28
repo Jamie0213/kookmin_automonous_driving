@@ -1,0 +1,21 @@
+[4.363s] Invoking command in '/home/xytron/xycar_ws/src/xycar_application/app_turtlesim': PYTHONPATH=/home/xytron/xycar_ws/build/app_turtlesim/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/xytron/xycar_ws/install/app_turtlesim/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/app_turtlesim build --build-base /home/xytron/xycar_ws/build/app_turtlesim/build install --record /home/xytron/xycar_ws/build/app_turtlesim/install.log --single-version-externally-managed install_data
+[5.186s] running egg_info
+[5.189s] writing ../../../build/app_turtlesim/app_turtlesim.egg-info/PKG-INFO
+[5.189s] writing dependency_links to ../../../build/app_turtlesim/app_turtlesim.egg-info/dependency_links.txt
+[5.190s] writing entry points to ../../../build/app_turtlesim/app_turtlesim.egg-info/entry_points.txt
+[5.190s] writing requirements to ../../../build/app_turtlesim/app_turtlesim.egg-info/requires.txt
+[5.191s] writing top-level names to ../../../build/app_turtlesim/app_turtlesim.egg-info/top_level.txt
+[5.195s] reading manifest file '../../../build/app_turtlesim/app_turtlesim.egg-info/SOURCES.txt'
+[5.195s] adding license file 'LICENSE'
+[5.197s] writing manifest file '../../../build/app_turtlesim/app_turtlesim.egg-info/SOURCES.txt'
+[5.197s] running build
+[5.197s] running build_py
+[5.197s] running install
+[5.198s] running install_lib
+[5.200s] running install_data
+[5.200s] running install_egg_info
+[5.212s] removing '/home/xytron/xycar_ws/install/app_turtlesim/lib/python3.10/site-packages/app_turtlesim-0.0.0-py3.10.egg-info' (and everything under it)
+[5.213s] Copying ../../../build/app_turtlesim/app_turtlesim.egg-info to /home/xytron/xycar_ws/install/app_turtlesim/lib/python3.10/site-packages/app_turtlesim-0.0.0-py3.10.egg-info
+[5.216s] running install_scripts
+[5.280s] writing list of installed files to '/home/xytron/xycar_ws/build/app_turtlesim/install.log'
+[5.471s] Invoked command in '/home/xytron/xycar_ws/src/xycar_application/app_turtlesim' returned '0': PYTHONPATH=/home/xytron/xycar_ws/build/app_turtlesim/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/xytron/xycar_ws/install/app_turtlesim/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/app_turtlesim build --build-base /home/xytron/xycar_ws/build/app_turtlesim/build install --record /home/xytron/xycar_ws/build/app_turtlesim/install.log --single-version-externally-managed install_data

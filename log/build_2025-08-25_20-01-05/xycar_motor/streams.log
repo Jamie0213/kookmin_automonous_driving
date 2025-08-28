@@ -1,0 +1,23 @@
+[5.281s] Invoking command in '/home/xytron/xycar_ws/src/xycar_device/xycar_motor': PYTHONPATH=/home/xytron/xycar_ws/build/xycar_motor/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/xytron/xycar_ws/install/xycar_motor/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/xycar_motor build --build-base /home/xytron/xycar_ws/build/xycar_motor/build install --record /home/xytron/xycar_ws/build/xycar_motor/install.log --single-version-externally-managed install_data
+[6.296s] running egg_info
+[6.311s] writing ../../../build/xycar_motor/xycar_motor.egg-info/PKG-INFO
+[6.315s] writing dependency_links to ../../../build/xycar_motor/xycar_motor.egg-info/dependency_links.txt
+[6.315s] writing entry points to ../../../build/xycar_motor/xycar_motor.egg-info/entry_points.txt
+[6.316s] writing requirements to ../../../build/xycar_motor/xycar_motor.egg-info/requires.txt
+[6.316s] writing top-level names to ../../../build/xycar_motor/xycar_motor.egg-info/top_level.txt
+[6.316s] reading manifest file '../../../build/xycar_motor/xycar_motor.egg-info/SOURCES.txt'
+[6.317s] writing manifest file '../../../build/xycar_motor/xycar_motor.egg-info/SOURCES.txt'
+[6.318s] running build
+[6.318s] running build_py
+[6.318s] running install
+[6.319s] running install_lib
+[6.328s] running install_data
+[6.332s] running install_egg_info
+[6.338s] removing '/home/xytron/xycar_ws/install/xycar_motor/lib/python3.10/site-packages/xycar_motor-0.0.0-py3.10.egg-info' (and everything under it)
+[6.341s] Copying ../../../build/xycar_motor/xycar_motor.egg-info to /home/xytron/xycar_ws/install/xycar_motor/lib/python3.10/site-packages/xycar_motor-0.0.0-py3.10.egg-info
+[6.342s] running install_scripts
+[6.443s] Installing motor_test script to /home/xytron/xycar_ws/install/xycar_motor/lib/xycar_motor
+[6.443s] Installing vesc_test script to /home/xytron/xycar_ws/install/xycar_motor/lib/xycar_motor
+[6.443s] Installing xycar_motor script to /home/xytron/xycar_ws/install/xycar_motor/lib/xycar_motor
+[6.444s] writing list of installed files to '/home/xytron/xycar_ws/build/xycar_motor/install.log'
+[6.602s] Invoked command in '/home/xytron/xycar_ws/src/xycar_device/xycar_motor' returned '0': PYTHONPATH=/home/xytron/xycar_ws/build/xycar_motor/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/xytron/xycar_ws/install/xycar_motor/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/xycar_motor build --build-base /home/xytron/xycar_ws/build/xycar_motor/build install --record /home/xytron/xycar_ws/build/xycar_motor/install.log --single-version-externally-managed install_data

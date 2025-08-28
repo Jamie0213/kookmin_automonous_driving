@@ -1,0 +1,49 @@
+[4.723s] Invoking command in '/home/xytron/xycar_ws/src/xycar_device/xycar_motor': PYTHONPATH=/home/xytron/xycar_ws/build/xycar_motor/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/xytron/xycar_ws/install/xycar_motor/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/xycar_motor build --build-base /home/xytron/xycar_ws/build/xycar_motor/build install --record /home/xytron/xycar_ws/build/xycar_motor/install.log --single-version-externally-managed install_data
+[6.012s] running egg_info
+[6.014s] creating ../../../build/xycar_motor/xycar_motor.egg-info
+[6.016s] writing ../../../build/xycar_motor/xycar_motor.egg-info/PKG-INFO
+[6.017s] writing dependency_links to ../../../build/xycar_motor/xycar_motor.egg-info/dependency_links.txt
+[6.017s] writing entry points to ../../../build/xycar_motor/xycar_motor.egg-info/entry_points.txt
+[6.017s] writing requirements to ../../../build/xycar_motor/xycar_motor.egg-info/requires.txt
+[6.019s] writing top-level names to ../../../build/xycar_motor/xycar_motor.egg-info/top_level.txt
+[6.023s] writing manifest file '../../../build/xycar_motor/xycar_motor.egg-info/SOURCES.txt'
+[6.031s] reading manifest file '../../../build/xycar_motor/xycar_motor.egg-info/SOURCES.txt'
+[6.039s] writing manifest file '../../../build/xycar_motor/xycar_motor.egg-info/SOURCES.txt'
+[6.040s] running build
+[6.040s] running build_py
+[6.040s] creating /home/xytron/xycar_ws/build/xycar_motor/build
+[6.041s] creating /home/xytron/xycar_ws/build/xycar_motor/build/lib
+[6.041s] creating /home/xytron/xycar_ws/build/xycar_motor/build/lib/xycar_motor
+[6.041s] copying xycar_motor/__init__.py -> /home/xytron/xycar_ws/build/xycar_motor/build/lib/xycar_motor
+[6.047s] copying xycar_motor/vesc_test.py -> /home/xytron/xycar_ws/build/xycar_motor/build/lib/xycar_motor
+[6.047s] copying xycar_motor/motor_test.py -> /home/xytron/xycar_ws/build/xycar_motor/build/lib/xycar_motor
+[6.047s] copying xycar_motor/xycar_motor.py -> /home/xytron/xycar_ws/build/xycar_motor/build/lib/xycar_motor
+[6.049s] running install
+[6.051s] running install_lib
+[6.072s] creating /home/xytron/xycar_ws/install/xycar_motor/lib/python3.10/site-packages/xycar_motor
+[6.072s] copying /home/xytron/xycar_ws/build/xycar_motor/build/lib/xycar_motor/__init__.py -> /home/xytron/xycar_ws/install/xycar_motor/lib/python3.10/site-packages/xycar_motor
+[6.072s] copying /home/xytron/xycar_ws/build/xycar_motor/build/lib/xycar_motor/vesc_test.py -> /home/xytron/xycar_ws/install/xycar_motor/lib/python3.10/site-packages/xycar_motor
+[6.072s] copying /home/xytron/xycar_ws/build/xycar_motor/build/lib/xycar_motor/motor_test.py -> /home/xytron/xycar_ws/install/xycar_motor/lib/python3.10/site-packages/xycar_motor
+[6.072s] copying /home/xytron/xycar_ws/build/xycar_motor/build/lib/xycar_motor/xycar_motor.py -> /home/xytron/xycar_ws/install/xycar_motor/lib/python3.10/site-packages/xycar_motor
+[6.077s] byte-compiling /home/xytron/xycar_ws/install/xycar_motor/lib/python3.10/site-packages/xycar_motor/__init__.py to __init__.cpython-310.pyc
+[6.077s] byte-compiling /home/xytron/xycar_ws/install/xycar_motor/lib/python3.10/site-packages/xycar_motor/vesc_test.py to vesc_test.cpython-310.pyc
+[6.081s] byte-compiling /home/xytron/xycar_ws/install/xycar_motor/lib/python3.10/site-packages/xycar_motor/motor_test.py to motor_test.cpython-310.pyc
+[6.084s] byte-compiling /home/xytron/xycar_ws/install/xycar_motor/lib/python3.10/site-packages/xycar_motor/xycar_motor.py to xycar_motor.cpython-310.pyc
+[6.094s] running install_data
+[6.094s] creating /home/xytron/xycar_ws/install/xycar_motor/share/ament_index
+[6.100s] creating /home/xytron/xycar_ws/install/xycar_motor/share/ament_index/resource_index
+[6.100s] creating /home/xytron/xycar_ws/install/xycar_motor/share/ament_index/resource_index/packages
+[6.100s] copying resource/xycar_motor -> /home/xytron/xycar_ws/install/xycar_motor/share/ament_index/resource_index/packages
+[6.102s] copying package.xml -> /home/xytron/xycar_ws/install/xycar_motor/share/xycar_motor
+[6.102s] creating /home/xytron/xycar_ws/install/xycar_motor/share/xycar_motor/launch
+[6.102s] copying launch/motor_test.launch.py -> /home/xytron/xycar_ws/install/xycar_motor/share/xycar_motor/launch
+[6.103s] copying launch/xycar_motor.launch.py -> /home/xytron/xycar_ws/install/xycar_motor/share/xycar_motor/launch
+[6.103s] copying launch/vesc_test.launch.py -> /home/xytron/xycar_ws/install/xycar_motor/share/xycar_motor/launch
+[6.104s] running install_egg_info
+[6.120s] Copying ../../../build/xycar_motor/xycar_motor.egg-info to /home/xytron/xycar_ws/install/xycar_motor/lib/python3.10/site-packages/xycar_motor-0.0.0-py3.10.egg-info
+[6.125s] running install_scripts
+[6.210s] Installing motor_test script to /home/xytron/xycar_ws/install/xycar_motor/lib/xycar_motor
+[6.211s] Installing vesc_test script to /home/xytron/xycar_ws/install/xycar_motor/lib/xycar_motor
+[6.212s] Installing xycar_motor script to /home/xytron/xycar_ws/install/xycar_motor/lib/xycar_motor
+[6.212s] writing list of installed files to '/home/xytron/xycar_ws/build/xycar_motor/install.log'
+[6.375s] Invoked command in '/home/xytron/xycar_ws/src/xycar_device/xycar_motor' returned '0': PYTHONPATH=/home/xytron/xycar_ws/build/xycar_motor/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/xytron/xycar_ws/install/xycar_motor/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/xycar_motor build --build-base /home/xytron/xycar_ws/build/xycar_motor/build install --record /home/xytron/xycar_ws/build/xycar_motor/install.log --single-version-externally-managed install_data

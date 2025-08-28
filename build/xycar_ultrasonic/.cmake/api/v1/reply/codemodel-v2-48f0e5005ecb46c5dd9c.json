@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-34a91dfb412e65b8a7a0.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "xycar_ultrasonic",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-39074cfa89148550970d.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "xycar_ultrasonic::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-xycar_ultrasonic-d3b2efeea7e988f80a42.json",
+					"name" : "xycar_ultrasonic",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "xycar_ultrasonic_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-xycar_ultrasonic_uninstall-89597b05668f9ff14efc.json",
+					"name" : "xycar_ultrasonic_uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/xytron/xycar_ws/build/xycar_ultrasonic",
+		"source" : "/home/xytron/xycar_ws/src/xycar_device/xycar_ultrasonic"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

@@ -1,0 +1,40 @@
+[ 75%] Built target xycar_lidar_node
+[100%] Built target xycar_lidar_client
+-- Install configuration: ""
+-- Up-to-date: /home/xytron/xycar_ws/install/xycar_lidar/lib/xycar_lidar/xycar_lidar_node
+-- Up-to-date: /home/xytron/xycar_ws/install/xycar_lidar/lib/xycar_lidar/xycar_lidar_client
+-- Up-to-date: /home/xytron/xycar_ws/install/xycar_lidar/share/xycar_lidar/launch
+-- Up-to-date: /home/xytron/xycar_ws/install/xycar_lidar/share/xycar_lidar/launch/xycar_lidar_viewer.launch.py
+-- Up-to-date: /home/xytron/xycar_ws/install/xycar_lidar/share/xycar_lidar/launch/ydlidar.py
+-- Up-to-date: /home/xytron/xycar_ws/install/xycar_lidar/share/xycar_lidar/launch/xycar_lidar.launch.py
+-- Up-to-date: /home/xytron/xycar_ws/install/xycar_lidar/share/xycar_lidar/params
+-- Up-to-date: /home/xytron/xycar_ws/install/xycar_lidar/share/xycar_lidar/params/G6.yaml
+-- Up-to-date: /home/xytron/xycar_ws/install/xycar_lidar/share/xycar_lidar/params/X4-Pro.yaml
+-- Up-to-date: /home/xytron/xycar_ws/install/xycar_lidar/share/xycar_lidar/params/ydlidar.original.yaml
+-- Up-to-date: /home/xytron/xycar_ws/install/xycar_lidar/share/xycar_lidar/params/TEA.yaml
+-- Up-to-date: /home/xytron/xycar_ws/install/xycar_lidar/share/xycar_lidar/params/TG.yaml
+-- Up-to-date: /home/xytron/xycar_ws/install/xycar_lidar/share/xycar_lidar/params/X4.yaml
+-- Up-to-date: /home/xytron/xycar_ws/install/xycar_lidar/share/xycar_lidar/params/GS2.yaml
+-- Up-to-date: /home/xytron/xycar_ws/install/xycar_lidar/share/xycar_lidar/params/X2.yaml
+-- Up-to-date: /home/xytron/xycar_ws/install/xycar_lidar/share/xycar_lidar/params/ydlidar.yaml
+-- Up-to-date: /home/xytron/xycar_ws/install/xycar_lidar/share/xycar_lidar/params/TminiPro.yaml
+-- Up-to-date: /home/xytron/xycar_ws/install/xycar_lidar/share/xycar_lidar/params/G2.yaml
+-- Up-to-date: /home/xytron/xycar_ws/install/xycar_lidar/share/xycar_lidar/params/G1.yaml
+-- Up-to-date: /home/xytron/xycar_ws/install/xycar_lidar/share/xycar_lidar/startup
+-- Up-to-date: /home/xytron/xycar_ws/install/xycar_lidar/share/xycar_lidar/startup/initenv.sh
+-- Up-to-date: /home/xytron/xycar_ws/install/xycar_lidar/share/xycar_lidar/config
+-- Up-to-date: /home/xytron/xycar_ws/install/xycar_lidar/share/ament_index/resource_index/package_run_dependencies/xycar_lidar
+-- Up-to-date: /home/xytron/xycar_ws/install/xycar_lidar/share/ament_index/resource_index/parent_prefix_path/xycar_lidar
+-- Up-to-date: /home/xytron/xycar_ws/install/xycar_lidar/share/xycar_lidar/environment/ament_prefix_path.sh
+-- Up-to-date: /home/xytron/xycar_ws/install/xycar_lidar/share/xycar_lidar/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/xytron/xycar_ws/install/xycar_lidar/share/xycar_lidar/environment/path.sh
+-- Up-to-date: /home/xytron/xycar_ws/install/xycar_lidar/share/xycar_lidar/environment/path.dsv
+-- Up-to-date: /home/xytron/xycar_ws/install/xycar_lidar/share/xycar_lidar/local_setup.bash
+-- Up-to-date: /home/xytron/xycar_ws/install/xycar_lidar/share/xycar_lidar/local_setup.sh
+-- Up-to-date: /home/xytron/xycar_ws/install/xycar_lidar/share/xycar_lidar/local_setup.zsh
+-- Up-to-date: /home/xytron/xycar_ws/install/xycar_lidar/share/xycar_lidar/local_setup.dsv
+-- Installing: /home/xytron/xycar_ws/install/xycar_lidar/share/xycar_lidar/package.dsv
+-- Up-to-date: /home/xytron/xycar_ws/install/xycar_lidar/share/ament_index/resource_index/packages/xycar_lidar
+-- Up-to-date: /home/xytron/xycar_ws/install/xycar_lidar/share/xycar_lidar/cmake/xycar_lidarConfig.cmake
+-- Up-to-date: /home/xytron/xycar_ws/install/xycar_lidar/share/xycar_lidar/cmake/xycar_lidarConfig-version.cmake
+-- Up-to-date: /home/xytron/xycar_ws/install/xycar_lidar/share/xycar_lidar/package.xml

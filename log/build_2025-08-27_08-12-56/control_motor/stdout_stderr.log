@@ -1,0 +1,37 @@
+running egg_info
+writing ../../../build/control_motor/control_motor.egg-info/PKG-INFO
+writing dependency_links to ../../../build/control_motor/control_motor.egg-info/dependency_links.txt
+writing entry points to ../../../build/control_motor/control_motor.egg-info/entry_points.txt
+writing requirements to ../../../build/control_motor/control_motor.egg-info/requires.txt
+writing top-level names to ../../../build/control_motor/control_motor.egg-info/top_level.txt
+reading manifest file '../../../build/control_motor/control_motor.egg-info/SOURCES.txt'
+writing manifest file '../../../build/control_motor/control_motor.egg-info/SOURCES.txt'
+running build
+running build_py
+copying control_motor/new_lane_detection.py -> /home/xytron/xycar_ws/build/control_motor/build/lib/control_motor
+copying control_motor/new_rubbercone_driver_node.py -> /home/xytron/xycar_ws/build/control_motor/build/lib/control_motor
+running install
+running install_lib
+copying /home/xytron/xycar_ws/build/control_motor/build/lib/control_motor/new_lane_detection.py -> /home/xytron/xycar_ws/install/control_motor/lib/python3.10/site-packages/control_motor
+copying /home/xytron/xycar_ws/build/control_motor/build/lib/control_motor/new_rubbercone_driver_node.py -> /home/xytron/xycar_ws/install/control_motor/lib/python3.10/site-packages/control_motor
+byte-compiling /home/xytron/xycar_ws/install/control_motor/lib/python3.10/site-packages/control_motor/new_lane_detection.py to new_lane_detection.cpython-310.pyc
+byte-compiling /home/xytron/xycar_ws/install/control_motor/lib/python3.10/site-packages/control_motor/new_rubbercone_driver_node.py to new_rubbercone_driver_node.cpython-310.pyc
+running install_data
+copying launch/control_motor_new_version.launch.py -> /home/xytron/xycar_ws/install/control_motor/share/control_motor/launch
+running install_egg_info
+removing '/home/xytron/xycar_ws/install/control_motor/lib/python3.10/site-packages/control_motor-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../../build/control_motor/control_motor.egg-info to /home/xytron/xycar_ws/install/control_motor/lib/python3.10/site-packages/control_motor-0.0.0-py3.10.egg-info
+running install_scripts
+Installing imu_heading script to /home/xytron/xycar_ws/install/control_motor/lib/control_motor
+Installing is_orange script to /home/xytron/xycar_ws/install/control_motor/lib/control_motor
+Installing is_vehicle script to /home/xytron/xycar_ws/install/control_motor/lib/control_motor
+Installing kmu_motor_node script to /home/xytron/xycar_ws/install/control_motor/lib/control_motor
+Installing lane_detection script to /home/xytron/xycar_ws/install/control_motor/lib/control_motor
+Installing left_lane_detection script to /home/xytron/xycar_ws/install/control_motor/lib/control_motor
+Installing new_lane_detection script to /home/xytron/xycar_ws/install/control_motor/lib/control_motor
+Installing new_rubbercone_driver_node script to /home/xytron/xycar_ws/install/control_motor/lib/control_motor
+Installing obstacle script to /home/xytron/xycar_ws/install/control_motor/lib/control_motor
+Installing rubbercone_driver_node script to /home/xytron/xycar_ws/install/control_motor/lib/control_motor
+Installing trafficlight script to /home/xytron/xycar_ws/install/control_motor/lib/control_motor
+Installing vehicle_avoidance script to /home/xytron/xycar_ws/install/control_motor/lib/control_motor
+writing list of installed files to '/home/xytron/xycar_ws/build/control_motor/install.log'

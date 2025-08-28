@@ -1,0 +1,34 @@
+running egg_info
+creating ../../../build/xycar_cam/xycar_cam.egg-info
+writing ../../../build/xycar_cam/xycar_cam.egg-info/PKG-INFO
+writing dependency_links to ../../../build/xycar_cam/xycar_cam.egg-info/dependency_links.txt
+writing entry points to ../../../build/xycar_cam/xycar_cam.egg-info/entry_points.txt
+writing requirements to ../../../build/xycar_cam/xycar_cam.egg-info/requires.txt
+writing top-level names to ../../../build/xycar_cam/xycar_cam.egg-info/top_level.txt
+writing manifest file '../../../build/xycar_cam/xycar_cam.egg-info/SOURCES.txt'
+reading manifest file '../../../build/xycar_cam/xycar_cam.egg-info/SOURCES.txt'
+writing manifest file '../../../build/xycar_cam/xycar_cam.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/xytron/xycar_ws/build/xycar_cam/build
+creating /home/xytron/xycar_ws/build/xycar_cam/build/lib
+creating /home/xytron/xycar_ws/build/xycar_cam/build/lib/xycar_cam
+copying xycar_cam/__init__.py -> /home/xytron/xycar_ws/build/xycar_cam/build/lib/xycar_cam
+running install
+running install_lib
+creating /home/xytron/xycar_ws/install/xycar_cam/lib/python3.10/site-packages/xycar_cam
+copying /home/xytron/xycar_ws/build/xycar_cam/build/lib/xycar_cam/__init__.py -> /home/xytron/xycar_ws/install/xycar_cam/lib/python3.10/site-packages/xycar_cam
+byte-compiling /home/xytron/xycar_ws/install/xycar_cam/lib/python3.10/site-packages/xycar_cam/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/xytron/xycar_ws/install/xycar_cam/share/ament_index
+creating /home/xytron/xycar_ws/install/xycar_cam/share/ament_index/resource_index
+creating /home/xytron/xycar_ws/install/xycar_cam/share/ament_index/resource_index/packages
+copying resource/xycar_cam -> /home/xytron/xycar_ws/install/xycar_cam/share/ament_index/resource_index/packages
+copying package.xml -> /home/xytron/xycar_ws/install/xycar_cam/share/xycar_cam
+creating /home/xytron/xycar_ws/install/xycar_cam/share/xycar_cam/launch
+copying launch/xycar_cam.launch.py -> /home/xytron/xycar_ws/install/xycar_cam/share/xycar_cam/launch
+copying launch/xycar_cam_viewer.launch.py -> /home/xytron/xycar_ws/install/xycar_cam/share/xycar_cam/launch
+running install_egg_info
+Copying ../../../build/xycar_cam/xycar_cam.egg-info to /home/xytron/xycar_ws/install/xycar_cam/lib/python3.10/site-packages/xycar_cam-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/xytron/xycar_ws/build/xycar_cam/install.log'

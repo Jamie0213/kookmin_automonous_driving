@@ -1,0 +1,42 @@
+[5.991s] Invoking command in '/home/xytron/xycar_ws/src/xycar_application/app_cam_exposure': PYTHONPATH=/home/xytron/xycar_ws/build/app_cam_exposure/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/xytron/xycar_ws/install/app_cam_exposure/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/app_cam_exposure build --build-base /home/xytron/xycar_ws/build/app_cam_exposure/build install --record /home/xytron/xycar_ws/build/app_cam_exposure/install.log --single-version-externally-managed install_data
+[7.429s] running egg_info
+[7.433s] creating ../../../build/app_cam_exposure/app_cam_exposure.egg-info
+[7.438s] writing ../../../build/app_cam_exposure/app_cam_exposure.egg-info/PKG-INFO
+[7.443s] writing dependency_links to ../../../build/app_cam_exposure/app_cam_exposure.egg-info/dependency_links.txt
+[7.444s] writing entry points to ../../../build/app_cam_exposure/app_cam_exposure.egg-info/entry_points.txt
+[7.444s] writing requirements to ../../../build/app_cam_exposure/app_cam_exposure.egg-info/requires.txt
+[7.445s] writing top-level names to ../../../build/app_cam_exposure/app_cam_exposure.egg-info/top_level.txt
+[7.445s] writing manifest file '../../../build/app_cam_exposure/app_cam_exposure.egg-info/SOURCES.txt'
+[7.451s] reading manifest file '../../../build/app_cam_exposure/app_cam_exposure.egg-info/SOURCES.txt'
+[7.453s] writing manifest file '../../../build/app_cam_exposure/app_cam_exposure.egg-info/SOURCES.txt'
+[7.454s] running build
+[7.454s] running build_py
+[7.460s] creating /home/xytron/xycar_ws/build/app_cam_exposure/build
+[7.461s] creating /home/xytron/xycar_ws/build/app_cam_exposure/build/lib
+[7.463s] creating /home/xytron/xycar_ws/build/app_cam_exposure/build/lib/app_cam_exposure
+[7.467s] copying app_cam_exposure/__init__.py -> /home/xytron/xycar_ws/build/app_cam_exposure/build/lib/app_cam_exposure
+[7.467s] copying app_cam_exposure/OLD_app_cam_exposure.py -> /home/xytron/xycar_ws/build/app_cam_exposure/build/lib/app_cam_exposure
+[7.467s] copying app_cam_exposure/pygame_cam_exposure.py -> /home/xytron/xycar_ws/build/app_cam_exposure/build/lib/app_cam_exposure
+[7.468s] running install
+[7.468s] running install_lib
+[7.469s] creating /home/xytron/xycar_ws/install/app_cam_exposure/lib/python3.10/site-packages/app_cam_exposure
+[7.470s] copying /home/xytron/xycar_ws/build/app_cam_exposure/build/lib/app_cam_exposure/__init__.py -> /home/xytron/xycar_ws/install/app_cam_exposure/lib/python3.10/site-packages/app_cam_exposure
+[7.470s] copying /home/xytron/xycar_ws/build/app_cam_exposure/build/lib/app_cam_exposure/OLD_app_cam_exposure.py -> /home/xytron/xycar_ws/install/app_cam_exposure/lib/python3.10/site-packages/app_cam_exposure
+[7.471s] copying /home/xytron/xycar_ws/build/app_cam_exposure/build/lib/app_cam_exposure/pygame_cam_exposure.py -> /home/xytron/xycar_ws/install/app_cam_exposure/lib/python3.10/site-packages/app_cam_exposure
+[7.474s] byte-compiling /home/xytron/xycar_ws/install/app_cam_exposure/lib/python3.10/site-packages/app_cam_exposure/__init__.py to __init__.cpython-310.pyc
+[7.475s] byte-compiling /home/xytron/xycar_ws/install/app_cam_exposure/lib/python3.10/site-packages/app_cam_exposure/OLD_app_cam_exposure.py to OLD_app_cam_exposure.cpython-310.pyc
+[7.480s] byte-compiling /home/xytron/xycar_ws/install/app_cam_exposure/lib/python3.10/site-packages/app_cam_exposure/pygame_cam_exposure.py to pygame_cam_exposure.cpython-310.pyc
+[7.480s] running install_data
+[7.481s] creating /home/xytron/xycar_ws/install/app_cam_exposure/share/ament_index
+[7.481s] creating /home/xytron/xycar_ws/install/app_cam_exposure/share/ament_index/resource_index
+[7.481s] creating /home/xytron/xycar_ws/install/app_cam_exposure/share/ament_index/resource_index/packages
+[7.481s] copying resource/app_cam_exposure -> /home/xytron/xycar_ws/install/app_cam_exposure/share/ament_index/resource_index/packages
+[7.482s] copying package.xml -> /home/xytron/xycar_ws/install/app_cam_exposure/share/app_cam_exposure
+[7.482s] creating /home/xytron/xycar_ws/install/app_cam_exposure/share/app_cam_exposure/launch
+[7.482s] copying launch/app_cam_exposure.launch.py -> /home/xytron/xycar_ws/install/app_cam_exposure/share/app_cam_exposure/launch
+[7.483s] running install_egg_info
+[7.501s] Copying ../../../build/app_cam_exposure/app_cam_exposure.egg-info to /home/xytron/xycar_ws/install/app_cam_exposure/lib/python3.10/site-packages/app_cam_exposure-0.0.0-py3.10.egg-info
+[7.501s] running install_scripts
+[7.567s] Installing app_cam_exposure script to /home/xytron/xycar_ws/install/app_cam_exposure/lib/app_cam_exposure
+[7.569s] writing list of installed files to '/home/xytron/xycar_ws/build/app_cam_exposure/install.log'
+[7.795s] Invoked command in '/home/xytron/xycar_ws/src/xycar_application/app_cam_exposure' returned '0': PYTHONPATH=/home/xytron/xycar_ws/build/app_cam_exposure/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/xytron/xycar_ws/install/app_cam_exposure/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/app_cam_exposure build --build-base /home/xytron/xycar_ws/build/app_cam_exposure/build install --record /home/xytron/xycar_ws/build/app_cam_exposure/install.log --single-version-externally-managed install_data

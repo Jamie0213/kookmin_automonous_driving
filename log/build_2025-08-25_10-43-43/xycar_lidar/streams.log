@@ -1,0 +1,44 @@
+[2.881s] Invoking command in '/home/xytron/xycar_ws/build/xycar_lidar': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/xytron/xycar_ws/build/xycar_lidar -- -j16 -l16
+[3.008s] [100%] Built target xycar_lidar_node
+[3.008s] [100%] Built target xycar_lidar_client
+[3.125s] Invoked command in '/home/xytron/xycar_ws/build/xycar_lidar' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/xytron/xycar_ws/build/xycar_lidar -- -j16 -l16
+[3.136s] Invoking command in '/home/xytron/xycar_ws/build/xycar_lidar': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/xytron/xycar_ws/build/xycar_lidar
+[3.226s] -- Install configuration: ""
+[3.226s] -- Up-to-date: /home/xytron/xycar_ws/install/xycar_lidar/lib/xycar_lidar/xycar_lidar_node
+[3.226s] -- Up-to-date: /home/xytron/xycar_ws/install/xycar_lidar/lib/xycar_lidar/xycar_lidar_client
+[3.227s] -- Up-to-date: /home/xytron/xycar_ws/install/xycar_lidar/share/xycar_lidar/launch
+[3.227s] -- Up-to-date: /home/xytron/xycar_ws/install/xycar_lidar/share/xycar_lidar/launch/xycar_lidar_viewer.launch.py
+[3.227s] -- Up-to-date: /home/xytron/xycar_ws/install/xycar_lidar/share/xycar_lidar/launch/ydlidar.py
+[3.227s] -- Up-to-date: /home/xytron/xycar_ws/install/xycar_lidar/share/xycar_lidar/launch/xycar_lidar.launch.py
+[3.228s] -- Up-to-date: /home/xytron/xycar_ws/install/xycar_lidar/share/xycar_lidar/params
+[3.228s] -- Up-to-date: /home/xytron/xycar_ws/install/xycar_lidar/share/xycar_lidar/params/G6.yaml
+[3.228s] -- Up-to-date: /home/xytron/xycar_ws/install/xycar_lidar/share/xycar_lidar/params/X4-Pro.yaml
+[3.228s] -- Up-to-date: /home/xytron/xycar_ws/install/xycar_lidar/share/xycar_lidar/params/ydlidar.original.yaml
+[3.228s] -- Up-to-date: /home/xytron/xycar_ws/install/xycar_lidar/share/xycar_lidar/params/TEA.yaml
+[3.228s] -- Up-to-date: /home/xytron/xycar_ws/install/xycar_lidar/share/xycar_lidar/params/TG.yaml
+[3.229s] -- Up-to-date: /home/xytron/xycar_ws/install/xycar_lidar/share/xycar_lidar/params/X4.yaml
+[3.229s] -- Up-to-date: /home/xytron/xycar_ws/install/xycar_lidar/share/xycar_lidar/params/GS2.yaml
+[3.229s] -- Up-to-date: /home/xytron/xycar_ws/install/xycar_lidar/share/xycar_lidar/params/X2.yaml
+[3.229s] -- Up-to-date: /home/xytron/xycar_ws/install/xycar_lidar/share/xycar_lidar/params/ydlidar.yaml
+[3.229s] -- Up-to-date: /home/xytron/xycar_ws/install/xycar_lidar/share/xycar_lidar/params/TminiPro.yaml
+[3.229s] -- Up-to-date: /home/xytron/xycar_ws/install/xycar_lidar/share/xycar_lidar/params/G2.yaml
+[3.229s] -- Up-to-date: /home/xytron/xycar_ws/install/xycar_lidar/share/xycar_lidar/params/G1.yaml
+[3.230s] -- Up-to-date: /home/xytron/xycar_ws/install/xycar_lidar/share/xycar_lidar/startup
+[3.230s] -- Up-to-date: /home/xytron/xycar_ws/install/xycar_lidar/share/xycar_lidar/startup/initenv.sh
+[3.230s] -- Up-to-date: /home/xytron/xycar_ws/install/xycar_lidar/share/xycar_lidar/config
+[3.230s] -- Up-to-date: /home/xytron/xycar_ws/install/xycar_lidar/share/ament_index/resource_index/package_run_dependencies/xycar_lidar
+[3.230s] -- Up-to-date: /home/xytron/xycar_ws/install/xycar_lidar/share/ament_index/resource_index/parent_prefix_path/xycar_lidar
+[3.230s] -- Up-to-date: /home/xytron/xycar_ws/install/xycar_lidar/share/xycar_lidar/environment/ament_prefix_path.sh
+[3.230s] -- Up-to-date: /home/xytron/xycar_ws/install/xycar_lidar/share/xycar_lidar/environment/ament_prefix_path.dsv
+[3.231s] -- Up-to-date: /home/xytron/xycar_ws/install/xycar_lidar/share/xycar_lidar/environment/path.sh
+[3.231s] -- Up-to-date: /home/xytron/xycar_ws/install/xycar_lidar/share/xycar_lidar/environment/path.dsv
+[3.231s] -- Up-to-date: /home/xytron/xycar_ws/install/xycar_lidar/share/xycar_lidar/local_setup.bash
+[3.231s] -- Up-to-date: /home/xytron/xycar_ws/install/xycar_lidar/share/xycar_lidar/local_setup.sh
+[3.231s] -- Up-to-date: /home/xytron/xycar_ws/install/xycar_lidar/share/xycar_lidar/local_setup.zsh
+[3.232s] -- Up-to-date: /home/xytron/xycar_ws/install/xycar_lidar/share/xycar_lidar/local_setup.dsv
+[3.232s] -- Installing: /home/xytron/xycar_ws/install/xycar_lidar/share/xycar_lidar/package.dsv
+[3.232s] -- Up-to-date: /home/xytron/xycar_ws/install/xycar_lidar/share/ament_index/resource_index/packages/xycar_lidar
+[3.232s] -- Up-to-date: /home/xytron/xycar_ws/install/xycar_lidar/share/xycar_lidar/cmake/xycar_lidarConfig.cmake
+[3.232s] -- Up-to-date: /home/xytron/xycar_ws/install/xycar_lidar/share/xycar_lidar/cmake/xycar_lidarConfig-version.cmake
+[3.232s] -- Up-to-date: /home/xytron/xycar_ws/install/xycar_lidar/share/xycar_lidar/package.xml
+[3.305s] Invoked command in '/home/xytron/xycar_ws/build/xycar_lidar' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/xytron/xycar_ws/build/xycar_lidar

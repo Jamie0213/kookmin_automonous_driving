@@ -1,0 +1,21 @@
+running egg_info
+writing ../../../build/xycar_motor/xycar_motor.egg-info/PKG-INFO
+writing dependency_links to ../../../build/xycar_motor/xycar_motor.egg-info/dependency_links.txt
+writing entry points to ../../../build/xycar_motor/xycar_motor.egg-info/entry_points.txt
+writing requirements to ../../../build/xycar_motor/xycar_motor.egg-info/requires.txt
+writing top-level names to ../../../build/xycar_motor/xycar_motor.egg-info/top_level.txt
+reading manifest file '../../../build/xycar_motor/xycar_motor.egg-info/SOURCES.txt'
+writing manifest file '../../../build/xycar_motor/xycar_motor.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+running install_egg_info
+removing '/home/xytron/xycar_ws/install/xycar_motor/lib/python3.10/site-packages/xycar_motor-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../../build/xycar_motor/xycar_motor.egg-info to /home/xytron/xycar_ws/install/xycar_motor/lib/python3.10/site-packages/xycar_motor-0.0.0-py3.10.egg-info
+running install_scripts
+Installing motor_test script to /home/xytron/xycar_ws/install/xycar_motor/lib/xycar_motor
+Installing vesc_test script to /home/xytron/xycar_ws/install/xycar_motor/lib/xycar_motor
+Installing xycar_motor script to /home/xytron/xycar_ws/install/xycar_motor/lib/xycar_motor
+writing list of installed files to '/home/xytron/xycar_ws/build/xycar_motor/install.log'

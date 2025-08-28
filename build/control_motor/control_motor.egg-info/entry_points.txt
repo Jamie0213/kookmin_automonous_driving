@@ -1,0 +1,14 @@
+[console_scripts]
+imu_heading_node = control_motor.imu_heading_node:main
+is_orange = control_motor.is_orange:main
+is_vehicle = control_motor.is_vehicle:main
+kmu_motor_node = control_motor.kmu_motor_node:main
+lane_detection = control_motor.lane_detection:main
+left_lane_detection = control_motor.left_lane_detection:main
+new_lane_detection = control_motor.new_lane_detection:main
+new_rubbercone_driver_node = control_motor.new_rubbercone_driver_node:main
+obstacle = control_motor.obstacle:main
+rubbercone_driver_node = control_motor.rubbercone_driver_node:main
+trafficlight = control_motor.trafficlight:main
+vehicle_avoidance = control_motor.vehicle_avoidance:main
+

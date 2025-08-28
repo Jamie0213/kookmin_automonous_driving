@@ -1,0 +1,4 @@
+Invoking command in '/home/xytron/xycar_ws/build/vesc_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/xytron/xycar_ws/build/vesc_msgs -- -j16 -l16
+Invoked command in '/home/xytron/xycar_ws/build/vesc_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/xytron/xycar_ws/build/vesc_msgs -- -j16 -l16
+Invoking command in '/home/xytron/xycar_ws/build/vesc_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/xytron/xycar_ws/build/vesc_msgs
+Invoked command in '/home/xytron/xycar_ws/build/vesc_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/xytron/xycar_ws/build/vesc_msgs

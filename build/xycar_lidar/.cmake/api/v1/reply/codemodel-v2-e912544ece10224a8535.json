@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-0e0f9e4320bc64c75a43.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "xycar_lidar",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-8db8c98aba48e2e1462a.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "xycar_lidar_client::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-xycar_lidar_client-6c6139c68ee1d238a9f7.json",
+					"name" : "xycar_lidar_client",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "xycar_lidar_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-xycar_lidar_node-0a4c1f77cda77d576e45.json",
+					"name" : "xycar_lidar_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "xycar_lidar_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-xycar_lidar_uninstall-dd83227dc5f27983b482.json",
+					"name" : "xycar_lidar_uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/xytron/xycar_ws/build/xycar_lidar",
+		"source" : "/home/xytron/xycar_ws/src/xycar_device/xycar_lidar"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

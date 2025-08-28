@@ -1,0 +1,16 @@
+package.xml
+setup.cfg
+setup.py
+../../../build/app_ultra_viewer/app_ultra_viewer.egg-info/PKG-INFO
+../../../build/app_ultra_viewer/app_ultra_viewer.egg-info/SOURCES.txt
+../../../build/app_ultra_viewer/app_ultra_viewer.egg-info/dependency_links.txt
+../../../build/app_ultra_viewer/app_ultra_viewer.egg-info/entry_points.txt
+../../../build/app_ultra_viewer/app_ultra_viewer.egg-info/requires.txt
+../../../build/app_ultra_viewer/app_ultra_viewer.egg-info/top_level.txt
+../../../build/app_ultra_viewer/app_ultra_viewer.egg-info/zip-safe
+app_ultra_viewer/__init__.py
+app_ultra_viewer/app_ultra_viewer.py
+resource/app_ultra_viewer
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

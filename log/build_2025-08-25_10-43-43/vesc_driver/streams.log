@@ -1,0 +1,45 @@
+[1.080s] Invoking command in '/home/xytron/xycar_ws/build/vesc_driver': AMENT_PREFIX_PATH=/home/xytron/xycar_ws/install/vesc_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/xytron/xycar_ws/install/vesc_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/xytron/xycar_ws/install/vesc_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/xytron/xycar_ws/install/vesc_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/xytron/xycar_ws/build/vesc_driver -- -j16 -l16
+[1.977s] [ 20%] Built target vesc_driver_node
+[1.977s] [ 70%] Built target vesc_driver
+[1.978s] [100%] Built target vesc_device_namer
+[2.007s] Invoked command in '/home/xytron/xycar_ws/build/vesc_driver' returned '0': AMENT_PREFIX_PATH=/home/xytron/xycar_ws/install/vesc_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/xytron/xycar_ws/install/vesc_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/xytron/xycar_ws/install/vesc_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/xytron/xycar_ws/install/vesc_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/xytron/xycar_ws/build/vesc_driver -- -j16 -l16
+[2.010s] Invoking command in '/home/xytron/xycar_ws/build/vesc_driver': AMENT_PREFIX_PATH=/home/xytron/xycar_ws/install/vesc_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/xytron/xycar_ws/install/vesc_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/xytron/xycar_ws/install/vesc_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/xytron/xycar_ws/install/vesc_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/xytron/xycar_ws/build/vesc_driver
+[2.059s] -- Install configuration: ""
+[2.059s] -- Up-to-date: /home/xytron/xycar_ws/install/vesc_driver/lib/vesc_driver/vesc_driver_node
+[2.059s] -- Up-to-date: /home/xytron/xycar_ws/install/vesc_driver/include
+[2.059s] -- Up-to-date: /home/xytron/xycar_ws/install/vesc_driver/include/vesc_driver
+[2.059s] -- Up-to-date: /home/xytron/xycar_ws/install/vesc_driver/include/vesc_driver/vesc_driver.hpp
+[2.059s] -- Up-to-date: /home/xytron/xycar_ws/install/vesc_driver/include/vesc_driver/vesc_packet.hpp
+[2.059s] -- Up-to-date: /home/xytron/xycar_ws/install/vesc_driver/include/vesc_driver/crc.hpp
+[2.059s] -- Up-to-date: /home/xytron/xycar_ws/install/vesc_driver/include/vesc_driver/datatypes.hpp
+[2.060s] -- Up-to-date: /home/xytron/xycar_ws/install/vesc_driver/include/vesc_driver/vesc_device_uuid_lookup.hpp
+[2.060s] -- Up-to-date: /home/xytron/xycar_ws/install/vesc_driver/include/vesc_driver/vesc_interface.hpp
+[2.060s] -- Up-to-date: /home/xytron/xycar_ws/install/vesc_driver/include/vesc_driver/vesc_packet_factory.hpp
+[2.060s] -- Up-to-date: /home/xytron/xycar_ws/install/vesc_driver/share/vesc_driver/environment/library_path.sh
+[2.060s] -- Up-to-date: /home/xytron/xycar_ws/install/vesc_driver/share/vesc_driver/environment/library_path.dsv
+[2.060s] -- Up-to-date: /home/xytron/xycar_ws/install/vesc_driver/lib/libvesc_driver.so
+[2.061s] -- Up-to-date: /home/xytron/xycar_ws/install/vesc_driver/lib/vesc_driver/vesc_device_namer
+[2.061s] -- Up-to-date: /home/xytron/xycar_ws/install/vesc_driver/share/vesc_driver/launch
+[2.061s] -- Up-to-date: /home/xytron/xycar_ws/install/vesc_driver/share/vesc_driver/launch/vesc_driver_node.launch.py
+[2.061s] -- Up-to-date: /home/xytron/xycar_ws/install/vesc_driver/share/vesc_driver/params
+[2.061s] -- Up-to-date: /home/xytron/xycar_ws/install/vesc_driver/share/vesc_driver/params/vesc_config.yaml
+[2.061s] -- Up-to-date: /home/xytron/xycar_ws/install/vesc_driver/share/ament_index/resource_index/package_run_dependencies/vesc_driver
+[2.061s] -- Up-to-date: /home/xytron/xycar_ws/install/vesc_driver/share/ament_index/resource_index/parent_prefix_path/vesc_driver
+[2.061s] -- Up-to-date: /home/xytron/xycar_ws/install/vesc_driver/share/vesc_driver/environment/ament_prefix_path.sh
+[2.062s] -- Up-to-date: /home/xytron/xycar_ws/install/vesc_driver/share/vesc_driver/environment/ament_prefix_path.dsv
+[2.062s] -- Up-to-date: /home/xytron/xycar_ws/install/vesc_driver/share/vesc_driver/environment/path.sh
+[2.062s] -- Up-to-date: /home/xytron/xycar_ws/install/vesc_driver/share/vesc_driver/environment/path.dsv
+[2.062s] -- Up-to-date: /home/xytron/xycar_ws/install/vesc_driver/share/vesc_driver/local_setup.bash
+[2.062s] -- Up-to-date: /home/xytron/xycar_ws/install/vesc_driver/share/vesc_driver/local_setup.sh
+[2.062s] -- Up-to-date: /home/xytron/xycar_ws/install/vesc_driver/share/vesc_driver/local_setup.zsh
+[2.062s] -- Up-to-date: /home/xytron/xycar_ws/install/vesc_driver/share/vesc_driver/local_setup.dsv
+[2.062s] -- Installing: /home/xytron/xycar_ws/install/vesc_driver/share/vesc_driver/package.dsv
+[2.062s] -- Up-to-date: /home/xytron/xycar_ws/install/vesc_driver/share/ament_index/resource_index/packages/vesc_driver
+[2.062s] -- Up-to-date: /home/xytron/xycar_ws/install/vesc_driver/share/ament_index/resource_index/rclcpp_components/vesc_driver
+[2.063s] -- Up-to-date: /home/xytron/xycar_ws/install/vesc_driver/share/vesc_driver/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.063s] -- Up-to-date: /home/xytron/xycar_ws/install/vesc_driver/share/vesc_driver/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.063s] -- Up-to-date: /home/xytron/xycar_ws/install/vesc_driver/share/vesc_driver/cmake/ament_cmake_export_libraries-extras.cmake
+[2.063s] -- Up-to-date: /home/xytron/xycar_ws/install/vesc_driver/share/vesc_driver/cmake/vesc_driverConfig.cmake
+[2.063s] -- Up-to-date: /home/xytron/xycar_ws/install/vesc_driver/share/vesc_driver/cmake/vesc_driverConfig-version.cmake
+[2.063s] -- Up-to-date: /home/xytron/xycar_ws/install/vesc_driver/share/vesc_driver/package.xml
+[2.113s] Invoked command in '/home/xytron/xycar_ws/build/vesc_driver' returned '0': AMENT_PREFIX_PATH=/home/xytron/xycar_ws/install/vesc_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/xytron/xycar_ws/install/vesc_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/xytron/xycar_ws/install/vesc_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/xytron/xycar_ws/install/vesc_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/xytron/xycar_ws/build/vesc_driver

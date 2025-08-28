@@ -1,0 +1,8 @@
+source;share/xycar_lidar/hook/cmake_prefix_path.ps1
+source;share/xycar_lidar/hook/cmake_prefix_path.dsv
+source;share/xycar_lidar/hook/cmake_prefix_path.sh
+source;share/xycar_lidar/local_setup.bash
+source;share/xycar_lidar/local_setup.dsv
+source;share/xycar_lidar/local_setup.ps1
+source;share/xycar_lidar/local_setup.sh
+source;share/xycar_lidar/local_setup.zsh

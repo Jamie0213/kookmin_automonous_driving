@@ -1,0 +1,3 @@
+[console_scripts]
+xycar_planner_static_test = xycar_planner.xycar_planner_static_test:main
+

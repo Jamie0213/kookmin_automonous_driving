@@ -1,0 +1,97 @@
+[0.015s] Invoking command in '/home/xytron/xycar_ws/build/vesc_ackermann': AMENT_PREFIX_PATH=/home/xytron/xycar_ws/install/vesc_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/xytron/xycar_ws/install/vesc_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/xytron/xycar_ws/install/vesc_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/xytron/xycar_ws/install/vesc_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/xytron/xycar_ws/src/xycar_device/vesc/vesc_ackermann -DCMAKE_INSTALL_PREFIX=/home/xytron/xycar_ws/install/vesc_ackermann
+[0.101s] -- The C compiler identification is GNU 11.4.0
+[0.213s] -- The CXX compiler identification is GNU 11.4.0
+[0.230s] -- Detecting C compiler ABI info
+[0.441s] -- Detecting C compiler ABI info - done
+[0.458s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.459s] -- Detecting C compile features
+[0.459s] -- Detecting C compile features - done
+[0.478s] -- Detecting CXX compiler ABI info
+[0.656s] -- Detecting CXX compiler ABI info - done
+[0.681s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.681s] -- Detecting CXX compile features
+[0.682s] -- Detecting CXX compile features - done
+[0.685s] -- Found ament_cmake_auto: 1.3.11 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[0.932s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.159s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.165s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.176s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.193s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.210s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.313s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.315s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.467s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.512s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.587s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.599s] -- Looking for pthread.h
+[1.858s] -- Looking for pthread.h - found
+[1.858s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.060s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.064s] -- Found Threads: TRUE  
+[2.573s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.629s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.632s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.632s] -- Configured cppcheck include dirs: /home/xytron/xycar_ws/src/xycar_device/vesc/vesc_ackermann/include
+[2.632s] -- Configured cppcheck exclude dirs and/or files: 
+[2.634s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[2.636s] -- Configured cpplint exclude dirs and/or files: 
+[2.640s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.645s] -- Added test 'lint_cmake' to check CMake code style
+[2.647s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[2.650s] -- Added test 'uncrustify' to check C / C++ code style
+[2.651s] -- Configured uncrustify additional arguments: 
+[2.652s] -- Added test 'xmllint' to check XML markup files
+[2.657s] -- Configuring done
+[2.730s] -- Generating done
+[2.763s] -- Build files have been written to: /home/xytron/xycar_ws/build/vesc_ackermann
+[2.814s] Invoked command in '/home/xytron/xycar_ws/build/vesc_ackermann' returned '0': AMENT_PREFIX_PATH=/home/xytron/xycar_ws/install/vesc_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/xytron/xycar_ws/install/vesc_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/xytron/xycar_ws/install/vesc_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/xytron/xycar_ws/install/vesc_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/xytron/xycar_ws/src/xycar_device/vesc/vesc_ackermann -DCMAKE_INSTALL_PREFIX=/home/xytron/xycar_ws/install/vesc_ackermann
+[2.816s] Invoking command in '/home/xytron/xycar_ws/build/vesc_ackermann': AMENT_PREFIX_PATH=/home/xytron/xycar_ws/install/vesc_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/xytron/xycar_ws/install/vesc_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/xytron/xycar_ws/install/vesc_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/xytron/xycar_ws/install/vesc_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/xytron/xycar_ws/build/vesc_ackermann -- -j16 -l16
+[2.989s] [ 14%] [32mBuilding CXX object CMakeFiles/ackermann_to_vesc_node.dir/rclcpp_components/node_main_ackermann_to_vesc_node.cpp.o[0m
+[3.021s] [ 28%] [32mBuilding CXX object CMakeFiles/vesc_ackermann.dir/src/ackermann_to_vesc.cpp.o[0m
+[3.029s] [ 42%] [32mBuilding CXX object CMakeFiles/vesc_ackermann.dir/src/vesc_to_odom.cpp.o[0m
+[3.072s] [ 57%] [32mBuilding CXX object CMakeFiles/vesc_to_odom_node.dir/rclcpp_components/node_main_vesc_to_odom_node.cpp.o[0m
+[13.465s] [ 71%] [32m[1mLinking CXX executable ackermann_to_vesc_node[0m
+[14.019s] [ 71%] Built target ackermann_to_vesc_node
+[14.602s] [ 85%] [32m[1mLinking CXX executable vesc_to_odom_node[0m
+[14.782s] [ 85%] Built target vesc_to_odom_node
+[22.024s] [100%] [32m[1mLinking CXX shared library libvesc_ackermann.so[0m
+[23.338s] [100%] Built target vesc_ackermann
+[23.351s] Invoked command in '/home/xytron/xycar_ws/build/vesc_ackermann' returned '0': AMENT_PREFIX_PATH=/home/xytron/xycar_ws/install/vesc_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/xytron/xycar_ws/install/vesc_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/xytron/xycar_ws/install/vesc_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/xytron/xycar_ws/install/vesc_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/xytron/xycar_ws/build/vesc_ackermann -- -j16 -l16
+[23.354s] Invoking command in '/home/xytron/xycar_ws/build/vesc_ackermann': AMENT_PREFIX_PATH=/home/xytron/xycar_ws/install/vesc_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/xytron/xycar_ws/install/vesc_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/xytron/xycar_ws/install/vesc_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/xytron/xycar_ws/install/vesc_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/xytron/xycar_ws/build/vesc_ackermann
+[23.361s] -- Install configuration: ""
+[23.361s] -- Installing: /home/xytron/xycar_ws/install/vesc_ackermann/lib/vesc_ackermann/ackermann_to_vesc_node
+[23.361s] -- Set runtime path of "/home/xytron/xycar_ws/install/vesc_ackermann/lib/vesc_ackermann/ackermann_to_vesc_node" to ""
+[23.362s] -- Installing: /home/xytron/xycar_ws/install/vesc_ackermann/lib/vesc_ackermann/vesc_to_odom_node
+[23.362s] -- Set runtime path of "/home/xytron/xycar_ws/install/vesc_ackermann/lib/vesc_ackermann/vesc_to_odom_node" to ""
+[23.362s] -- Installing: /home/xytron/xycar_ws/install/vesc_ackermann/include
+[23.362s] -- Installing: /home/xytron/xycar_ws/install/vesc_ackermann/include/vesc_ackermann
+[23.362s] -- Installing: /home/xytron/xycar_ws/install/vesc_ackermann/include/vesc_ackermann/vesc_to_odom.hpp
+[23.362s] -- Installing: /home/xytron/xycar_ws/install/vesc_ackermann/include/vesc_ackermann/ackermann_to_vesc.hpp
+[23.362s] -- Installing: /home/xytron/xycar_ws/install/vesc_ackermann/share/vesc_ackermann/environment/library_path.sh
+[23.363s] -- Installing: /home/xytron/xycar_ws/install/vesc_ackermann/share/vesc_ackermann/environment/library_path.dsv
+[23.363s] -- Installing: /home/xytron/xycar_ws/install/vesc_ackermann/lib/libvesc_ackermann.so
+[23.377s] -- Set runtime path of "/home/xytron/xycar_ws/install/vesc_ackermann/lib/libvesc_ackermann.so" to ""
+[23.377s] -- Installing: /home/xytron/xycar_ws/install/vesc_ackermann/share/vesc_ackermann/launch
+[23.378s] -- Installing: /home/xytron/xycar_ws/install/vesc_ackermann/share/vesc_ackermann/launch/ackermann_to_vesc_node.launch.xml
+[23.378s] -- Installing: /home/xytron/xycar_ws/install/vesc_ackermann/share/vesc_ackermann/launch/ackermann_to_vesc_node.launch.py
+[23.378s] -- Installing: /home/xytron/xycar_ws/install/vesc_ackermann/share/vesc_ackermann/launch/vesc_to_odom_node.launch.xml
+[23.378s] -- Installing: /home/xytron/xycar_ws/install/vesc_ackermann/share/ament_index/resource_index/package_run_dependencies/vesc_ackermann
+[23.378s] -- Installing: /home/xytron/xycar_ws/install/vesc_ackermann/share/ament_index/resource_index/parent_prefix_path/vesc_ackermann
+[23.378s] -- Installing: /home/xytron/xycar_ws/install/vesc_ackermann/share/vesc_ackermann/environment/ament_prefix_path.sh
+[23.378s] -- Installing: /home/xytron/xycar_ws/install/vesc_ackermann/share/vesc_ackermann/environment/ament_prefix_path.dsv
+[23.378s] -- Installing: /home/xytron/xycar_ws/install/vesc_ackermann/share/vesc_ackermann/environment/path.sh
+[23.378s] -- Installing: /home/xytron/xycar_ws/install/vesc_ackermann/share/vesc_ackermann/environment/path.dsv
+[23.379s] -- Installing: /home/xytron/xycar_ws/install/vesc_ackermann/share/vesc_ackermann/local_setup.bash
+[23.379s] -- Installing: /home/xytron/xycar_ws/install/vesc_ackermann/share/vesc_ackermann/local_setup.sh
+[23.379s] -- Installing: /home/xytron/xycar_ws/install/vesc_ackermann/share/vesc_ackermann/local_setup.zsh
+[23.379s] -- Installing: /home/xytron/xycar_ws/install/vesc_ackermann/share/vesc_ackermann/local_setup.dsv
+[23.379s] -- Installing: /home/xytron/xycar_ws/install/vesc_ackermann/share/vesc_ackermann/package.dsv
+[23.379s] -- Installing: /home/xytron/xycar_ws/install/vesc_ackermann/share/ament_index/resource_index/packages/vesc_ackermann
+[23.379s] -- Installing: /home/xytron/xycar_ws/install/vesc_ackermann/share/ament_index/resource_index/rclcpp_components/vesc_ackermann
+[23.380s] -- Installing: /home/xytron/xycar_ws/install/vesc_ackermann/share/vesc_ackermann/cmake/ament_cmake_export_dependencies-extras.cmake
+[23.380s] -- Installing: /home/xytron/xycar_ws/install/vesc_ackermann/share/vesc_ackermann/cmake/ament_cmake_export_include_directories-extras.cmake
+[23.380s] -- Installing: /home/xytron/xycar_ws/install/vesc_ackermann/share/vesc_ackermann/cmake/ament_cmake_export_libraries-extras.cmake
+[23.380s] -- Installing: /home/xytron/xycar_ws/install/vesc_ackermann/share/vesc_ackermann/cmake/vesc_ackermannConfig.cmake
+[23.380s] -- Installing: /home/xytron/xycar_ws/install/vesc_ackermann/share/vesc_ackermann/cmake/vesc_ackermannConfig-version.cmake
+[23.380s] -- Installing: /home/xytron/xycar_ws/install/vesc_ackermann/share/vesc_ackermann/package.xml
+[23.383s] Invoked command in '/home/xytron/xycar_ws/build/vesc_ackermann' returned '0': AMENT_PREFIX_PATH=/home/xytron/xycar_ws/install/vesc_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/xytron/xycar_ws/install/vesc_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/xytron/xycar_ws/install/vesc_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/xytron/xycar_ws/install/vesc_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/xytron/xycar_ws/build/vesc_ackermann

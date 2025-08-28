@@ -1,0 +1,3 @@
+[console_scripts]
+sensor_driver = app_sensor_drive.app_sensor_drive:main
+

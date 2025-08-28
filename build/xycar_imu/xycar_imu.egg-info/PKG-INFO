@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: xycar-imu
+Version: 1.2.0
+Summary: xycar_imu is a package that provides a ROS2 driver for the Sparkfun Razor IMU 9DOF.
+Home-page: UNKNOWN
+Author: Kristof Robot, Tang Tiong Yew, Paul Bouchier, Peter Bartz
+Maintainer: Kristof Robot
+License: BSD
+Keywords: ROS2
+Platform: UNKNOWN
+License-File: LICENSE
+
+UNKNOWN
+

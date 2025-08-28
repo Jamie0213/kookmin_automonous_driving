@@ -1,0 +1,21 @@
+[4.671s] Invoking command in '/home/xytron/xycar_ws/src/xycar_application/app_ultra_viewer': PYTHONPATH=/home/xytron/xycar_ws/build/app_ultra_viewer/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/xytron/xycar_ws/install/app_ultra_viewer/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/app_ultra_viewer build --build-base /home/xytron/xycar_ws/build/app_ultra_viewer/build install --record /home/xytron/xycar_ws/build/app_ultra_viewer/install.log --single-version-externally-managed install_data
+[5.575s] running egg_info
+[5.577s] writing ../../../build/app_ultra_viewer/app_ultra_viewer.egg-info/PKG-INFO
+[5.578s] writing dependency_links to ../../../build/app_ultra_viewer/app_ultra_viewer.egg-info/dependency_links.txt
+[5.578s] writing entry points to ../../../build/app_ultra_viewer/app_ultra_viewer.egg-info/entry_points.txt
+[5.578s] writing requirements to ../../../build/app_ultra_viewer/app_ultra_viewer.egg-info/requires.txt
+[5.578s] writing top-level names to ../../../build/app_ultra_viewer/app_ultra_viewer.egg-info/top_level.txt
+[5.591s] reading manifest file '../../../build/app_ultra_viewer/app_ultra_viewer.egg-info/SOURCES.txt'
+[5.595s] writing manifest file '../../../build/app_ultra_viewer/app_ultra_viewer.egg-info/SOURCES.txt'
+[5.595s] running build
+[5.595s] running build_py
+[5.595s] running install
+[5.597s] running install_lib
+[5.600s] running install_data
+[5.600s] running install_egg_info
+[5.603s] removing '/home/xytron/xycar_ws/install/app_ultra_viewer/lib/python3.10/site-packages/app_ultra_viewer-0.0.0-py3.10.egg-info' (and everything under it)
+[5.604s] Copying ../../../build/app_ultra_viewer/app_ultra_viewer.egg-info to /home/xytron/xycar_ws/install/app_ultra_viewer/lib/python3.10/site-packages/app_ultra_viewer-0.0.0-py3.10.egg-info
+[5.606s] running install_scripts
+[5.679s] Installing app_ultra_viewer script to /home/xytron/xycar_ws/install/app_ultra_viewer/lib/app_ultra_viewer
+[5.680s] writing list of installed files to '/home/xytron/xycar_ws/build/app_ultra_viewer/install.log'
+[5.925s] Invoked command in '/home/xytron/xycar_ws/src/xycar_application/app_ultra_viewer' returned '0': PYTHONPATH=/home/xytron/xycar_ws/build/app_ultra_viewer/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/xytron/xycar_ws/install/app_ultra_viewer/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/app_ultra_viewer build --build-base /home/xytron/xycar_ws/build/app_ultra_viewer/build install --record /home/xytron/xycar_ws/build/app_ultra_viewer/install.log --single-version-externally-managed install_data

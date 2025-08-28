@@ -1,0 +1,39 @@
+[0.013s] Invoking command in '/home/xytron/xycar_ws/build/vesc': AMENT_PREFIX_PATH=/home/xytron/xycar_ws/install/vesc_driver:/home/xytron/xycar_ws/install/vesc_ackermann:/home/xytron/xycar_ws/install/vesc_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/xytron/xycar_ws/install/vesc_driver:/home/xytron/xycar_ws/install/vesc_ackermann:/home/xytron/xycar_ws/install/vesc_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/xytron/xycar_ws/install/vesc_driver/lib:/home/xytron/xycar_ws/install/vesc_ackermann/lib:/home/xytron/xycar_ws/install/vesc_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/xytron/xycar_ws/install/vesc_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/xytron/xycar_ws/src/xycar_device/vesc/vesc -DCMAKE_INSTALL_PREFIX=/home/xytron/xycar_ws/install/vesc
+[0.064s] -- The C compiler identification is GNU 11.4.0
+[0.118s] -- The CXX compiler identification is GNU 11.4.0
+[0.125s] -- Detecting C compiler ABI info
+[0.194s] -- Detecting C compiler ABI info - done
+[0.200s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.201s] -- Detecting C compile features
+[0.201s] -- Detecting C compile features - done
+[0.203s] -- Detecting CXX compiler ABI info
+[0.283s] -- Detecting CXX compiler ABI info - done
+[0.290s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.290s] -- Detecting CXX compile features
+[0.291s] -- Detecting CXX compile features - done
+[0.293s] -- Found ament_cmake_auto: 1.3.11 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[0.430s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.562s] -- Configuring done
+[0.565s] -- Generating done
+[0.566s] -- Build files have been written to: /home/xytron/xycar_ws/build/vesc
+[0.571s] Invoked command in '/home/xytron/xycar_ws/build/vesc' returned '0': AMENT_PREFIX_PATH=/home/xytron/xycar_ws/install/vesc_driver:/home/xytron/xycar_ws/install/vesc_ackermann:/home/xytron/xycar_ws/install/vesc_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/xytron/xycar_ws/install/vesc_driver:/home/xytron/xycar_ws/install/vesc_ackermann:/home/xytron/xycar_ws/install/vesc_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/xytron/xycar_ws/install/vesc_driver/lib:/home/xytron/xycar_ws/install/vesc_ackermann/lib:/home/xytron/xycar_ws/install/vesc_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/xytron/xycar_ws/install/vesc_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/xytron/xycar_ws/src/xycar_device/vesc/vesc -DCMAKE_INSTALL_PREFIX=/home/xytron/xycar_ws/install/vesc
+[0.573s] Invoking command in '/home/xytron/xycar_ws/build/vesc': AMENT_PREFIX_PATH=/home/xytron/xycar_ws/install/vesc_driver:/home/xytron/xycar_ws/install/vesc_ackermann:/home/xytron/xycar_ws/install/vesc_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/xytron/xycar_ws/install/vesc_driver:/home/xytron/xycar_ws/install/vesc_ackermann:/home/xytron/xycar_ws/install/vesc_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/xytron/xycar_ws/install/vesc_driver/lib:/home/xytron/xycar_ws/install/vesc_ackermann/lib:/home/xytron/xycar_ws/install/vesc_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/xytron/xycar_ws/install/vesc_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/xytron/xycar_ws/build/vesc -- -j16 -l16
+[0.614s] Invoked command in '/home/xytron/xycar_ws/build/vesc' returned '0': AMENT_PREFIX_PATH=/home/xytron/xycar_ws/install/vesc_driver:/home/xytron/xycar_ws/install/vesc_ackermann:/home/xytron/xycar_ws/install/vesc_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/xytron/xycar_ws/install/vesc_driver:/home/xytron/xycar_ws/install/vesc_ackermann:/home/xytron/xycar_ws/install/vesc_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/xytron/xycar_ws/install/vesc_driver/lib:/home/xytron/xycar_ws/install/vesc_ackermann/lib:/home/xytron/xycar_ws/install/vesc_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/xytron/xycar_ws/install/vesc_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/xytron/xycar_ws/build/vesc -- -j16 -l16
+[0.616s] Invoking command in '/home/xytron/xycar_ws/build/vesc': AMENT_PREFIX_PATH=/home/xytron/xycar_ws/install/vesc_driver:/home/xytron/xycar_ws/install/vesc_ackermann:/home/xytron/xycar_ws/install/vesc_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/xytron/xycar_ws/install/vesc_driver:/home/xytron/xycar_ws/install/vesc_ackermann:/home/xytron/xycar_ws/install/vesc_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/xytron/xycar_ws/install/vesc_driver/lib:/home/xytron/xycar_ws/install/vesc_ackermann/lib:/home/xytron/xycar_ws/install/vesc_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/xytron/xycar_ws/install/vesc_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/xytron/xycar_ws/build/vesc
+[0.623s] -- Install configuration: ""
+[0.623s] -- Installing: /home/xytron/xycar_ws/install/vesc/share/ament_index/resource_index/package_run_dependencies/vesc
+[0.623s] -- Installing: /home/xytron/xycar_ws/install/vesc/share/ament_index/resource_index/parent_prefix_path/vesc
+[0.624s] -- Installing: /home/xytron/xycar_ws/install/vesc/share/vesc/environment/ament_prefix_path.sh
+[0.624s] -- Installing: /home/xytron/xycar_ws/install/vesc/share/vesc/environment/ament_prefix_path.dsv
+[0.624s] -- Installing: /home/xytron/xycar_ws/install/vesc/share/vesc/environment/path.sh
+[0.624s] -- Installing: /home/xytron/xycar_ws/install/vesc/share/vesc/environment/path.dsv
+[0.624s] -- Installing: /home/xytron/xycar_ws/install/vesc/share/vesc/local_setup.bash
+[0.624s] -- Installing: /home/xytron/xycar_ws/install/vesc/share/vesc/local_setup.sh
+[0.625s] -- Installing: /home/xytron/xycar_ws/install/vesc/share/vesc/local_setup.zsh
+[0.625s] -- Installing: /home/xytron/xycar_ws/install/vesc/share/vesc/local_setup.dsv
+[0.625s] -- Installing: /home/xytron/xycar_ws/install/vesc/share/vesc/package.dsv
+[0.625s] -- Installing: /home/xytron/xycar_ws/install/vesc/share/ament_index/resource_index/packages/vesc
+[0.625s] -- Installing: /home/xytron/xycar_ws/install/vesc/share/vesc/cmake/vescConfig.cmake
+[0.625s] -- Installing: /home/xytron/xycar_ws/install/vesc/share/vesc/cmake/vescConfig-version.cmake
+[0.625s] -- Installing: /home/xytron/xycar_ws/install/vesc/share/vesc/package.xml
+[0.628s] Invoked command in '/home/xytron/xycar_ws/build/vesc' returned '0': AMENT_PREFIX_PATH=/home/xytron/xycar_ws/install/vesc_driver:/home/xytron/xycar_ws/install/vesc_ackermann:/home/xytron/xycar_ws/install/vesc_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/xytron/xycar_ws/install/vesc_driver:/home/xytron/xycar_ws/install/vesc_ackermann:/home/xytron/xycar_ws/install/vesc_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/xytron/xycar_ws/install/vesc_driver/lib:/home/xytron/xycar_ws/install/vesc_ackermann/lib:/home/xytron/xycar_ws/install/vesc_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/xytron/xycar_ws/install/vesc_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/xytron/xycar_ws/build/vesc

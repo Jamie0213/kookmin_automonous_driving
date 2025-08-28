@@ -1,0 +1,75 @@
+<?xml version="1.0"?>
+<package format="3">
+  <!-- ====================================================== -->
+  <!-- 기본 메타데이터                                          -->
+  <!-- ====================================================== -->
+  <name>control_motor</name>
+  <version>0.1.0</version>
+  <description>
+    High-level motor control nodes for XY-Car:
+    lane detection, obstacle avoidance, traffic-light stop,
+    rubber-cone slalom, multi-command relay, etc.
+  </description>
+  <maintainer email="you@example.com">Your Name</maintainer>
+  <license>Apache-2.0</license>
+
+  <!-- ====================================================== -->
+  <!-- 빌드 도구 & 테스트                                      -->
+  <!-- ====================================================== -->
+
+
+
+  <!-- (선택) 린트·테스트 -->
+  <test_depend>ament_lint_auto</test_depend>
+  <test_depend>ament_lint_common</test_depend>
+
+  <!-- ====================================================== -->
+  <!-- 런타임 의존 패키지                                      -->
+  <!-- ====================================================== -->
+  <!-- ROS 2 기본 라이브러리 -->
+  <exec_depend>rclpy</exec_depend>
+  <exec_depend>sensor_msgs</exec_depend>
+  <exec_depend>std_msgs</exec_depend>
+
+  <!-- 외부 메시지 패키지 (※ 반드시 워크스페이스에 빌드되거나 apt 설치돼 있어야 함) -->
+  <exec_depend>xycar_msgs</exec_depend>
+
+  <!-- Computer-Vision / 과학계산 라이브러리 (ROS debian pkg 이름 기준) -->
+  <exec_depend>python3-opencv</exec_depend>   <!-- cv2 -->
+  <exec_depend>python3-numpy</exec_depend>
+  <exec_depend>cv-bridge</exec_depend>
+  <exec_depend>geometry_msgs</exec_depend>
+  <exec_depend>visualization_msgs</exec_depend>
+  <exec_depend>python3-matplotlib</exec_depend>
+
+  <!-- ====================================================== -->
+  <!-- 빌드 의존(컴파일 시 필요)                               -->
+  <!-- (pure-python은 exec_depend 중복 지정만으로 충분하지만, -->
+  <!--  명시하고 싶으면 build_depend로도 넣어도 무방)          -->
+  <!-- ====================================================== -->
+  <build_depend>rclpy</build_depend>
+  <build_depend>sensor_msgs</build_depend>
+  <build_depend>std_msgs</build_depend>
+  <build_depend>geometry_msgs</build_depend>
+  <build_depend>visualization_msgs</build_depend>
+  <build_depend>xycar_msgs</build_depend>
+  <build_depend>cv-bridge</build_depend>
+
+  <!-- ====================================================== -->
+  <!-- 그룹 지정 (msg 패키지가 포함될 때만 필요)                -->
+  <!-- ====================================================== -->
+  <!-- <member_of_group>rosidl_interface_packages</member_of_group> -->
+
+  <!-- ====================================================== -->
+  <!-- 익스포트: ament Python 모듈 경로 자동 설치               -->
+  <!-- ====================================================== -->
+
+  <!-- 파이썬 기반 패키지는 ament_python 빌드툴만 있으면 됨 -->
+  <buildtool_depend>ament_python</buildtool_depend>
+  <export><build_type>ament_python</build_type></export>
+
+
+
+
+
+</package>

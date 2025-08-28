@@ -1,0 +1,4 @@
+[console_scripts]
+display_3D_visualization_node = xycar_imu.display_3D_visualization:main
+imu_node = xycar_imu.imu_node:main
+

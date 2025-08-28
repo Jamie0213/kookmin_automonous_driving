@@ -1,0 +1,1059 @@
+[0.109s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.109s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=16, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x777b88eb4580>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x777b88e87f70>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x777b88e87f70>>, mixin_verb=('build',))
+[0.304s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.304s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.304s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.304s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.304s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.305s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.305s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/xytron/xycar_ws'
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(etc) by extensions ['ignore', 'ignore_ament_install']
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(etc) by extension 'ignore'
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(etc) by extension 'ignore_ament_install'
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(etc) by extensions ['colcon_pkg']
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(etc) by extension 'colcon_pkg'
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(etc) by extensions ['colcon_meta']
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(etc) by extension 'colcon_meta'
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(etc) by extensions ['ros']
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(etc) by extension 'ros'
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(etc) by extensions ['cmake', 'python']
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(etc) by extension 'cmake'
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(etc) by extension 'python'
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(etc) by extensions ['python_setup_py']
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(etc) by extension 'python_setup_py'
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(etc/desktop_all) by extensions ['ignore', 'ignore_ament_install']
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(etc/desktop_all) by extension 'ignore'
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(etc/desktop_all) by extension 'ignore_ament_install'
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(etc/desktop_all) by extensions ['colcon_pkg']
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(etc/desktop_all) by extension 'colcon_pkg'
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(etc/desktop_all) by extensions ['colcon_meta']
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(etc/desktop_all) by extension 'colcon_meta'
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(etc/desktop_all) by extensions ['ros']
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(etc/desktop_all) by extension 'ros'
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(etc/desktop_all) by extensions ['cmake', 'python']
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(etc/desktop_all) by extension 'cmake'
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(etc/desktop_all) by extension 'python'
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(etc/desktop_all) by extensions ['python_setup_py']
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(etc/desktop_all) by extension 'python_setup_py'
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(etc/gui-shell) by extensions ['ignore', 'ignore_ament_install']
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(etc/gui-shell) by extension 'ignore'
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(etc/gui-shell) by extension 'ignore_ament_install'
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(etc/gui-shell) by extensions ['colcon_pkg']
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(etc/gui-shell) by extension 'colcon_pkg'
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(etc/gui-shell) by extensions ['colcon_meta']
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(etc/gui-shell) by extension 'colcon_meta'
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(etc/gui-shell) by extensions ['ros']
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(etc/gui-shell) by extension 'ros'
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(etc/gui-shell) by extensions ['cmake', 'python']
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(etc/gui-shell) by extension 'cmake'
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(etc/gui-shell) by extension 'python'
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(etc/gui-shell) by extensions ['python_setup_py']
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(etc/gui-shell) by extension 'python_setup_py'
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(etc/icon) by extensions ['ignore', 'ignore_ament_install']
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(etc/icon) by extension 'ignore'
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(etc/icon) by extension 'ignore_ament_install'
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(etc/icon) by extensions ['colcon_pkg']
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(etc/icon) by extension 'colcon_pkg'
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(etc/icon) by extensions ['colcon_meta']
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(etc/icon) by extension 'colcon_meta'
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(etc/icon) by extensions ['ros']
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(etc/icon) by extension 'ros'
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(etc/icon) by extensions ['cmake', 'python']
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(etc/icon) by extension 'cmake'
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(etc/icon) by extension 'python'
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(etc/icon) by extensions ['python_setup_py']
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(etc/icon) by extension 'python_setup_py'
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(src/study) by extensions ['ignore', 'ignore_ament_install']
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(src/study) by extension 'ignore'
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(src/study) by extension 'ignore_ament_install'
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(src/study) by extensions ['colcon_pkg']
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(src/study) by extension 'colcon_pkg'
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(src/study) by extensions ['colcon_meta']
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(src/study) by extension 'colcon_meta'
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(src/study) by extensions ['ros']
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(src/study) by extension 'ros'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(src/study) by extensions ['cmake', 'python']
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(src/study) by extension 'cmake'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(src/study) by extension 'python'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(src/study) by extensions ['python_setup_py']
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(src/study) by extension 'python_setup_py'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(src/study/control_motor) by extensions ['ignore', 'ignore_ament_install']
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(src/study/control_motor) by extension 'ignore'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(src/study/control_motor) by extension 'ignore_ament_install'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(src/study/control_motor) by extensions ['colcon_pkg']
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(src/study/control_motor) by extension 'colcon_pkg'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(src/study/control_motor) by extensions ['colcon_meta']
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(src/study/control_motor) by extension 'colcon_meta'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(src/study/control_motor) by extensions ['ros']
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(src/study/control_motor) by extension 'ros'
+[0.321s] DEBUG:colcon.colcon_core.package_identification:Package 'src/study/control_motor' with type 'ros.ament_python' and name 'control_motor'
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/xycar_application) by extensions ['ignore', 'ignore_ament_install']
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(src/xycar_application) by extension 'ignore'
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(src/xycar_application) by extension 'ignore_ament_install'
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(src/xycar_application) by extensions ['colcon_pkg']
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(src/xycar_application) by extension 'colcon_pkg'
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(src/xycar_application) by extensions ['colcon_meta']
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(src/xycar_application) by extension 'colcon_meta'
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(src/xycar_application) by extensions ['ros']
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(src/xycar_application) by extension 'ros'
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(src/xycar_application) by extensions ['cmake', 'python']
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(src/xycar_application) by extension 'cmake'
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(src/xycar_application) by extension 'python'
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(src/xycar_application) by extensions ['python_setup_py']
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(src/xycar_application) by extension 'python_setup_py'
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(src/xycar_application/app_8_drive) by extensions ['ignore', 'ignore_ament_install']
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(src/xycar_application/app_8_drive) by extension 'ignore'
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(src/xycar_application/app_8_drive) ignored
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(src/xycar_application/app_cam_exposure) by extensions ['ignore', 'ignore_ament_install']
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(src/xycar_application/app_cam_exposure) by extension 'ignore'
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(src/xycar_application/app_cam_exposure) ignored
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(src/xycar_application/app_hough_drive) by extensions ['ignore', 'ignore_ament_install']
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(src/xycar_application/app_hough_drive) by extension 'ignore'
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(src/xycar_application/app_hough_drive) ignored
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(src/xycar_application/app_path_planning) by extensions ['ignore', 'ignore_ament_install']
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(src/xycar_application/app_path_planning) by extension 'ignore'
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(src/xycar_application/app_path_planning) ignored
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(src/xycar_application/app_pubsub) by extensions ['ignore', 'ignore_ament_install']
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(src/xycar_application/app_pubsub) by extension 'ignore'
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(src/xycar_application/app_pubsub) ignored
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(src/xycar_application/app_rule_drive_sim) by extensions ['ignore', 'ignore_ament_install']
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(src/xycar_application/app_rule_drive_sim) by extension 'ignore'
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(src/xycar_application/app_rule_drive_sim) ignored
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(src/xycar_application/app_sensor_drive) by extensions ['ignore', 'ignore_ament_install']
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(src/xycar_application/app_sensor_drive) by extension 'ignore'
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(src/xycar_application/app_sensor_drive) ignored
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(src/xycar_application/app_turtlesim) by extensions ['ignore', 'ignore_ament_install']
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(src/xycar_application/app_turtlesim) by extension 'ignore'
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(src/xycar_application/app_turtlesim) ignored
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(src/xycar_application/app_ultra_viewer) by extensions ['ignore', 'ignore_ament_install']
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(src/xycar_application/app_ultra_viewer) by extension 'ignore'
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(src/xycar_application/app_ultra_viewer) ignored
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(src/xycar_application/app_viewer_all) by extensions ['ignore', 'ignore_ament_install']
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(src/xycar_application/app_viewer_all) by extension 'ignore'
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(src/xycar_application/app_viewer_all) ignored
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(src/xycar_application/app_web_controller) by extensions ['ignore', 'ignore_ament_install']
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(src/xycar_application/app_web_controller) by extension 'ignore'
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(src/xycar_application/app_web_controller) ignored
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(src/xycar_device) by extensions ['ignore', 'ignore_ament_install']
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(src/xycar_device) by extension 'ignore'
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(src/xycar_device) by extension 'ignore_ament_install'
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(src/xycar_device) by extensions ['colcon_pkg']
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(src/xycar_device) by extension 'colcon_pkg'
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(src/xycar_device) by extensions ['colcon_meta']
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(src/xycar_device) by extension 'colcon_meta'
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(src/xycar_device) by extensions ['ros']
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(src/xycar_device) by extension 'ros'
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(src/xycar_device) by extensions ['cmake', 'python']
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(src/xycar_device) by extension 'cmake'
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(src/xycar_device) by extension 'python'
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(src/xycar_device) by extensions ['python_setup_py']
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(src/xycar_device) by extension 'python_setup_py'
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(src/xycar_device/vesc) by extensions ['ignore', 'ignore_ament_install']
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(src/xycar_device/vesc) by extension 'ignore'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(src/xycar_device/vesc) by extension 'ignore_ament_install'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(src/xycar_device/vesc) by extensions ['colcon_pkg']
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(src/xycar_device/vesc) by extension 'colcon_pkg'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(src/xycar_device/vesc) by extensions ['colcon_meta']
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(src/xycar_device/vesc) by extension 'colcon_meta'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(src/xycar_device/vesc) by extensions ['ros']
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(src/xycar_device/vesc) by extension 'ros'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(src/xycar_device/vesc) by extensions ['cmake', 'python']
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(src/xycar_device/vesc) by extension 'cmake'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(src/xycar_device/vesc) by extension 'python'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(src/xycar_device/vesc) by extensions ['python_setup_py']
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(src/xycar_device/vesc) by extension 'python_setup_py'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(src/xycar_device/vesc/vesc) by extensions ['ignore', 'ignore_ament_install']
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(src/xycar_device/vesc/vesc) by extension 'ignore'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(src/xycar_device/vesc/vesc) by extension 'ignore_ament_install'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(src/xycar_device/vesc/vesc) by extensions ['colcon_pkg']
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(src/xycar_device/vesc/vesc) by extension 'colcon_pkg'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(src/xycar_device/vesc/vesc) by extensions ['colcon_meta']
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(src/xycar_device/vesc/vesc) by extension 'colcon_meta'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(src/xycar_device/vesc/vesc) by extensions ['ros']
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(src/xycar_device/vesc/vesc) by extension 'ros'
+[0.326s] DEBUG:colcon.colcon_core.package_identification:Package 'src/xycar_device/vesc/vesc' with type 'ros.ament_cmake' and name 'vesc'
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(src/xycar_device/vesc/vesc_ackermann) by extensions ['ignore', 'ignore_ament_install']
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(src/xycar_device/vesc/vesc_ackermann) by extension 'ignore'
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(src/xycar_device/vesc/vesc_ackermann) by extension 'ignore_ament_install'
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(src/xycar_device/vesc/vesc_ackermann) by extensions ['colcon_pkg']
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(src/xycar_device/vesc/vesc_ackermann) by extension 'colcon_pkg'
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(src/xycar_device/vesc/vesc_ackermann) by extensions ['colcon_meta']
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(src/xycar_device/vesc/vesc_ackermann) by extension 'colcon_meta'
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(src/xycar_device/vesc/vesc_ackermann) by extensions ['ros']
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(src/xycar_device/vesc/vesc_ackermann) by extension 'ros'
+[0.327s] DEBUG:colcon.colcon_core.package_identification:Package 'src/xycar_device/vesc/vesc_ackermann' with type 'ros.ament_cmake' and name 'vesc_ackermann'
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(src/xycar_device/vesc/vesc_driver) by extensions ['ignore', 'ignore_ament_install']
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(src/xycar_device/vesc/vesc_driver) by extension 'ignore'
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(src/xycar_device/vesc/vesc_driver) by extension 'ignore_ament_install'
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(src/xycar_device/vesc/vesc_driver) by extensions ['colcon_pkg']
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(src/xycar_device/vesc/vesc_driver) by extension 'colcon_pkg'
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(src/xycar_device/vesc/vesc_driver) by extensions ['colcon_meta']
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(src/xycar_device/vesc/vesc_driver) by extension 'colcon_meta'
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(src/xycar_device/vesc/vesc_driver) by extensions ['ros']
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(src/xycar_device/vesc/vesc_driver) by extension 'ros'
+[0.329s] DEBUG:colcon.colcon_core.package_identification:Package 'src/xycar_device/vesc/vesc_driver' with type 'ros.ament_cmake' and name 'vesc_driver'
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(src/xycar_device/vesc/vesc_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(src/xycar_device/vesc/vesc_msgs) by extension 'ignore'
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(src/xycar_device/vesc/vesc_msgs) by extension 'ignore_ament_install'
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(src/xycar_device/vesc/vesc_msgs) by extensions ['colcon_pkg']
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(src/xycar_device/vesc/vesc_msgs) by extension 'colcon_pkg'
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(src/xycar_device/vesc/vesc_msgs) by extensions ['colcon_meta']
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(src/xycar_device/vesc/vesc_msgs) by extension 'colcon_meta'
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(src/xycar_device/vesc/vesc_msgs) by extensions ['ros']
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(src/xycar_device/vesc/vesc_msgs) by extension 'ros'
+[0.330s] DEBUG:colcon.colcon_core.package_identification:Package 'src/xycar_device/vesc/vesc_msgs' with type 'ros.ament_cmake' and name 'vesc_msgs'
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(src/xycar_device/xycar_cam) by extensions ['ignore', 'ignore_ament_install']
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(src/xycar_device/xycar_cam) by extension 'ignore'
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(src/xycar_device/xycar_cam) by extension 'ignore_ament_install'
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(src/xycar_device/xycar_cam) by extensions ['colcon_pkg']
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(src/xycar_device/xycar_cam) by extension 'colcon_pkg'
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(src/xycar_device/xycar_cam) by extensions ['colcon_meta']
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(src/xycar_device/xycar_cam) by extension 'colcon_meta'
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(src/xycar_device/xycar_cam) by extensions ['ros']
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(src/xycar_device/xycar_cam) by extension 'ros'
+[0.330s] DEBUG:colcon.colcon_core.package_identification:Package 'src/xycar_device/xycar_cam' with type 'ros.ament_python' and name 'xycar_cam'
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(src/xycar_device/xycar_imu) by extensions ['ignore', 'ignore_ament_install']
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(src/xycar_device/xycar_imu) by extension 'ignore'
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(src/xycar_device/xycar_imu) by extension 'ignore_ament_install'
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(src/xycar_device/xycar_imu) by extensions ['colcon_pkg']
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(src/xycar_device/xycar_imu) by extension 'colcon_pkg'
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(src/xycar_device/xycar_imu) by extensions ['colcon_meta']
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(src/xycar_device/xycar_imu) by extension 'colcon_meta'
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(src/xycar_device/xycar_imu) by extensions ['ros']
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(src/xycar_device/xycar_imu) by extension 'ros'
+[0.332s] DEBUG:colcon.colcon_core.package_identification:Package 'src/xycar_device/xycar_imu' with type 'ros.ament_python' and name 'xycar_imu'
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(src/xycar_device/xycar_lidar) by extensions ['ignore', 'ignore_ament_install']
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(src/xycar_device/xycar_lidar) by extension 'ignore'
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(src/xycar_device/xycar_lidar) by extension 'ignore_ament_install'
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(src/xycar_device/xycar_lidar) by extensions ['colcon_pkg']
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(src/xycar_device/xycar_lidar) by extension 'colcon_pkg'
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(src/xycar_device/xycar_lidar) by extensions ['colcon_meta']
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(src/xycar_device/xycar_lidar) by extension 'colcon_meta'
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(src/xycar_device/xycar_lidar) by extensions ['ros']
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(src/xycar_device/xycar_lidar) by extension 'ros'
+[0.333s] DEBUG:colcon.colcon_core.package_identification:Package 'src/xycar_device/xycar_lidar' with type 'ros.ament_cmake' and name 'xycar_lidar'
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(src/xycar_device/xycar_motor) by extensions ['ignore', 'ignore_ament_install']
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(src/xycar_device/xycar_motor) by extension 'ignore'
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(src/xycar_device/xycar_motor) by extension 'ignore_ament_install'
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(src/xycar_device/xycar_motor) by extensions ['colcon_pkg']
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(src/xycar_device/xycar_motor) by extension 'colcon_pkg'
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(src/xycar_device/xycar_motor) by extensions ['colcon_meta']
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(src/xycar_device/xycar_motor) by extension 'colcon_meta'
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(src/xycar_device/xycar_motor) by extensions ['ros']
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(src/xycar_device/xycar_motor) by extension 'ros'
+[0.334s] DEBUG:colcon.colcon_core.package_identification:Package 'src/xycar_device/xycar_motor' with type 'ros.ament_python' and name 'xycar_motor'
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(src/xycar_device/xycar_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(src/xycar_device/xycar_msgs) by extension 'ignore'
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(src/xycar_device/xycar_msgs) by extension 'ignore_ament_install'
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(src/xycar_device/xycar_msgs) by extensions ['colcon_pkg']
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(src/xycar_device/xycar_msgs) by extension 'colcon_pkg'
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(src/xycar_device/xycar_msgs) by extensions ['colcon_meta']
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(src/xycar_device/xycar_msgs) by extension 'colcon_meta'
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(src/xycar_device/xycar_msgs) by extensions ['ros']
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(src/xycar_device/xycar_msgs) by extension 'ros'
+[0.335s] DEBUG:colcon.colcon_core.package_identification:Package 'src/xycar_device/xycar_msgs' with type 'ros.ament_cmake' and name 'xycar_msgs'
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(src/xycar_device/xycar_ultrasonic) by extensions ['ignore', 'ignore_ament_install']
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(src/xycar_device/xycar_ultrasonic) by extension 'ignore'
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(src/xycar_device/xycar_ultrasonic) by extension 'ignore_ament_install'
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(src/xycar_device/xycar_ultrasonic) by extensions ['colcon_pkg']
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(src/xycar_device/xycar_ultrasonic) by extension 'colcon_pkg'
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(src/xycar_device/xycar_ultrasonic) by extensions ['colcon_meta']
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(src/xycar_device/xycar_ultrasonic) by extension 'colcon_meta'
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(src/xycar_device/xycar_ultrasonic) by extensions ['ros']
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(src/xycar_device/xycar_ultrasonic) by extension 'ros'
+[0.335s] DEBUG:colcon.colcon_core.package_identification:Package 'src/xycar_device/xycar_ultrasonic' with type 'ros.ament_cmake' and name 'xycar_ultrasonic'
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(src/xycar_planner) by extensions ['ignore', 'ignore_ament_install']
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(src/xycar_planner) by extension 'ignore'
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(src/xycar_planner) by extension 'ignore_ament_install'
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(src/xycar_planner) by extensions ['colcon_pkg']
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(src/xycar_planner) by extension 'colcon_pkg'
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(src/xycar_planner) by extensions ['colcon_meta']
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(src/xycar_planner) by extension 'colcon_meta'
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(src/xycar_planner) by extensions ['ros']
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(src/xycar_planner) by extension 'ros'
+[0.336s] DEBUG:colcon.colcon_core.package_identification:Package 'src/xycar_planner' with type 'ros.ament_python' and name 'xycar_planner'
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(src/xycar_simulator) by extensions ['ignore', 'ignore_ament_install']
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(src/xycar_simulator) by extension 'ignore'
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(src/xycar_simulator) ignored
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_ros) by extensions ['ignore', 'ignore_ament_install']
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_ros) by extension 'ignore'
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_ros) by extension 'ignore_ament_install'
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_ros) by extensions ['colcon_pkg']
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_ros) by extension 'colcon_pkg'
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_ros) by extensions ['colcon_meta']
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_ros) by extension 'colcon_meta'
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_ros) by extensions ['ros']
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_ros) by extension 'ros'
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_ros) by extensions ['cmake', 'python']
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_ros) by extension 'cmake'
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_ros) by extension 'python'
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_ros) by extensions ['python_setup_py']
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_ros) by extension 'python_setup_py'
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_ros/docs) by extensions ['ignore', 'ignore_ament_install']
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_ros/docs) by extension 'ignore'
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_ros/docs) by extension 'ignore_ament_install'
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_ros/docs) by extensions ['colcon_pkg']
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_ros/docs) by extension 'colcon_pkg'
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_ros/docs) by extensions ['colcon_meta']
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_ros/docs) by extension 'colcon_meta'
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_ros/docs) by extensions ['ros']
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_ros/docs) by extension 'ros'
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_ros/docs) by extensions ['cmake', 'python']
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_ros/docs) by extension 'cmake'
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_ros/docs) by extension 'python'
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_ros/docs) by extensions ['python_setup_py']
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_ros/docs) by extension 'python_setup_py'
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_ros/yolo_bringup) by extensions ['ignore', 'ignore_ament_install']
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_ros/yolo_bringup) by extension 'ignore'
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_ros/yolo_bringup) ignored
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_ros/yolo_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_ros/yolo_msgs) by extension 'ignore'
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_ros/yolo_msgs) by extension 'ignore_ament_install'
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_ros/yolo_msgs) by extensions ['colcon_pkg']
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_ros/yolo_msgs) by extension 'colcon_pkg'
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_ros/yolo_msgs) by extensions ['colcon_meta']
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_ros/yolo_msgs) by extension 'colcon_meta'
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_ros/yolo_msgs) by extensions ['ros']
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_ros/yolo_msgs) by extension 'ros'
+[0.339s] DEBUG:colcon.colcon_core.package_identification:Package 'src/yolo_ros/yolo_msgs' with type 'ros.ament_cmake' and name 'yolo_msgs'
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_ros/yolo_ros) by extensions ['ignore', 'ignore_ament_install']
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_ros/yolo_ros) by extension 'ignore'
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_ros/yolo_ros) ignored
+[0.340s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.340s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.340s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.340s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.340s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.359s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.359s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.362s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 24 installed packages in /home/xytron/xycar_ws/install
+[0.363s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 297 installed packages in /opt/ros/humble
+[0.364s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.396s] Level 5:colcon.colcon_core.verb:set package 'vesc_msgs' build argument 'cmake_args' from command line to 'None'
+[0.396s] Level 5:colcon.colcon_core.verb:set package 'vesc_msgs' build argument 'cmake_target' from command line to 'None'
+[0.396s] Level 5:colcon.colcon_core.verb:set package 'vesc_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.396s] Level 5:colcon.colcon_core.verb:set package 'vesc_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.396s] Level 5:colcon.colcon_core.verb:set package 'vesc_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.396s] Level 5:colcon.colcon_core.verb:set package 'vesc_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.396s] Level 5:colcon.colcon_core.verb:set package 'vesc_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.396s] Level 5:colcon.colcon_core.verb:set package 'vesc_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.396s] Level 5:colcon.colcon_core.verb:set package 'vesc_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.396s] DEBUG:colcon.colcon_core.verb:Building package 'vesc_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/xytron/xycar_ws/build/vesc_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/xytron/xycar_ws/install/vesc_msgs', 'merge_install': False, 'path': '/home/xytron/xycar_ws/src/xycar_device/vesc/vesc_msgs', 'symlink_install': False, 'test_result_base': None}
+[0.397s] Level 5:colcon.colcon_core.verb:set package 'xycar_cam' build argument 'cmake_args' from command line to 'None'
+[0.397s] Level 5:colcon.colcon_core.verb:set package 'xycar_cam' build argument 'cmake_target' from command line to 'None'
+[0.397s] Level 5:colcon.colcon_core.verb:set package 'xycar_cam' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.397s] Level 5:colcon.colcon_core.verb:set package 'xycar_cam' build argument 'cmake_clean_cache' from command line to 'False'
+[0.397s] Level 5:colcon.colcon_core.verb:set package 'xycar_cam' build argument 'cmake_clean_first' from command line to 'False'
+[0.397s] Level 5:colcon.colcon_core.verb:set package 'xycar_cam' build argument 'cmake_force_configure' from command line to 'False'
+[0.397s] Level 5:colcon.colcon_core.verb:set package 'xycar_cam' build argument 'ament_cmake_args' from command line to 'None'
+[0.397s] Level 5:colcon.colcon_core.verb:set package 'xycar_cam' build argument 'catkin_cmake_args' from command line to 'None'
+[0.397s] Level 5:colcon.colcon_core.verb:set package 'xycar_cam' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.397s] DEBUG:colcon.colcon_core.verb:Building package 'xycar_cam' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/xytron/xycar_ws/build/xycar_cam', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/xytron/xycar_ws/install/xycar_cam', 'merge_install': False, 'path': '/home/xytron/xycar_ws/src/xycar_device/xycar_cam', 'symlink_install': False, 'test_result_base': None}
+[0.397s] Level 5:colcon.colcon_core.verb:set package 'xycar_imu' build argument 'cmake_args' from command line to 'None'
+[0.397s] Level 5:colcon.colcon_core.verb:set package 'xycar_imu' build argument 'cmake_target' from command line to 'None'
+[0.397s] Level 5:colcon.colcon_core.verb:set package 'xycar_imu' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.397s] Level 5:colcon.colcon_core.verb:set package 'xycar_imu' build argument 'cmake_clean_cache' from command line to 'False'
+[0.397s] Level 5:colcon.colcon_core.verb:set package 'xycar_imu' build argument 'cmake_clean_first' from command line to 'False'
+[0.397s] Level 5:colcon.colcon_core.verb:set package 'xycar_imu' build argument 'cmake_force_configure' from command line to 'False'
+[0.397s] Level 5:colcon.colcon_core.verb:set package 'xycar_imu' build argument 'ament_cmake_args' from command line to 'None'
+[0.397s] Level 5:colcon.colcon_core.verb:set package 'xycar_imu' build argument 'catkin_cmake_args' from command line to 'None'
+[0.397s] Level 5:colcon.colcon_core.verb:set package 'xycar_imu' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.397s] DEBUG:colcon.colcon_core.verb:Building package 'xycar_imu' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/xytron/xycar_ws/build/xycar_imu', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/xytron/xycar_ws/install/xycar_imu', 'merge_install': False, 'path': '/home/xytron/xycar_ws/src/xycar_device/xycar_imu', 'symlink_install': False, 'test_result_base': None}
+[0.398s] Level 5:colcon.colcon_core.verb:set package 'xycar_lidar' build argument 'cmake_args' from command line to 'None'
+[0.398s] Level 5:colcon.colcon_core.verb:set package 'xycar_lidar' build argument 'cmake_target' from command line to 'None'
+[0.398s] Level 5:colcon.colcon_core.verb:set package 'xycar_lidar' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.398s] Level 5:colcon.colcon_core.verb:set package 'xycar_lidar' build argument 'cmake_clean_cache' from command line to 'False'
+[0.398s] Level 5:colcon.colcon_core.verb:set package 'xycar_lidar' build argument 'cmake_clean_first' from command line to 'False'
+[0.398s] Level 5:colcon.colcon_core.verb:set package 'xycar_lidar' build argument 'cmake_force_configure' from command line to 'False'
+[0.398s] Level 5:colcon.colcon_core.verb:set package 'xycar_lidar' build argument 'ament_cmake_args' from command line to 'None'
+[0.398s] Level 5:colcon.colcon_core.verb:set package 'xycar_lidar' build argument 'catkin_cmake_args' from command line to 'None'
+[0.398s] Level 5:colcon.colcon_core.verb:set package 'xycar_lidar' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.398s] DEBUG:colcon.colcon_core.verb:Building package 'xycar_lidar' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/xytron/xycar_ws/build/xycar_lidar', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/xytron/xycar_ws/install/xycar_lidar', 'merge_install': False, 'path': '/home/xytron/xycar_ws/src/xycar_device/xycar_lidar', 'symlink_install': False, 'test_result_base': None}
+[0.398s] Level 5:colcon.colcon_core.verb:set package 'xycar_motor' build argument 'cmake_args' from command line to 'None'
+[0.398s] Level 5:colcon.colcon_core.verb:set package 'xycar_motor' build argument 'cmake_target' from command line to 'None'
+[0.398s] Level 5:colcon.colcon_core.verb:set package 'xycar_motor' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.398s] Level 5:colcon.colcon_core.verb:set package 'xycar_motor' build argument 'cmake_clean_cache' from command line to 'False'
+[0.398s] Level 5:colcon.colcon_core.verb:set package 'xycar_motor' build argument 'cmake_clean_first' from command line to 'False'
+[0.398s] Level 5:colcon.colcon_core.verb:set package 'xycar_motor' build argument 'cmake_force_configure' from command line to 'False'
+[0.398s] Level 5:colcon.colcon_core.verb:set package 'xycar_motor' build argument 'ament_cmake_args' from command line to 'None'
+[0.398s] Level 5:colcon.colcon_core.verb:set package 'xycar_motor' build argument 'catkin_cmake_args' from command line to 'None'
+[0.398s] Level 5:colcon.colcon_core.verb:set package 'xycar_motor' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.398s] DEBUG:colcon.colcon_core.verb:Building package 'xycar_motor' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/xytron/xycar_ws/build/xycar_motor', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/xytron/xycar_ws/install/xycar_motor', 'merge_install': False, 'path': '/home/xytron/xycar_ws/src/xycar_device/xycar_motor', 'symlink_install': False, 'test_result_base': None}
+[0.398s] Level 5:colcon.colcon_core.verb:set package 'xycar_msgs' build argument 'cmake_args' from command line to 'None'
+[0.399s] Level 5:colcon.colcon_core.verb:set package 'xycar_msgs' build argument 'cmake_target' from command line to 'None'
+[0.399s] Level 5:colcon.colcon_core.verb:set package 'xycar_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.399s] Level 5:colcon.colcon_core.verb:set package 'xycar_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.399s] Level 5:colcon.colcon_core.verb:set package 'xycar_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.399s] Level 5:colcon.colcon_core.verb:set package 'xycar_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.399s] Level 5:colcon.colcon_core.verb:set package 'xycar_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.399s] Level 5:colcon.colcon_core.verb:set package 'xycar_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.399s] Level 5:colcon.colcon_core.verb:set package 'xycar_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.399s] DEBUG:colcon.colcon_core.verb:Building package 'xycar_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/xytron/xycar_ws/build/xycar_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/xytron/xycar_ws/install/xycar_msgs', 'merge_install': False, 'path': '/home/xytron/xycar_ws/src/xycar_device/xycar_msgs', 'symlink_install': False, 'test_result_base': None}
+[0.399s] Level 5:colcon.colcon_core.verb:set package 'xycar_planner' build argument 'cmake_args' from command line to 'None'
+[0.399s] Level 5:colcon.colcon_core.verb:set package 'xycar_planner' build argument 'cmake_target' from command line to 'None'
+[0.399s] Level 5:colcon.colcon_core.verb:set package 'xycar_planner' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.399s] Level 5:colcon.colcon_core.verb:set package 'xycar_planner' build argument 'cmake_clean_cache' from command line to 'False'
+[0.399s] Level 5:colcon.colcon_core.verb:set package 'xycar_planner' build argument 'cmake_clean_first' from command line to 'False'
+[0.399s] Level 5:colcon.colcon_core.verb:set package 'xycar_planner' build argument 'cmake_force_configure' from command line to 'False'
+[0.399s] Level 5:colcon.colcon_core.verb:set package 'xycar_planner' build argument 'ament_cmake_args' from command line to 'None'
+[0.399s] Level 5:colcon.colcon_core.verb:set package 'xycar_planner' build argument 'catkin_cmake_args' from command line to 'None'
+[0.399s] Level 5:colcon.colcon_core.verb:set package 'xycar_planner' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.399s] DEBUG:colcon.colcon_core.verb:Building package 'xycar_planner' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/xytron/xycar_ws/build/xycar_planner', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/xytron/xycar_ws/install/xycar_planner', 'merge_install': False, 'path': '/home/xytron/xycar_ws/src/xycar_planner', 'symlink_install': False, 'test_result_base': None}
+[0.399s] Level 5:colcon.colcon_core.verb:set package 'xycar_ultrasonic' build argument 'cmake_args' from command line to 'None'
+[0.399s] Level 5:colcon.colcon_core.verb:set package 'xycar_ultrasonic' build argument 'cmake_target' from command line to 'None'
+[0.399s] Level 5:colcon.colcon_core.verb:set package 'xycar_ultrasonic' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.399s] Level 5:colcon.colcon_core.verb:set package 'xycar_ultrasonic' build argument 'cmake_clean_cache' from command line to 'False'
+[0.399s] Level 5:colcon.colcon_core.verb:set package 'xycar_ultrasonic' build argument 'cmake_clean_first' from command line to 'False'
+[0.399s] Level 5:colcon.colcon_core.verb:set package 'xycar_ultrasonic' build argument 'cmake_force_configure' from command line to 'False'
+[0.399s] Level 5:colcon.colcon_core.verb:set package 'xycar_ultrasonic' build argument 'ament_cmake_args' from command line to 'None'
+[0.399s] Level 5:colcon.colcon_core.verb:set package 'xycar_ultrasonic' build argument 'catkin_cmake_args' from command line to 'None'
+[0.399s] Level 5:colcon.colcon_core.verb:set package 'xycar_ultrasonic' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.400s] DEBUG:colcon.colcon_core.verb:Building package 'xycar_ultrasonic' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/xytron/xycar_ws/build/xycar_ultrasonic', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/xytron/xycar_ws/install/xycar_ultrasonic', 'merge_install': False, 'path': '/home/xytron/xycar_ws/src/xycar_device/xycar_ultrasonic', 'symlink_install': False, 'test_result_base': None}
+[0.400s] Level 5:colcon.colcon_core.verb:set package 'yolo_msgs' build argument 'cmake_args' from command line to 'None'
+[0.400s] Level 5:colcon.colcon_core.verb:set package 'yolo_msgs' build argument 'cmake_target' from command line to 'None'
+[0.400s] Level 5:colcon.colcon_core.verb:set package 'yolo_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.400s] Level 5:colcon.colcon_core.verb:set package 'yolo_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.400s] Level 5:colcon.colcon_core.verb:set package 'yolo_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.400s] Level 5:colcon.colcon_core.verb:set package 'yolo_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.400s] Level 5:colcon.colcon_core.verb:set package 'yolo_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.400s] Level 5:colcon.colcon_core.verb:set package 'yolo_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.400s] Level 5:colcon.colcon_core.verb:set package 'yolo_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.400s] DEBUG:colcon.colcon_core.verb:Building package 'yolo_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/xytron/xycar_ws/build/yolo_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/xytron/xycar_ws/install/yolo_msgs', 'merge_install': False, 'path': '/home/xytron/xycar_ws/src/yolo_ros/yolo_msgs', 'symlink_install': False, 'test_result_base': None}
+[0.400s] Level 5:colcon.colcon_core.verb:set package 'control_motor' build argument 'cmake_args' from command line to 'None'
+[0.400s] Level 5:colcon.colcon_core.verb:set package 'control_motor' build argument 'cmake_target' from command line to 'None'
+[0.400s] Level 5:colcon.colcon_core.verb:set package 'control_motor' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.400s] Level 5:colcon.colcon_core.verb:set package 'control_motor' build argument 'cmake_clean_cache' from command line to 'False'
+[0.400s] Level 5:colcon.colcon_core.verb:set package 'control_motor' build argument 'cmake_clean_first' from command line to 'False'
+[0.400s] Level 5:colcon.colcon_core.verb:set package 'control_motor' build argument 'cmake_force_configure' from command line to 'False'
+[0.400s] Level 5:colcon.colcon_core.verb:set package 'control_motor' build argument 'ament_cmake_args' from command line to 'None'
+[0.400s] Level 5:colcon.colcon_core.verb:set package 'control_motor' build argument 'catkin_cmake_args' from command line to 'None'
+[0.400s] Level 5:colcon.colcon_core.verb:set package 'control_motor' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.400s] DEBUG:colcon.colcon_core.verb:Building package 'control_motor' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/xytron/xycar_ws/build/control_motor', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/xytron/xycar_ws/install/control_motor', 'merge_install': False, 'path': '/home/xytron/xycar_ws/src/study/control_motor', 'symlink_install': False, 'test_result_base': None}
+[0.401s] Level 5:colcon.colcon_core.verb:set package 'vesc_ackermann' build argument 'cmake_args' from command line to 'None'
+[0.401s] Level 5:colcon.colcon_core.verb:set package 'vesc_ackermann' build argument 'cmake_target' from command line to 'None'
+[0.401s] Level 5:colcon.colcon_core.verb:set package 'vesc_ackermann' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.401s] Level 5:colcon.colcon_core.verb:set package 'vesc_ackermann' build argument 'cmake_clean_cache' from command line to 'False'
+[0.401s] Level 5:colcon.colcon_core.verb:set package 'vesc_ackermann' build argument 'cmake_clean_first' from command line to 'False'
+[0.401s] Level 5:colcon.colcon_core.verb:set package 'vesc_ackermann' build argument 'cmake_force_configure' from command line to 'False'
+[0.401s] Level 5:colcon.colcon_core.verb:set package 'vesc_ackermann' build argument 'ament_cmake_args' from command line to 'None'
+[0.401s] Level 5:colcon.colcon_core.verb:set package 'vesc_ackermann' build argument 'catkin_cmake_args' from command line to 'None'
+[0.401s] Level 5:colcon.colcon_core.verb:set package 'vesc_ackermann' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.401s] DEBUG:colcon.colcon_core.verb:Building package 'vesc_ackermann' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/xytron/xycar_ws/build/vesc_ackermann', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/xytron/xycar_ws/install/vesc_ackermann', 'merge_install': False, 'path': '/home/xytron/xycar_ws/src/xycar_device/vesc/vesc_ackermann', 'symlink_install': False, 'test_result_base': None}
+[0.401s] Level 5:colcon.colcon_core.verb:set package 'vesc_driver' build argument 'cmake_args' from command line to 'None'
+[0.401s] Level 5:colcon.colcon_core.verb:set package 'vesc_driver' build argument 'cmake_target' from command line to 'None'
+[0.401s] Level 5:colcon.colcon_core.verb:set package 'vesc_driver' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.401s] Level 5:colcon.colcon_core.verb:set package 'vesc_driver' build argument 'cmake_clean_cache' from command line to 'False'
+[0.401s] Level 5:colcon.colcon_core.verb:set package 'vesc_driver' build argument 'cmake_clean_first' from command line to 'False'
+[0.401s] Level 5:colcon.colcon_core.verb:set package 'vesc_driver' build argument 'cmake_force_configure' from command line to 'False'
+[0.401s] Level 5:colcon.colcon_core.verb:set package 'vesc_driver' build argument 'ament_cmake_args' from command line to 'None'
+[0.401s] Level 5:colcon.colcon_core.verb:set package 'vesc_driver' build argument 'catkin_cmake_args' from command line to 'None'
+[0.401s] Level 5:colcon.colcon_core.verb:set package 'vesc_driver' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.401s] DEBUG:colcon.colcon_core.verb:Building package 'vesc_driver' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/xytron/xycar_ws/build/vesc_driver', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/xytron/xycar_ws/install/vesc_driver', 'merge_install': False, 'path': '/home/xytron/xycar_ws/src/xycar_device/vesc/vesc_driver', 'symlink_install': False, 'test_result_base': None}
+[0.401s] Level 5:colcon.colcon_core.verb:set package 'vesc' build argument 'cmake_args' from command line to 'None'
+[0.401s] Level 5:colcon.colcon_core.verb:set package 'vesc' build argument 'cmake_target' from command line to 'None'
+[0.401s] Level 5:colcon.colcon_core.verb:set package 'vesc' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.402s] Level 5:colcon.colcon_core.verb:set package 'vesc' build argument 'cmake_clean_cache' from command line to 'False'
+[0.402s] Level 5:colcon.colcon_core.verb:set package 'vesc' build argument 'cmake_clean_first' from command line to 'False'
+[0.402s] Level 5:colcon.colcon_core.verb:set package 'vesc' build argument 'cmake_force_configure' from command line to 'False'
+[0.402s] Level 5:colcon.colcon_core.verb:set package 'vesc' build argument 'ament_cmake_args' from command line to 'None'
+[0.402s] Level 5:colcon.colcon_core.verb:set package 'vesc' build argument 'catkin_cmake_args' from command line to 'None'
+[0.402s] Level 5:colcon.colcon_core.verb:set package 'vesc' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.402s] DEBUG:colcon.colcon_core.verb:Building package 'vesc' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/xytron/xycar_ws/build/vesc', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/xytron/xycar_ws/install/vesc', 'merge_install': False, 'path': '/home/xytron/xycar_ws/src/xycar_device/vesc/vesc', 'symlink_install': False, 'test_result_base': None}
+[0.402s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.403s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.403s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/xytron/xycar_ws/src/xycar_device/vesc/vesc_msgs' with build type 'ament_cmake'
+[0.403s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/xytron/xycar_ws/src/xycar_device/vesc/vesc_msgs'
+[0.405s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.405s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.406s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.410s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/xytron/xycar_ws/src/xycar_device/xycar_msgs' with build type 'ament_cmake'
+[0.410s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/xytron/xycar_ws/src/xycar_device/xycar_msgs'
+[0.410s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.410s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.415s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/xytron/xycar_ws/src/xycar_device/xycar_cam' with build type 'ament_python'
+[0.415s] Level 1:colcon.colcon_core.shell:create_environment_hook('xycar_cam', 'ament_prefix_path')
+[0.415s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xytron/xycar_ws/install/xycar_cam/share/xycar_cam/hook/ament_prefix_path.ps1'
+[0.416s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/xytron/xycar_ws/install/xycar_cam/share/xycar_cam/hook/ament_prefix_path.dsv'
+[0.416s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xytron/xycar_ws/install/xycar_cam/share/xycar_cam/hook/ament_prefix_path.sh'
+[0.417s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.417s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.422s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/xytron/xycar_ws/src/xycar_device/xycar_imu' with build type 'ament_python'
+[0.423s] Level 1:colcon.colcon_core.shell:create_environment_hook('xycar_imu', 'ament_prefix_path')
+[0.423s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xytron/xycar_ws/install/xycar_imu/share/xycar_imu/hook/ament_prefix_path.ps1'
+[0.424s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/xytron/xycar_ws/install/xycar_imu/share/xycar_imu/hook/ament_prefix_path.dsv'
+[0.424s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xytron/xycar_ws/install/xycar_imu/share/xycar_imu/hook/ament_prefix_path.sh'
+[0.424s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.424s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.428s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/xytron/xycar_ws/src/xycar_device/xycar_lidar' with build type 'ament_cmake'
+[0.428s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/xytron/xycar_ws/src/xycar_device/xycar_lidar'
+[0.429s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.429s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.433s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/xytron/xycar_ws/src/xycar_device/xycar_motor' with build type 'ament_python'
+[0.434s] Level 1:colcon.colcon_core.shell:create_environment_hook('xycar_motor', 'ament_prefix_path')
+[0.434s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xytron/xycar_ws/install/xycar_motor/share/xycar_motor/hook/ament_prefix_path.ps1'
+[0.434s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/xytron/xycar_ws/install/xycar_motor/share/xycar_motor/hook/ament_prefix_path.dsv'
+[0.435s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xytron/xycar_ws/install/xycar_motor/share/xycar_motor/hook/ament_prefix_path.sh'
+[0.435s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.435s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.440s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/xytron/xycar_ws/src/xycar_planner' with build type 'ament_python'
+[0.440s] Level 1:colcon.colcon_core.shell:create_environment_hook('xycar_planner', 'ament_prefix_path')
+[0.440s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xytron/xycar_ws/install/xycar_planner/share/xycar_planner/hook/ament_prefix_path.ps1'
+[0.441s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/xytron/xycar_ws/install/xycar_planner/share/xycar_planner/hook/ament_prefix_path.dsv'
+[0.441s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xytron/xycar_ws/install/xycar_planner/share/xycar_planner/hook/ament_prefix_path.sh'
+[0.441s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.441s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.445s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/xytron/xycar_ws/src/xycar_device/xycar_ultrasonic' with build type 'ament_cmake'
+[0.446s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/xytron/xycar_ws/src/xycar_device/xycar_ultrasonic'
+[0.446s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.446s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.450s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/xytron/xycar_ws/src/yolo_ros/yolo_msgs' with build type 'ament_cmake'
+[0.450s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/xytron/xycar_ws/src/yolo_ros/yolo_msgs'
+[0.450s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.450s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.462s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/xytron/xycar_ws/build/vesc_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/xytron/xycar_ws/install/xycar_planner:/home/xytron/xycar_ws/install/control_motor:/home/xytron/xycar_ws/install/xycar_motor:/home/xytron/xycar_ws/install/xycar_imu:/home/xytron/xycar_ws/install/xycar_cam:/home/xytron/xycar_ws/install/app_ultra_viewer:/home/xytron/xycar_ws/install/app_turtlesim:/home/xytron/xycar_ws/install/app_sensor_drive:/home/xytron/xycar_ws/install/app_rule_drive_sim:/home/xytron/xycar_ws/install/app_pubsub:/home/xytron/xycar_ws/install/app_path_planning:/home/xytron/xycar_ws/install/app_hough_drive:/home/xytron/xycar_ws/install/app_cam_exposure:/home/xytron/xycar_ws/install/app_8_drive:/opt/ros/humble /usr/bin/cmake --build /home/xytron/xycar_ws/build/vesc_msgs -- -j16 -l16
+[0.467s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/xytron/xycar_ws/build/xycar_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/xytron/xycar_ws/install/xycar_planner:/home/xytron/xycar_ws/install/control_motor:/home/xytron/xycar_ws/install/xycar_motor:/home/xytron/xycar_ws/install/xycar_imu:/home/xytron/xycar_ws/install/xycar_cam:/home/xytron/xycar_ws/install/app_ultra_viewer:/home/xytron/xycar_ws/install/app_turtlesim:/home/xytron/xycar_ws/install/app_sensor_drive:/home/xytron/xycar_ws/install/app_rule_drive_sim:/home/xytron/xycar_ws/install/app_pubsub:/home/xytron/xycar_ws/install/app_path_planning:/home/xytron/xycar_ws/install/app_hough_drive:/home/xytron/xycar_ws/install/app_cam_exposure:/home/xytron/xycar_ws/install/app_8_drive:/opt/ros/humble /usr/bin/cmake --build /home/xytron/xycar_ws/build/xycar_msgs -- -j16 -l16
+[0.944s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/xytron/xycar_ws/src/xycar_device/xycar_cam'
+[0.945s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.945s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.278s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/xytron/xycar_ws/src/xycar_device/xycar_imu'
+[1.278s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.278s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.289s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/xytron/xycar_ws/build/xycar_lidar': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/xytron/xycar_ws/install/xycar_planner:/home/xytron/xycar_ws/install/control_motor:/home/xytron/xycar_ws/install/xycar_motor:/home/xytron/xycar_ws/install/xycar_imu:/home/xytron/xycar_ws/install/xycar_cam:/home/xytron/xycar_ws/install/app_ultra_viewer:/home/xytron/xycar_ws/install/app_turtlesim:/home/xytron/xycar_ws/install/app_sensor_drive:/home/xytron/xycar_ws/install/app_rule_drive_sim:/home/xytron/xycar_ws/install/app_pubsub:/home/xytron/xycar_ws/install/app_path_planning:/home/xytron/xycar_ws/install/app_hough_drive:/home/xytron/xycar_ws/install/app_cam_exposure:/home/xytron/xycar_ws/install/app_8_drive:/opt/ros/humble /usr/bin/cmake --build /home/xytron/xycar_ws/build/xycar_lidar -- -j16 -l16
+[1.603s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/xytron/xycar_ws/src/xycar_device/xycar_motor'
+[1.604s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.604s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.942s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/xytron/xycar_ws/src/xycar_planner'
+[1.942s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.942s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.956s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/xytron/xycar_ws/build/xycar_ultrasonic': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/xytron/xycar_ws/install/xycar_planner:/home/xytron/xycar_ws/install/control_motor:/home/xytron/xycar_ws/install/xycar_motor:/home/xytron/xycar_ws/install/xycar_imu:/home/xytron/xycar_ws/install/xycar_cam:/home/xytron/xycar_ws/install/app_ultra_viewer:/home/xytron/xycar_ws/install/app_turtlesim:/home/xytron/xycar_ws/install/app_sensor_drive:/home/xytron/xycar_ws/install/app_rule_drive_sim:/home/xytron/xycar_ws/install/app_pubsub:/home/xytron/xycar_ws/install/app_path_planning:/home/xytron/xycar_ws/install/app_hough_drive:/home/xytron/xycar_ws/install/app_cam_exposure:/home/xytron/xycar_ws/install/app_8_drive:/opt/ros/humble /usr/bin/cmake --build /home/xytron/xycar_ws/build/xycar_ultrasonic -- -j16 -l16
+[1.965s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/xytron/xycar_ws/build/yolo_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/xytron/xycar_ws/install/xycar_planner:/home/xytron/xycar_ws/install/control_motor:/home/xytron/xycar_ws/install/xycar_motor:/home/xytron/xycar_ws/install/xycar_imu:/home/xytron/xycar_ws/install/xycar_cam:/home/xytron/xycar_ws/install/app_ultra_viewer:/home/xytron/xycar_ws/install/app_turtlesim:/home/xytron/xycar_ws/install/app_sensor_drive:/home/xytron/xycar_ws/install/app_rule_drive_sim:/home/xytron/xycar_ws/install/app_pubsub:/home/xytron/xycar_ws/install/app_path_planning:/home/xytron/xycar_ws/install/app_hough_drive:/home/xytron/xycar_ws/install/app_cam_exposure:/home/xytron/xycar_ws/install/app_8_drive:/opt/ros/humble /usr/bin/cmake --build /home/xytron/xycar_ws/build/yolo_msgs -- -j16 -l16
+[1.965s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/xytron/xycar_ws/build/xycar_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/xytron/xycar_ws/install/xycar_planner:/home/xytron/xycar_ws/install/control_motor:/home/xytron/xycar_ws/install/xycar_motor:/home/xytron/xycar_ws/install/xycar_imu:/home/xytron/xycar_ws/install/xycar_cam:/home/xytron/xycar_ws/install/app_ultra_viewer:/home/xytron/xycar_ws/install/app_turtlesim:/home/xytron/xycar_ws/install/app_sensor_drive:/home/xytron/xycar_ws/install/app_rule_drive_sim:/home/xytron/xycar_ws/install/app_pubsub:/home/xytron/xycar_ws/install/app_path_planning:/home/xytron/xycar_ws/install/app_hough_drive:/home/xytron/xycar_ws/install/app_cam_exposure:/home/xytron/xycar_ws/install/app_8_drive:/opt/ros/humble /usr/bin/cmake --build /home/xytron/xycar_ws/build/xycar_msgs -- -j16 -l16
+[1.978s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/xytron/xycar_ws/build/xycar_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/xytron/xycar_ws/install/xycar_planner:/home/xytron/xycar_ws/install/control_motor:/home/xytron/xycar_ws/install/xycar_motor:/home/xytron/xycar_ws/install/xycar_imu:/home/xytron/xycar_ws/install/xycar_cam:/home/xytron/xycar_ws/install/app_ultra_viewer:/home/xytron/xycar_ws/install/app_turtlesim:/home/xytron/xycar_ws/install/app_sensor_drive:/home/xytron/xycar_ws/install/app_rule_drive_sim:/home/xytron/xycar_ws/install/app_pubsub:/home/xytron/xycar_ws/install/app_path_planning:/home/xytron/xycar_ws/install/app_hough_drive:/home/xytron/xycar_ws/install/app_cam_exposure:/home/xytron/xycar_ws/install/app_8_drive:/opt/ros/humble /usr/bin/cmake --install /home/xytron/xycar_ws/build/xycar_msgs
+[1.979s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/xytron/xycar_ws/build/vesc_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/xytron/xycar_ws/install/xycar_planner:/home/xytron/xycar_ws/install/control_motor:/home/xytron/xycar_ws/install/xycar_motor:/home/xytron/xycar_ws/install/xycar_imu:/home/xytron/xycar_ws/install/xycar_cam:/home/xytron/xycar_ws/install/app_ultra_viewer:/home/xytron/xycar_ws/install/app_turtlesim:/home/xytron/xycar_ws/install/app_sensor_drive:/home/xytron/xycar_ws/install/app_rule_drive_sim:/home/xytron/xycar_ws/install/app_pubsub:/home/xytron/xycar_ws/install/app_path_planning:/home/xytron/xycar_ws/install/app_hough_drive:/home/xytron/xycar_ws/install/app_cam_exposure:/home/xytron/xycar_ws/install/app_8_drive:/opt/ros/humble /usr/bin/cmake --build /home/xytron/xycar_ws/build/vesc_msgs -- -j16 -l16
+[1.980s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/xytron/xycar_ws/build/vesc_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/xytron/xycar_ws/install/xycar_planner:/home/xytron/xycar_ws/install/control_motor:/home/xytron/xycar_ws/install/xycar_motor:/home/xytron/xycar_ws/install/xycar_imu:/home/xytron/xycar_ws/install/xycar_cam:/home/xytron/xycar_ws/install/app_ultra_viewer:/home/xytron/xycar_ws/install/app_turtlesim:/home/xytron/xycar_ws/install/app_sensor_drive:/home/xytron/xycar_ws/install/app_rule_drive_sim:/home/xytron/xycar_ws/install/app_pubsub:/home/xytron/xycar_ws/install/app_path_planning:/home/xytron/xycar_ws/install/app_hough_drive:/home/xytron/xycar_ws/install/app_cam_exposure:/home/xytron/xycar_ws/install/app_8_drive:/opt/ros/humble /usr/bin/cmake --install /home/xytron/xycar_ws/build/vesc_msgs
+[1.980s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/xytron/xycar_ws/build/xycar_lidar' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/xytron/xycar_ws/install/xycar_planner:/home/xytron/xycar_ws/install/control_motor:/home/xytron/xycar_ws/install/xycar_motor:/home/xytron/xycar_ws/install/xycar_imu:/home/xytron/xycar_ws/install/xycar_cam:/home/xytron/xycar_ws/install/app_ultra_viewer:/home/xytron/xycar_ws/install/app_turtlesim:/home/xytron/xycar_ws/install/app_sensor_drive:/home/xytron/xycar_ws/install/app_rule_drive_sim:/home/xytron/xycar_ws/install/app_pubsub:/home/xytron/xycar_ws/install/app_path_planning:/home/xytron/xycar_ws/install/app_hough_drive:/home/xytron/xycar_ws/install/app_cam_exposure:/home/xytron/xycar_ws/install/app_8_drive:/opt/ros/humble /usr/bin/cmake --build /home/xytron/xycar_ws/build/xycar_lidar -- -j16 -l16
+[1.982s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/xytron/xycar_ws/build/xycar_lidar': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/xytron/xycar_ws/install/xycar_planner:/home/xytron/xycar_ws/install/control_motor:/home/xytron/xycar_ws/install/xycar_motor:/home/xytron/xycar_ws/install/xycar_imu:/home/xytron/xycar_ws/install/xycar_cam:/home/xytron/xycar_ws/install/app_ultra_viewer:/home/xytron/xycar_ws/install/app_turtlesim:/home/xytron/xycar_ws/install/app_sensor_drive:/home/xytron/xycar_ws/install/app_rule_drive_sim:/home/xytron/xycar_ws/install/app_pubsub:/home/xytron/xycar_ws/install/app_path_planning:/home/xytron/xycar_ws/install/app_hough_drive:/home/xytron/xycar_ws/install/app_cam_exposure:/home/xytron/xycar_ws/install/app_8_drive:/opt/ros/humble /usr/bin/cmake --install /home/xytron/xycar_ws/build/xycar_lidar
+[2.037s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(xycar_lidar)
+[2.060s] Level 1:colcon.colcon_core.environment:checking '/home/xytron/xycar_ws/install/xycar_lidar' for CMake module files
+[2.066s] Level 1:colcon.colcon_core.environment:checking '/home/xytron/xycar_ws/install/xycar_lidar' for CMake config files
+[2.075s] Level 1:colcon.colcon_core.shell:create_environment_hook('xycar_lidar', 'cmake_prefix_path')
+[2.078s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xytron/xycar_ws/install/xycar_lidar/share/xycar_lidar/hook/cmake_prefix_path.ps1'
+[2.083s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/xytron/xycar_ws/install/xycar_lidar/share/xycar_lidar/hook/cmake_prefix_path.dsv'
+[2.087s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xytron/xycar_ws/install/xycar_lidar/share/xycar_lidar/hook/cmake_prefix_path.sh'
+[2.091s] Level 1:colcon.colcon_core.environment:checking '/home/xytron/xycar_ws/install/xycar_lidar/lib'
+[2.092s] Level 1:colcon.colcon_core.environment:checking '/home/xytron/xycar_ws/install/xycar_lidar/bin'
+[2.093s] Level 1:colcon.colcon_core.environment:checking '/home/xytron/xycar_ws/install/xycar_lidar/lib/pkgconfig/xycar_lidar.pc'
+[2.093s] Level 1:colcon.colcon_core.environment:checking '/home/xytron/xycar_ws/install/xycar_lidar/lib/python3.10/site-packages'
+[2.094s] Level 1:colcon.colcon_core.environment:checking '/home/xytron/xycar_ws/install/xycar_lidar/bin'
+[2.095s] INFO:colcon.colcon_core.shell:Creating package script '/home/xytron/xycar_ws/install/xycar_lidar/share/xycar_lidar/package.ps1'
+[2.102s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/xytron/xycar_ws/install/xycar_lidar/share/xycar_lidar/package.dsv'
+[2.109s] INFO:colcon.colcon_core.shell:Creating package script '/home/xytron/xycar_ws/install/xycar_lidar/share/xycar_lidar/package.sh'
+[2.114s] INFO:colcon.colcon_core.shell:Creating package script '/home/xytron/xycar_ws/install/xycar_lidar/share/xycar_lidar/package.bash'
+[2.117s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/xytron/xycar_ws/build/xycar_lidar' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/xytron/xycar_ws/install/xycar_planner:/home/xytron/xycar_ws/install/control_motor:/home/xytron/xycar_ws/install/xycar_motor:/home/xytron/xycar_ws/install/xycar_imu:/home/xytron/xycar_ws/install/xycar_cam:/home/xytron/xycar_ws/install/app_ultra_viewer:/home/xytron/xycar_ws/install/app_turtlesim:/home/xytron/xycar_ws/install/app_sensor_drive:/home/xytron/xycar_ws/install/app_rule_drive_sim:/home/xytron/xycar_ws/install/app_pubsub:/home/xytron/xycar_ws/install/app_path_planning:/home/xytron/xycar_ws/install/app_hough_drive:/home/xytron/xycar_ws/install/app_cam_exposure:/home/xytron/xycar_ws/install/app_8_drive:/opt/ros/humble /usr/bin/cmake --install /home/xytron/xycar_ws/build/xycar_lidar
+[2.120s] INFO:colcon.colcon_core.shell:Creating package script '/home/xytron/xycar_ws/install/xycar_lidar/share/xycar_lidar/package.zsh'
+[2.123s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/xytron/xycar_ws/install/xycar_lidar/share/colcon-core/packages/xycar_lidar)
+[2.128s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(xycar_lidar)
+[2.133s] Level 1:colcon.colcon_core.environment:checking '/home/xytron/xycar_ws/install/xycar_lidar' for CMake module files
+[2.135s] Level 1:colcon.colcon_core.environment:checking '/home/xytron/xycar_ws/install/xycar_lidar' for CMake config files
+[2.140s] Level 1:colcon.colcon_core.shell:create_environment_hook('xycar_lidar', 'cmake_prefix_path')
+[2.142s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xytron/xycar_ws/install/xycar_lidar/share/xycar_lidar/hook/cmake_prefix_path.ps1'
+[2.145s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/xytron/xycar_ws/install/xycar_lidar/share/xycar_lidar/hook/cmake_prefix_path.dsv'
+[2.151s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xytron/xycar_ws/install/xycar_lidar/share/xycar_lidar/hook/cmake_prefix_path.sh'
+[2.163s] Level 1:colcon.colcon_core.environment:checking '/home/xytron/xycar_ws/install/xycar_lidar/lib'
+[2.164s] Level 1:colcon.colcon_core.environment:checking '/home/xytron/xycar_ws/install/xycar_lidar/bin'
+[2.166s] Level 1:colcon.colcon_core.environment:checking '/home/xytron/xycar_ws/install/xycar_lidar/lib/pkgconfig/xycar_lidar.pc'
+[2.167s] Level 1:colcon.colcon_core.environment:checking '/home/xytron/xycar_ws/install/xycar_lidar/lib/python3.10/site-packages'
+[2.168s] Level 1:colcon.colcon_core.environment:checking '/home/xytron/xycar_ws/install/xycar_lidar/bin'
+[2.169s] INFO:colcon.colcon_core.shell:Creating package script '/home/xytron/xycar_ws/install/xycar_lidar/share/xycar_lidar/package.ps1'
+[2.171s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/xytron/xycar_ws/install/xycar_lidar/share/xycar_lidar/package.dsv'
+[2.174s] INFO:colcon.colcon_core.shell:Creating package script '/home/xytron/xycar_ws/install/xycar_lidar/share/xycar_lidar/package.sh'
+[2.176s] INFO:colcon.colcon_core.shell:Creating package script '/home/xytron/xycar_ws/install/xycar_lidar/share/xycar_lidar/package.bash'
+[2.177s] INFO:colcon.colcon_core.shell:Creating package script '/home/xytron/xycar_ws/install/xycar_lidar/share/xycar_lidar/package.zsh'
+[2.179s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/xytron/xycar_ws/install/xycar_lidar/share/colcon-core/packages/xycar_lidar)
+[2.192s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(xycar_msgs)
+[2.195s] Level 1:colcon.colcon_core.environment:checking '/home/xytron/xycar_ws/install/xycar_msgs' for CMake module files
+[2.201s] Level 1:colcon.colcon_core.environment:checking '/home/xytron/xycar_ws/install/xycar_msgs' for CMake config files
+[2.203s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/xytron/xycar_ws/build/xycar_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/xytron/xycar_ws/install/xycar_planner:/home/xytron/xycar_ws/install/control_motor:/home/xytron/xycar_ws/install/xycar_motor:/home/xytron/xycar_ws/install/xycar_imu:/home/xytron/xycar_ws/install/xycar_cam:/home/xytron/xycar_ws/install/app_ultra_viewer:/home/xytron/xycar_ws/install/app_turtlesim:/home/xytron/xycar_ws/install/app_sensor_drive:/home/xytron/xycar_ws/install/app_rule_drive_sim:/home/xytron/xycar_ws/install/app_pubsub:/home/xytron/xycar_ws/install/app_path_planning:/home/xytron/xycar_ws/install/app_hough_drive:/home/xytron/xycar_ws/install/app_cam_exposure:/home/xytron/xycar_ws/install/app_8_drive:/opt/ros/humble /usr/bin/cmake --install /home/xytron/xycar_ws/build/xycar_msgs
+[2.204s] Level 1:colcon.colcon_core.shell:create_environment_hook('xycar_msgs', 'cmake_prefix_path')
+[2.205s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xytron/xycar_ws/install/xycar_msgs/share/xycar_msgs/hook/cmake_prefix_path.ps1'
+[2.208s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/xytron/xycar_ws/install/xycar_msgs/share/xycar_msgs/hook/cmake_prefix_path.dsv'
+[2.209s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xytron/xycar_ws/install/xycar_msgs/share/xycar_msgs/hook/cmake_prefix_path.sh'
+[2.217s] Level 1:colcon.colcon_core.environment:checking '/home/xytron/xycar_ws/install/xycar_msgs/lib'
+[2.218s] Level 1:colcon.colcon_core.shell:create_environment_hook('xycar_msgs', 'ld_library_path_lib')
+[2.219s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xytron/xycar_ws/install/xycar_msgs/share/xycar_msgs/hook/ld_library_path_lib.ps1'
+[2.222s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/xytron/xycar_ws/install/xycar_msgs/share/xycar_msgs/hook/ld_library_path_lib.dsv'
+[2.223s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xytron/xycar_ws/install/xycar_msgs/share/xycar_msgs/hook/ld_library_path_lib.sh'
+[2.224s] Level 1:colcon.colcon_core.environment:checking '/home/xytron/xycar_ws/install/xycar_msgs/bin'
+[2.225s] Level 1:colcon.colcon_core.environment:checking '/home/xytron/xycar_ws/install/xycar_msgs/lib/pkgconfig/xycar_msgs.pc'
+[2.225s] Level 1:colcon.colcon_core.environment:checking '/home/xytron/xycar_ws/install/xycar_msgs/lib/python3.10/site-packages'
+[2.226s] Level 1:colcon.colcon_core.environment:checking '/home/xytron/xycar_ws/install/xycar_msgs/bin'
+[2.226s] INFO:colcon.colcon_core.shell:Creating package script '/home/xytron/xycar_ws/install/xycar_msgs/share/xycar_msgs/package.ps1'
+[2.228s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/xytron/xycar_ws/install/xycar_msgs/share/xycar_msgs/package.dsv'
+[2.229s] INFO:colcon.colcon_core.shell:Creating package script '/home/xytron/xycar_ws/install/xycar_msgs/share/xycar_msgs/package.sh'
+[2.230s] INFO:colcon.colcon_core.shell:Creating package script '/home/xytron/xycar_ws/install/xycar_msgs/share/xycar_msgs/package.bash'
+[2.231s] INFO:colcon.colcon_core.shell:Creating package script '/home/xytron/xycar_ws/install/xycar_msgs/share/xycar_msgs/package.zsh'
+[2.232s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/xytron/xycar_ws/install/xycar_msgs/share/colcon-core/packages/xycar_msgs)
+[2.233s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(xycar_msgs)
+[2.234s] Level 1:colcon.colcon_core.environment:checking '/home/xytron/xycar_ws/install/xycar_msgs' for CMake module files
+[2.235s] Level 1:colcon.colcon_core.environment:checking '/home/xytron/xycar_ws/install/xycar_msgs' for CMake config files
+[2.236s] Level 1:colcon.colcon_core.shell:create_environment_hook('xycar_msgs', 'cmake_prefix_path')
+[2.236s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xytron/xycar_ws/install/xycar_msgs/share/xycar_msgs/hook/cmake_prefix_path.ps1'
+[2.237s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/xytron/xycar_ws/install/xycar_msgs/share/xycar_msgs/hook/cmake_prefix_path.dsv'
+[2.238s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xytron/xycar_ws/install/xycar_msgs/share/xycar_msgs/hook/cmake_prefix_path.sh'
+[2.238s] Level 1:colcon.colcon_core.environment:checking '/home/xytron/xycar_ws/install/xycar_msgs/lib'
+[2.239s] Level 1:colcon.colcon_core.shell:create_environment_hook('xycar_msgs', 'ld_library_path_lib')
+[2.239s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xytron/xycar_ws/install/xycar_msgs/share/xycar_msgs/hook/ld_library_path_lib.ps1'
+[2.240s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/xytron/xycar_ws/install/xycar_msgs/share/xycar_msgs/hook/ld_library_path_lib.dsv'
+[2.240s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xytron/xycar_ws/install/xycar_msgs/share/xycar_msgs/hook/ld_library_path_lib.sh'
+[2.241s] Level 1:colcon.colcon_core.environment:checking '/home/xytron/xycar_ws/install/xycar_msgs/bin'
+[2.242s] Level 1:colcon.colcon_core.environment:checking '/home/xytron/xycar_ws/install/xycar_msgs/lib/pkgconfig/xycar_msgs.pc'
+[2.244s] Level 1:colcon.colcon_core.environment:checking '/home/xytron/xycar_ws/install/xycar_msgs/lib/python3.10/site-packages'
+[2.247s] Level 1:colcon.colcon_core.environment:checking '/home/xytron/xycar_ws/install/xycar_msgs/bin'
+[2.249s] INFO:colcon.colcon_core.shell:Creating package script '/home/xytron/xycar_ws/install/xycar_msgs/share/xycar_msgs/package.ps1'
+[2.252s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/xytron/xycar_ws/install/xycar_msgs/share/xycar_msgs/package.dsv'
+[2.254s] INFO:colcon.colcon_core.shell:Creating package script '/home/xytron/xycar_ws/install/xycar_msgs/share/xycar_msgs/package.sh'
+[2.255s] INFO:colcon.colcon_core.shell:Creating package script '/home/xytron/xycar_ws/install/xycar_msgs/share/xycar_msgs/package.bash'
+[2.257s] INFO:colcon.colcon_core.shell:Creating package script '/home/xytron/xycar_ws/install/xycar_msgs/share/xycar_msgs/package.zsh'
+[2.258s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/xytron/xycar_ws/install/xycar_msgs/share/colcon-core/packages/xycar_msgs)
+[2.262s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/xytron/xycar_ws/src/study/control_motor' with build type 'ament_python'
+[2.262s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/xytron/xycar_ws/build/xycar_ultrasonic' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/xytron/xycar_ws/install/xycar_planner:/home/xytron/xycar_ws/install/control_motor:/home/xytron/xycar_ws/install/xycar_motor:/home/xytron/xycar_ws/install/xycar_imu:/home/xytron/xycar_ws/install/xycar_cam:/home/xytron/xycar_ws/install/app_ultra_viewer:/home/xytron/xycar_ws/install/app_turtlesim:/home/xytron/xycar_ws/install/app_sensor_drive:/home/xytron/xycar_ws/install/app_rule_drive_sim:/home/xytron/xycar_ws/install/app_pubsub:/home/xytron/xycar_ws/install/app_path_planning:/home/xytron/xycar_ws/install/app_hough_drive:/home/xytron/xycar_ws/install/app_cam_exposure:/home/xytron/xycar_ws/install/app_8_drive:/opt/ros/humble /usr/bin/cmake --build /home/xytron/xycar_ws/build/xycar_ultrasonic -- -j16 -l16
+[2.262s] Level 1:colcon.colcon_core.shell:create_environment_hook('control_motor', 'ament_prefix_path')
+[2.263s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xytron/xycar_ws/install/control_motor/share/control_motor/hook/ament_prefix_path.ps1'
+[2.264s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/xytron/xycar_ws/build/xycar_ultrasonic': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/xytron/xycar_ws/install/xycar_planner:/home/xytron/xycar_ws/install/control_motor:/home/xytron/xycar_ws/install/xycar_motor:/home/xytron/xycar_ws/install/xycar_imu:/home/xytron/xycar_ws/install/xycar_cam:/home/xytron/xycar_ws/install/app_ultra_viewer:/home/xytron/xycar_ws/install/app_turtlesim:/home/xytron/xycar_ws/install/app_sensor_drive:/home/xytron/xycar_ws/install/app_rule_drive_sim:/home/xytron/xycar_ws/install/app_pubsub:/home/xytron/xycar_ws/install/app_path_planning:/home/xytron/xycar_ws/install/app_hough_drive:/home/xytron/xycar_ws/install/app_cam_exposure:/home/xytron/xycar_ws/install/app_8_drive:/opt/ros/humble /usr/bin/cmake --install /home/xytron/xycar_ws/build/xycar_ultrasonic
+[2.265s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/xytron/xycar_ws/install/control_motor/share/control_motor/hook/ament_prefix_path.dsv'
+[2.265s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xytron/xycar_ws/install/control_motor/share/control_motor/hook/ament_prefix_path.sh'
+[2.266s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.266s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.291s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(vesc_msgs)
+[2.292s] Level 1:colcon.colcon_core.environment:checking '/home/xytron/xycar_ws/install/vesc_msgs' for CMake module files
+[2.297s] Level 1:colcon.colcon_core.environment:checking '/home/xytron/xycar_ws/install/vesc_msgs' for CMake config files
+[2.307s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/xytron/xycar_ws/build/vesc_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/xytron/xycar_ws/install/xycar_planner:/home/xytron/xycar_ws/install/control_motor:/home/xytron/xycar_ws/install/xycar_motor:/home/xytron/xycar_ws/install/xycar_imu:/home/xytron/xycar_ws/install/xycar_cam:/home/xytron/xycar_ws/install/app_ultra_viewer:/home/xytron/xycar_ws/install/app_turtlesim:/home/xytron/xycar_ws/install/app_sensor_drive:/home/xytron/xycar_ws/install/app_rule_drive_sim:/home/xytron/xycar_ws/install/app_pubsub:/home/xytron/xycar_ws/install/app_path_planning:/home/xytron/xycar_ws/install/app_hough_drive:/home/xytron/xycar_ws/install/app_cam_exposure:/home/xytron/xycar_ws/install/app_8_drive:/opt/ros/humble /usr/bin/cmake --install /home/xytron/xycar_ws/build/vesc_msgs
+[2.308s] Level 1:colcon.colcon_core.shell:create_environment_hook('vesc_msgs', 'cmake_prefix_path')
+[2.309s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xytron/xycar_ws/install/vesc_msgs/share/vesc_msgs/hook/cmake_prefix_path.ps1'
+[2.310s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/xytron/xycar_ws/install/vesc_msgs/share/vesc_msgs/hook/cmake_prefix_path.dsv'
+[2.311s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xytron/xycar_ws/install/vesc_msgs/share/vesc_msgs/hook/cmake_prefix_path.sh'
+[2.312s] Level 1:colcon.colcon_core.environment:checking '/home/xytron/xycar_ws/install/vesc_msgs/lib'
+[2.313s] Level 1:colcon.colcon_core.shell:create_environment_hook('vesc_msgs', 'ld_library_path_lib')
+[2.313s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xytron/xycar_ws/install/vesc_msgs/share/vesc_msgs/hook/ld_library_path_lib.ps1'
+[2.314s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/xytron/xycar_ws/install/vesc_msgs/share/vesc_msgs/hook/ld_library_path_lib.dsv'
+[2.315s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xytron/xycar_ws/install/vesc_msgs/share/vesc_msgs/hook/ld_library_path_lib.sh'
+[2.316s] Level 1:colcon.colcon_core.environment:checking '/home/xytron/xycar_ws/install/vesc_msgs/bin'
+[2.316s] Level 1:colcon.colcon_core.environment:checking '/home/xytron/xycar_ws/install/vesc_msgs/lib/pkgconfig/vesc_msgs.pc'
+[2.316s] Level 1:colcon.colcon_core.environment:checking '/home/xytron/xycar_ws/install/vesc_msgs/lib/python3.10/site-packages'
+[2.316s] Level 1:colcon.colcon_core.environment:checking '/home/xytron/xycar_ws/install/vesc_msgs/bin'
+[2.317s] INFO:colcon.colcon_core.shell:Creating package script '/home/xytron/xycar_ws/install/vesc_msgs/share/vesc_msgs/package.ps1'
+[2.318s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/xytron/xycar_ws/install/vesc_msgs/share/vesc_msgs/package.dsv'
+[2.319s] INFO:colcon.colcon_core.shell:Creating package script '/home/xytron/xycar_ws/install/vesc_msgs/share/vesc_msgs/package.sh'
+[2.320s] INFO:colcon.colcon_core.shell:Creating package script '/home/xytron/xycar_ws/install/vesc_msgs/share/vesc_msgs/package.bash'
+[2.320s] INFO:colcon.colcon_core.shell:Creating package script '/home/xytron/xycar_ws/install/vesc_msgs/share/vesc_msgs/package.zsh'
+[2.321s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/xytron/xycar_ws/install/vesc_msgs/share/colcon-core/packages/vesc_msgs)
+[2.322s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(vesc_msgs)
+[2.322s] Level 1:colcon.colcon_core.environment:checking '/home/xytron/xycar_ws/install/vesc_msgs' for CMake module files
+[2.327s] Level 1:colcon.colcon_core.environment:checking '/home/xytron/xycar_ws/install/vesc_msgs' for CMake config files
+[2.332s] Level 1:colcon.colcon_core.shell:create_environment_hook('vesc_msgs', 'cmake_prefix_path')
+[2.333s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xytron/xycar_ws/install/vesc_msgs/share/vesc_msgs/hook/cmake_prefix_path.ps1'
+[2.335s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/xytron/xycar_ws/install/vesc_msgs/share/vesc_msgs/hook/cmake_prefix_path.dsv'
+[2.336s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xytron/xycar_ws/install/vesc_msgs/share/vesc_msgs/hook/cmake_prefix_path.sh'
+[2.339s] Level 1:colcon.colcon_core.environment:checking '/home/xytron/xycar_ws/install/vesc_msgs/lib'
+[2.339s] Level 1:colcon.colcon_core.shell:create_environment_hook('vesc_msgs', 'ld_library_path_lib')
+[2.340s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xytron/xycar_ws/install/vesc_msgs/share/vesc_msgs/hook/ld_library_path_lib.ps1'
+[2.341s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/xytron/xycar_ws/install/vesc_msgs/share/vesc_msgs/hook/ld_library_path_lib.dsv'
+[2.342s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xytron/xycar_ws/install/vesc_msgs/share/vesc_msgs/hook/ld_library_path_lib.sh'
+[2.343s] Level 1:colcon.colcon_core.environment:checking '/home/xytron/xycar_ws/install/vesc_msgs/bin'
+[2.343s] Level 1:colcon.colcon_core.environment:checking '/home/xytron/xycar_ws/install/vesc_msgs/lib/pkgconfig/vesc_msgs.pc'
+[2.343s] Level 1:colcon.colcon_core.environment:checking '/home/xytron/xycar_ws/install/vesc_msgs/lib/python3.10/site-packages'
+[2.343s] Level 1:colcon.colcon_core.environment:checking '/home/xytron/xycar_ws/install/vesc_msgs/bin'
+[2.344s] INFO:colcon.colcon_core.shell:Creating package script '/home/xytron/xycar_ws/install/vesc_msgs/share/vesc_msgs/package.ps1'
+[2.345s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/xytron/xycar_ws/install/vesc_msgs/share/vesc_msgs/package.dsv'
+[2.346s] INFO:colcon.colcon_core.shell:Creating package script '/home/xytron/xycar_ws/install/vesc_msgs/share/vesc_msgs/package.sh'
+[2.346s] INFO:colcon.colcon_core.shell:Creating package script '/home/xytron/xycar_ws/install/vesc_msgs/share/vesc_msgs/package.bash'
+[2.347s] INFO:colcon.colcon_core.shell:Creating package script '/home/xytron/xycar_ws/install/vesc_msgs/share/vesc_msgs/package.zsh'
+[2.348s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/xytron/xycar_ws/install/vesc_msgs/share/colcon-core/packages/vesc_msgs)
+[2.354s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/xytron/xycar_ws/src/xycar_device/vesc/vesc_ackermann' with build type 'ament_cmake'
+[2.356s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/xytron/xycar_ws/src/xycar_device/vesc/vesc_ackermann'
+[2.357s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.357s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.369s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/xytron/xycar_ws/src/xycar_device/vesc/vesc_driver' with build type 'ament_cmake'
+[2.370s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/xytron/xycar_ws/src/xycar_device/vesc/vesc_driver'
+[2.370s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.371s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.390s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(xycar_ultrasonic)
+[2.391s] Level 1:colcon.colcon_core.environment:checking '/home/xytron/xycar_ws/install/xycar_ultrasonic' for CMake module files
+[2.392s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/xytron/xycar_ws/build/xycar_ultrasonic' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/xytron/xycar_ws/install/xycar_planner:/home/xytron/xycar_ws/install/control_motor:/home/xytron/xycar_ws/install/xycar_motor:/home/xytron/xycar_ws/install/xycar_imu:/home/xytron/xycar_ws/install/xycar_cam:/home/xytron/xycar_ws/install/app_ultra_viewer:/home/xytron/xycar_ws/install/app_turtlesim:/home/xytron/xycar_ws/install/app_sensor_drive:/home/xytron/xycar_ws/install/app_rule_drive_sim:/home/xytron/xycar_ws/install/app_pubsub:/home/xytron/xycar_ws/install/app_path_planning:/home/xytron/xycar_ws/install/app_hough_drive:/home/xytron/xycar_ws/install/app_cam_exposure:/home/xytron/xycar_ws/install/app_8_drive:/opt/ros/humble /usr/bin/cmake --install /home/xytron/xycar_ws/build/xycar_ultrasonic
+[2.393s] Level 1:colcon.colcon_core.environment:checking '/home/xytron/xycar_ws/install/xycar_ultrasonic' for CMake config files
+[2.394s] Level 1:colcon.colcon_core.shell:create_environment_hook('xycar_ultrasonic', 'cmake_prefix_path')
+[2.394s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xytron/xycar_ws/install/xycar_ultrasonic/share/xycar_ultrasonic/hook/cmake_prefix_path.ps1'
+[2.395s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/xytron/xycar_ws/install/xycar_ultrasonic/share/xycar_ultrasonic/hook/cmake_prefix_path.dsv'
+[2.396s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xytron/xycar_ws/install/xycar_ultrasonic/share/xycar_ultrasonic/hook/cmake_prefix_path.sh'
+[2.397s] Level 1:colcon.colcon_core.environment:checking '/home/xytron/xycar_ws/install/xycar_ultrasonic/lib'
+[2.397s] Level 1:colcon.colcon_core.environment:checking '/home/xytron/xycar_ws/install/xycar_ultrasonic/bin'
+[2.397s] Level 1:colcon.colcon_core.environment:checking '/home/xytron/xycar_ws/install/xycar_ultrasonic/lib/pkgconfig/xycar_ultrasonic.pc'
+[2.397s] Level 1:colcon.colcon_core.environment:checking '/home/xytron/xycar_ws/install/xycar_ultrasonic/lib/python3.10/site-packages'
+[2.398s] Level 1:colcon.colcon_core.environment:checking '/home/xytron/xycar_ws/install/xycar_ultrasonic/bin'
+[2.398s] INFO:colcon.colcon_core.shell:Creating package script '/home/xytron/xycar_ws/install/xycar_ultrasonic/share/xycar_ultrasonic/package.ps1'
+[2.399s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/xytron/xycar_ws/install/xycar_ultrasonic/share/xycar_ultrasonic/package.dsv'
+[2.400s] INFO:colcon.colcon_core.shell:Creating package script '/home/xytron/xycar_ws/install/xycar_ultrasonic/share/xycar_ultrasonic/package.sh'
+[2.400s] INFO:colcon.colcon_core.shell:Creating package script '/home/xytron/xycar_ws/install/xycar_ultrasonic/share/xycar_ultrasonic/package.bash'
+[2.401s] INFO:colcon.colcon_core.shell:Creating package script '/home/xytron/xycar_ws/install/xycar_ultrasonic/share/xycar_ultrasonic/package.zsh'
+[2.404s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/xytron/xycar_ws/install/xycar_ultrasonic/share/colcon-core/packages/xycar_ultrasonic)
+[2.410s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(xycar_ultrasonic)
+[2.411s] Level 1:colcon.colcon_core.environment:checking '/home/xytron/xycar_ws/install/xycar_ultrasonic' for CMake module files
+[2.413s] Level 1:colcon.colcon_core.environment:checking '/home/xytron/xycar_ws/install/xycar_ultrasonic' for CMake config files
+[2.414s] Level 1:colcon.colcon_core.shell:create_environment_hook('xycar_ultrasonic', 'cmake_prefix_path')
+[2.415s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xytron/xycar_ws/install/xycar_ultrasonic/share/xycar_ultrasonic/hook/cmake_prefix_path.ps1'
+[2.416s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/xytron/xycar_ws/install/xycar_ultrasonic/share/xycar_ultrasonic/hook/cmake_prefix_path.dsv'
+[2.418s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xytron/xycar_ws/install/xycar_ultrasonic/share/xycar_ultrasonic/hook/cmake_prefix_path.sh'
+[2.420s] Level 1:colcon.colcon_core.environment:checking '/home/xytron/xycar_ws/install/xycar_ultrasonic/lib'
+[2.420s] Level 1:colcon.colcon_core.environment:checking '/home/xytron/xycar_ws/install/xycar_ultrasonic/bin'
+[2.420s] Level 1:colcon.colcon_core.environment:checking '/home/xytron/xycar_ws/install/xycar_ultrasonic/lib/pkgconfig/xycar_ultrasonic.pc'
+[2.420s] Level 1:colcon.colcon_core.environment:checking '/home/xytron/xycar_ws/install/xycar_ultrasonic/lib/python3.10/site-packages'
+[2.421s] Level 1:colcon.colcon_core.environment:checking '/home/xytron/xycar_ws/install/xycar_ultrasonic/bin'
+[2.421s] INFO:colcon.colcon_core.shell:Creating package script '/home/xytron/xycar_ws/install/xycar_ultrasonic/share/xycar_ultrasonic/package.ps1'
+[2.422s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/xytron/xycar_ws/install/xycar_ultrasonic/share/xycar_ultrasonic/package.dsv'
+[2.423s] INFO:colcon.colcon_core.shell:Creating package script '/home/xytron/xycar_ws/install/xycar_ultrasonic/share/xycar_ultrasonic/package.sh'
+[2.423s] INFO:colcon.colcon_core.shell:Creating package script '/home/xytron/xycar_ws/install/xycar_ultrasonic/share/xycar_ultrasonic/package.bash'
+[2.424s] INFO:colcon.colcon_core.shell:Creating package script '/home/xytron/xycar_ws/install/xycar_ultrasonic/share/xycar_ultrasonic/package.zsh'
+[2.425s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/xytron/xycar_ws/install/xycar_ultrasonic/share/colcon-core/packages/xycar_ultrasonic)
+[3.031s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/xytron/xycar_ws/src/study/control_motor'
+[3.032s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.032s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.049s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/xytron/xycar_ws/build/vesc_ackermann': CMAKE_PREFIX_PATH=/home/xytron/xycar_ws/install/vesc_msgs:/home/xytron/xycar_ws/install/yolo_msgs:/home/xytron/xycar_ws/install/xycar_ultrasonic:/home/xytron/xycar_ws/install/xycar_msgs:/home/xytron/xycar_ws/install/xycar_lidar:/home/xytron/xycar_ws/install/vesc:/home/xytron/xycar_ws/install/vesc_driver:/home/xytron/xycar_ws/install/vesc_ackermann:/home/xytron/xycar_ws/install/app_web_controller:/home/xytron/xycar_ws/install/app_viewer_all:/home/xytron/xycar_ws/install/xycar_planner:/home/xytron/xycar_ws/install/control_motor:/home/xytron/xycar_ws/install/xycar_motor:/home/xytron/xycar_ws/install/xycar_imu:/home/xytron/xycar_ws/install/xycar_cam:/home/xytron/xycar_ws/install/app_ultra_viewer:/home/xytron/xycar_ws/install/app_turtlesim:/home/xytron/xycar_ws/install/app_sensor_drive:/home/xytron/xycar_ws/install/app_rule_drive_sim:/home/xytron/xycar_ws/install/app_pubsub:/home/xytron/xycar_ws/install/app_path_planning:/home/xytron/xycar_ws/install/app_hough_drive:/home/xytron/xycar_ws/install/app_cam_exposure:/home/xytron/xycar_ws/install/app_8_drive:/opt/ros/humble LD_LIBRARY_PATH=/home/xytron/xycar_ws/install/vesc_msgs/lib:/opt/ros/humble/lib:/home/xytron/xycar_ws/install/yolo_msgs/lib:/home/xytron/xycar_ws/install/xycar_msgs/lib:/home/xytron/xycar_ws/install/vesc_driver/lib:/home/xytron/xycar_ws/install/vesc_ackermann/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/xytron/xycar_ws/build/vesc_ackermann -- -j16 -l16
+[3.055s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/xytron/xycar_ws/build/vesc_driver': CMAKE_PREFIX_PATH=/home/xytron/xycar_ws/install/vesc_msgs:/home/xytron/xycar_ws/install/yolo_msgs:/home/xytron/xycar_ws/install/xycar_ultrasonic:/home/xytron/xycar_ws/install/xycar_msgs:/home/xytron/xycar_ws/install/xycar_lidar:/home/xytron/xycar_ws/install/vesc:/home/xytron/xycar_ws/install/vesc_driver:/home/xytron/xycar_ws/install/vesc_ackermann:/home/xytron/xycar_ws/install/app_web_controller:/home/xytron/xycar_ws/install/app_viewer_all:/home/xytron/xycar_ws/install/xycar_planner:/home/xytron/xycar_ws/install/control_motor:/home/xytron/xycar_ws/install/xycar_motor:/home/xytron/xycar_ws/install/xycar_imu:/home/xytron/xycar_ws/install/xycar_cam:/home/xytron/xycar_ws/install/app_ultra_viewer:/home/xytron/xycar_ws/install/app_turtlesim:/home/xytron/xycar_ws/install/app_sensor_drive:/home/xytron/xycar_ws/install/app_rule_drive_sim:/home/xytron/xycar_ws/install/app_pubsub:/home/xytron/xycar_ws/install/app_path_planning:/home/xytron/xycar_ws/install/app_hough_drive:/home/xytron/xycar_ws/install/app_cam_exposure:/home/xytron/xycar_ws/install/app_8_drive:/opt/ros/humble LD_LIBRARY_PATH=/home/xytron/xycar_ws/install/vesc_msgs/lib:/opt/ros/humble/lib:/home/xytron/xycar_ws/install/yolo_msgs/lib:/home/xytron/xycar_ws/install/xycar_msgs/lib:/home/xytron/xycar_ws/install/vesc_driver/lib:/home/xytron/xycar_ws/install/vesc_ackermann/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/xytron/xycar_ws/build/vesc_driver -- -j16 -l16
+[3.058s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/xytron/xycar_ws/build/yolo_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/xytron/xycar_ws/install/xycar_planner:/home/xytron/xycar_ws/install/control_motor:/home/xytron/xycar_ws/install/xycar_motor:/home/xytron/xycar_ws/install/xycar_imu:/home/xytron/xycar_ws/install/xycar_cam:/home/xytron/xycar_ws/install/app_ultra_viewer:/home/xytron/xycar_ws/install/app_turtlesim:/home/xytron/xycar_ws/install/app_sensor_drive:/home/xytron/xycar_ws/install/app_rule_drive_sim:/home/xytron/xycar_ws/install/app_pubsub:/home/xytron/xycar_ws/install/app_path_planning:/home/xytron/xycar_ws/install/app_hough_drive:/home/xytron/xycar_ws/install/app_cam_exposure:/home/xytron/xycar_ws/install/app_8_drive:/opt/ros/humble /usr/bin/cmake --build /home/xytron/xycar_ws/build/yolo_msgs -- -j16 -l16
+[3.058s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/xytron/xycar_ws/build/yolo_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/xytron/xycar_ws/install/xycar_planner:/home/xytron/xycar_ws/install/control_motor:/home/xytron/xycar_ws/install/xycar_motor:/home/xytron/xycar_ws/install/xycar_imu:/home/xytron/xycar_ws/install/xycar_cam:/home/xytron/xycar_ws/install/app_ultra_viewer:/home/xytron/xycar_ws/install/app_turtlesim:/home/xytron/xycar_ws/install/app_sensor_drive:/home/xytron/xycar_ws/install/app_rule_drive_sim:/home/xytron/xycar_ws/install/app_pubsub:/home/xytron/xycar_ws/install/app_path_planning:/home/xytron/xycar_ws/install/app_hough_drive:/home/xytron/xycar_ws/install/app_cam_exposure:/home/xytron/xycar_ws/install/app_8_drive:/opt/ros/humble /usr/bin/cmake --install /home/xytron/xycar_ws/build/yolo_msgs
+[3.066s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/xytron/xycar_ws/src/xycar_device/xycar_cam': PYTHONPATH=/home/xytron/xycar_ws/build/xycar_cam/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/xytron/xycar_ws/install/xycar_cam/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/xycar_cam build --build-base /home/xytron/xycar_ws/build/xycar_cam/build install --record /home/xytron/xycar_ws/build/xycar_cam/install.log --single-version-externally-managed install_data
+[3.114s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/xytron/xycar_ws/src/xycar_device/xycar_motor': PYTHONPATH=/home/xytron/xycar_ws/build/xycar_motor/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/xytron/xycar_ws/install/xycar_motor/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/xycar_motor build --build-base /home/xytron/xycar_ws/build/xycar_motor/build install --record /home/xytron/xycar_ws/build/xycar_motor/install.log --single-version-externally-managed install_data
+[3.183s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/xytron/xycar_ws/src/xycar_device/xycar_imu': PYTHONPATH=/home/xytron/xycar_ws/build/xycar_imu/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/xytron/xycar_ws/install/xycar_imu/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/xycar_imu build --build-base /home/xytron/xycar_ws/build/xycar_imu/build install --record /home/xytron/xycar_ws/build/xycar_imu/install.log --single-version-externally-managed install_data
+[3.188s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/xytron/xycar_ws/src/xycar_planner': PYTHONPATH=/home/xytron/xycar_ws/build/xycar_planner/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/xytron/xycar_ws/install/xycar_planner/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/xycar_planner build --build-base /home/xytron/xycar_ws/build/xycar_planner/build install --record /home/xytron/xycar_ws/build/xycar_planner/install.log --single-version-externally-managed install_data
+[3.192s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/xytron/xycar_ws/build/vesc_ackermann' returned '0': CMAKE_PREFIX_PATH=/home/xytron/xycar_ws/install/vesc_msgs:/home/xytron/xycar_ws/install/yolo_msgs:/home/xytron/xycar_ws/install/xycar_ultrasonic:/home/xytron/xycar_ws/install/xycar_msgs:/home/xytron/xycar_ws/install/xycar_lidar:/home/xytron/xycar_ws/install/vesc:/home/xytron/xycar_ws/install/vesc_driver:/home/xytron/xycar_ws/install/vesc_ackermann:/home/xytron/xycar_ws/install/app_web_controller:/home/xytron/xycar_ws/install/app_viewer_all:/home/xytron/xycar_ws/install/xycar_planner:/home/xytron/xycar_ws/install/control_motor:/home/xytron/xycar_ws/install/xycar_motor:/home/xytron/xycar_ws/install/xycar_imu:/home/xytron/xycar_ws/install/xycar_cam:/home/xytron/xycar_ws/install/app_ultra_viewer:/home/xytron/xycar_ws/install/app_turtlesim:/home/xytron/xycar_ws/install/app_sensor_drive:/home/xytron/xycar_ws/install/app_rule_drive_sim:/home/xytron/xycar_ws/install/app_pubsub:/home/xytron/xycar_ws/install/app_path_planning:/home/xytron/xycar_ws/install/app_hough_drive:/home/xytron/xycar_ws/install/app_cam_exposure:/home/xytron/xycar_ws/install/app_8_drive:/opt/ros/humble LD_LIBRARY_PATH=/home/xytron/xycar_ws/install/vesc_msgs/lib:/opt/ros/humble/lib:/home/xytron/xycar_ws/install/yolo_msgs/lib:/home/xytron/xycar_ws/install/xycar_msgs/lib:/home/xytron/xycar_ws/install/vesc_driver/lib:/home/xytron/xycar_ws/install/vesc_ackermann/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/xytron/xycar_ws/build/vesc_ackermann -- -j16 -l16
+[3.198s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/xytron/xycar_ws/build/vesc_ackermann': CMAKE_PREFIX_PATH=/home/xytron/xycar_ws/install/vesc_msgs:/home/xytron/xycar_ws/install/yolo_msgs:/home/xytron/xycar_ws/install/xycar_ultrasonic:/home/xytron/xycar_ws/install/xycar_msgs:/home/xytron/xycar_ws/install/xycar_lidar:/home/xytron/xycar_ws/install/vesc:/home/xytron/xycar_ws/install/vesc_driver:/home/xytron/xycar_ws/install/vesc_ackermann:/home/xytron/xycar_ws/install/app_web_controller:/home/xytron/xycar_ws/install/app_viewer_all:/home/xytron/xycar_ws/install/xycar_planner:/home/xytron/xycar_ws/install/control_motor:/home/xytron/xycar_ws/install/xycar_motor:/home/xytron/xycar_ws/install/xycar_imu:/home/xytron/xycar_ws/install/xycar_cam:/home/xytron/xycar_ws/install/app_ultra_viewer:/home/xytron/xycar_ws/install/app_turtlesim:/home/xytron/xycar_ws/install/app_sensor_drive:/home/xytron/xycar_ws/install/app_rule_drive_sim:/home/xytron/xycar_ws/install/app_pubsub:/home/xytron/xycar_ws/install/app_path_planning:/home/xytron/xycar_ws/install/app_hough_drive:/home/xytron/xycar_ws/install/app_cam_exposure:/home/xytron/xycar_ws/install/app_8_drive:/opt/ros/humble LD_LIBRARY_PATH=/home/xytron/xycar_ws/install/vesc_msgs/lib:/opt/ros/humble/lib:/home/xytron/xycar_ws/install/yolo_msgs/lib:/home/xytron/xycar_ws/install/xycar_msgs/lib:/home/xytron/xycar_ws/install/vesc_driver/lib:/home/xytron/xycar_ws/install/vesc_ackermann/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/xytron/xycar_ws/build/vesc_ackermann
+[3.232s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(yolo_msgs)
+[3.235s] Level 1:colcon.colcon_core.environment:checking '/home/xytron/xycar_ws/install/yolo_msgs' for CMake module files
+[3.244s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/xytron/xycar_ws/build/yolo_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/xytron/xycar_ws/install/xycar_planner:/home/xytron/xycar_ws/install/control_motor:/home/xytron/xycar_ws/install/xycar_motor:/home/xytron/xycar_ws/install/xycar_imu:/home/xytron/xycar_ws/install/xycar_cam:/home/xytron/xycar_ws/install/app_ultra_viewer:/home/xytron/xycar_ws/install/app_turtlesim:/home/xytron/xycar_ws/install/app_sensor_drive:/home/xytron/xycar_ws/install/app_rule_drive_sim:/home/xytron/xycar_ws/install/app_pubsub:/home/xytron/xycar_ws/install/app_path_planning:/home/xytron/xycar_ws/install/app_hough_drive:/home/xytron/xycar_ws/install/app_cam_exposure:/home/xytron/xycar_ws/install/app_8_drive:/opt/ros/humble /usr/bin/cmake --install /home/xytron/xycar_ws/build/yolo_msgs
+[3.246s] Level 1:colcon.colcon_core.environment:checking '/home/xytron/xycar_ws/install/yolo_msgs' for CMake config files
+[3.249s] Level 1:colcon.colcon_core.shell:create_environment_hook('yolo_msgs', 'cmake_prefix_path')
+[3.250s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xytron/xycar_ws/install/yolo_msgs/share/yolo_msgs/hook/cmake_prefix_path.ps1'
+[3.251s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/xytron/xycar_ws/install/yolo_msgs/share/yolo_msgs/hook/cmake_prefix_path.dsv'
+[3.252s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xytron/xycar_ws/install/yolo_msgs/share/yolo_msgs/hook/cmake_prefix_path.sh'
+[3.255s] Level 1:colcon.colcon_core.environment:checking '/home/xytron/xycar_ws/install/yolo_msgs/lib'
+[3.255s] Level 1:colcon.colcon_core.shell:create_environment_hook('yolo_msgs', 'ld_library_path_lib')
+[3.256s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xytron/xycar_ws/install/yolo_msgs/share/yolo_msgs/hook/ld_library_path_lib.ps1'
+[3.257s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/xytron/xycar_ws/install/yolo_msgs/share/yolo_msgs/hook/ld_library_path_lib.dsv'
+[3.258s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xytron/xycar_ws/install/yolo_msgs/share/yolo_msgs/hook/ld_library_path_lib.sh'
+[3.258s] Level 1:colcon.colcon_core.environment:checking '/home/xytron/xycar_ws/install/yolo_msgs/bin'
+[3.259s] Level 1:colcon.colcon_core.environment:checking '/home/xytron/xycar_ws/install/yolo_msgs/lib/pkgconfig/yolo_msgs.pc'
+[3.259s] Level 1:colcon.colcon_core.environment:checking '/home/xytron/xycar_ws/install/yolo_msgs/lib/python3.10/site-packages'
+[3.259s] Level 1:colcon.colcon_core.environment:checking '/home/xytron/xycar_ws/install/yolo_msgs/bin'
+[3.262s] INFO:colcon.colcon_core.shell:Creating package script '/home/xytron/xycar_ws/install/yolo_msgs/share/yolo_msgs/package.ps1'
+[3.268s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/xytron/xycar_ws/install/yolo_msgs/share/yolo_msgs/package.dsv'
+[3.271s] INFO:colcon.colcon_core.shell:Creating package script '/home/xytron/xycar_ws/install/yolo_msgs/share/yolo_msgs/package.sh'
+[3.273s] INFO:colcon.colcon_core.shell:Creating package script '/home/xytron/xycar_ws/install/yolo_msgs/share/yolo_msgs/package.bash'
+[3.274s] INFO:colcon.colcon_core.shell:Creating package script '/home/xytron/xycar_ws/install/yolo_msgs/share/yolo_msgs/package.zsh'
+[3.276s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/xytron/xycar_ws/install/yolo_msgs/share/colcon-core/packages/yolo_msgs)
+[3.277s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(yolo_msgs)
+[3.278s] Level 1:colcon.colcon_core.environment:checking '/home/xytron/xycar_ws/install/yolo_msgs' for CMake module files
+[3.279s] Level 1:colcon.colcon_core.environment:checking '/home/xytron/xycar_ws/install/yolo_msgs' for CMake config files
+[3.281s] Level 1:colcon.colcon_core.shell:create_environment_hook('yolo_msgs', 'cmake_prefix_path')
+[3.282s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xytron/xycar_ws/install/yolo_msgs/share/yolo_msgs/hook/cmake_prefix_path.ps1'
+[3.282s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/xytron/xycar_ws/install/yolo_msgs/share/yolo_msgs/hook/cmake_prefix_path.dsv'
+[3.283s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xytron/xycar_ws/install/yolo_msgs/share/yolo_msgs/hook/cmake_prefix_path.sh'
+[3.284s] Level 1:colcon.colcon_core.environment:checking '/home/xytron/xycar_ws/install/yolo_msgs/lib'
+[3.284s] Level 1:colcon.colcon_core.shell:create_environment_hook('yolo_msgs', 'ld_library_path_lib')
+[3.284s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xytron/xycar_ws/install/yolo_msgs/share/yolo_msgs/hook/ld_library_path_lib.ps1'
+[3.285s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/xytron/xycar_ws/install/yolo_msgs/share/yolo_msgs/hook/ld_library_path_lib.dsv'
+[3.285s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xytron/xycar_ws/install/yolo_msgs/share/yolo_msgs/hook/ld_library_path_lib.sh'
+[3.287s] Level 1:colcon.colcon_core.environment:checking '/home/xytron/xycar_ws/install/yolo_msgs/bin'
+[3.288s] Level 1:colcon.colcon_core.environment:checking '/home/xytron/xycar_ws/install/yolo_msgs/lib/pkgconfig/yolo_msgs.pc'
+[3.291s] Level 1:colcon.colcon_core.environment:checking '/home/xytron/xycar_ws/install/yolo_msgs/lib/python3.10/site-packages'
+[3.293s] Level 1:colcon.colcon_core.environment:checking '/home/xytron/xycar_ws/install/yolo_msgs/bin'
+[3.294s] INFO:colcon.colcon_core.shell:Creating package script '/home/xytron/xycar_ws/install/yolo_msgs/share/yolo_msgs/package.ps1'
+[3.297s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/xytron/xycar_ws/install/yolo_msgs/share/yolo_msgs/package.dsv'
+[3.300s] INFO:colcon.colcon_core.shell:Creating package script '/home/xytron/xycar_ws/install/yolo_msgs/share/yolo_msgs/package.sh'
+[3.301s] INFO:colcon.colcon_core.shell:Creating package script '/home/xytron/xycar_ws/install/yolo_msgs/share/yolo_msgs/package.bash'
+[3.303s] INFO:colcon.colcon_core.shell:Creating package script '/home/xytron/xycar_ws/install/yolo_msgs/share/yolo_msgs/package.zsh'
+[3.304s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/xytron/xycar_ws/install/yolo_msgs/share/colcon-core/packages/yolo_msgs)
+[3.305s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(vesc_ackermann)
+[3.306s] Level 1:colcon.colcon_core.environment:checking '/home/xytron/xycar_ws/install/vesc_ackermann' for CMake module files
+[3.307s] Level 1:colcon.colcon_core.environment:checking '/home/xytron/xycar_ws/install/vesc_ackermann' for CMake config files
+[3.308s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/xytron/xycar_ws/build/vesc_ackermann' returned '0': CMAKE_PREFIX_PATH=/home/xytron/xycar_ws/install/vesc_msgs:/home/xytron/xycar_ws/install/yolo_msgs:/home/xytron/xycar_ws/install/xycar_ultrasonic:/home/xytron/xycar_ws/install/xycar_msgs:/home/xytron/xycar_ws/install/xycar_lidar:/home/xytron/xycar_ws/install/vesc:/home/xytron/xycar_ws/install/vesc_driver:/home/xytron/xycar_ws/install/vesc_ackermann:/home/xytron/xycar_ws/install/app_web_controller:/home/xytron/xycar_ws/install/app_viewer_all:/home/xytron/xycar_ws/install/xycar_planner:/home/xytron/xycar_ws/install/control_motor:/home/xytron/xycar_ws/install/xycar_motor:/home/xytron/xycar_ws/install/xycar_imu:/home/xytron/xycar_ws/install/xycar_cam:/home/xytron/xycar_ws/install/app_ultra_viewer:/home/xytron/xycar_ws/install/app_turtlesim:/home/xytron/xycar_ws/install/app_sensor_drive:/home/xytron/xycar_ws/install/app_rule_drive_sim:/home/xytron/xycar_ws/install/app_pubsub:/home/xytron/xycar_ws/install/app_path_planning:/home/xytron/xycar_ws/install/app_hough_drive:/home/xytron/xycar_ws/install/app_cam_exposure:/home/xytron/xycar_ws/install/app_8_drive:/opt/ros/humble LD_LIBRARY_PATH=/home/xytron/xycar_ws/install/vesc_msgs/lib:/opt/ros/humble/lib:/home/xytron/xycar_ws/install/yolo_msgs/lib:/home/xytron/xycar_ws/install/xycar_msgs/lib:/home/xytron/xycar_ws/install/vesc_driver/lib:/home/xytron/xycar_ws/install/vesc_ackermann/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/xytron/xycar_ws/build/vesc_ackermann
+[3.309s] Level 1:colcon.colcon_core.shell:create_environment_hook('vesc_ackermann', 'cmake_prefix_path')
+[3.309s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xytron/xycar_ws/install/vesc_ackermann/share/vesc_ackermann/hook/cmake_prefix_path.ps1'
+[3.310s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/xytron/xycar_ws/install/vesc_ackermann/share/vesc_ackermann/hook/cmake_prefix_path.dsv'
+[3.310s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xytron/xycar_ws/install/vesc_ackermann/share/vesc_ackermann/hook/cmake_prefix_path.sh'
+[3.317s] Level 1:colcon.colcon_core.environment:checking '/home/xytron/xycar_ws/install/vesc_ackermann/lib'
+[3.318s] Level 1:colcon.colcon_core.shell:create_environment_hook('vesc_ackermann', 'ld_library_path_lib')
+[3.319s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xytron/xycar_ws/install/vesc_ackermann/share/vesc_ackermann/hook/ld_library_path_lib.ps1'
+[3.321s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/xytron/xycar_ws/install/vesc_ackermann/share/vesc_ackermann/hook/ld_library_path_lib.dsv'
+[3.323s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xytron/xycar_ws/install/vesc_ackermann/share/vesc_ackermann/hook/ld_library_path_lib.sh'
+[3.324s] Level 1:colcon.colcon_core.environment:checking '/home/xytron/xycar_ws/install/vesc_ackermann/bin'
+[3.324s] Level 1:colcon.colcon_core.environment:checking '/home/xytron/xycar_ws/install/vesc_ackermann/lib/pkgconfig/vesc_ackermann.pc'
+[3.324s] Level 1:colcon.colcon_core.environment:checking '/home/xytron/xycar_ws/install/vesc_ackermann/lib/python3.10/site-packages'
+[3.325s] Level 1:colcon.colcon_core.environment:checking '/home/xytron/xycar_ws/install/vesc_ackermann/bin'
+[3.325s] INFO:colcon.colcon_core.shell:Creating package script '/home/xytron/xycar_ws/install/vesc_ackermann/share/vesc_ackermann/package.ps1'
+[3.326s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/xytron/xycar_ws/install/vesc_ackermann/share/vesc_ackermann/package.dsv'
+[3.327s] INFO:colcon.colcon_core.shell:Creating package script '/home/xytron/xycar_ws/install/vesc_ackermann/share/vesc_ackermann/package.sh'
+[3.328s] INFO:colcon.colcon_core.shell:Creating package script '/home/xytron/xycar_ws/install/vesc_ackermann/share/vesc_ackermann/package.bash'
+[3.329s] INFO:colcon.colcon_core.shell:Creating package script '/home/xytron/xycar_ws/install/vesc_ackermann/share/vesc_ackermann/package.zsh'
+[3.329s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/xytron/xycar_ws/install/vesc_ackermann/share/colcon-core/packages/vesc_ackermann)
+[3.330s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(vesc_ackermann)
+[3.330s] Level 1:colcon.colcon_core.environment:checking '/home/xytron/xycar_ws/install/vesc_ackermann' for CMake module files
+[3.331s] Level 1:colcon.colcon_core.environment:checking '/home/xytron/xycar_ws/install/vesc_ackermann' for CMake config files
+[3.331s] Level 1:colcon.colcon_core.shell:create_environment_hook('vesc_ackermann', 'cmake_prefix_path')
+[3.332s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xytron/xycar_ws/install/vesc_ackermann/share/vesc_ackermann/hook/cmake_prefix_path.ps1'
+[3.332s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/xytron/xycar_ws/install/vesc_ackermann/share/vesc_ackermann/hook/cmake_prefix_path.dsv'
+[3.333s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xytron/xycar_ws/install/vesc_ackermann/share/vesc_ackermann/hook/cmake_prefix_path.sh'
+[3.334s] Level 1:colcon.colcon_core.environment:checking '/home/xytron/xycar_ws/install/vesc_ackermann/lib'
+[3.334s] Level 1:colcon.colcon_core.shell:create_environment_hook('vesc_ackermann', 'ld_library_path_lib')
+[3.334s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xytron/xycar_ws/install/vesc_ackermann/share/vesc_ackermann/hook/ld_library_path_lib.ps1'
+[3.334s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/xytron/xycar_ws/install/vesc_ackermann/share/vesc_ackermann/hook/ld_library_path_lib.dsv'
+[3.335s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xytron/xycar_ws/install/vesc_ackermann/share/vesc_ackermann/hook/ld_library_path_lib.sh'
+[3.335s] Level 1:colcon.colcon_core.environment:checking '/home/xytron/xycar_ws/install/vesc_ackermann/bin'
+[3.335s] Level 1:colcon.colcon_core.environment:checking '/home/xytron/xycar_ws/install/vesc_ackermann/lib/pkgconfig/vesc_ackermann.pc'
+[3.336s] Level 1:colcon.colcon_core.environment:checking '/home/xytron/xycar_ws/install/vesc_ackermann/lib/python3.10/site-packages'
+[3.336s] Level 1:colcon.colcon_core.environment:checking '/home/xytron/xycar_ws/install/vesc_ackermann/bin'
+[3.336s] INFO:colcon.colcon_core.shell:Creating package script '/home/xytron/xycar_ws/install/vesc_ackermann/share/vesc_ackermann/package.ps1'
+[3.338s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/xytron/xycar_ws/install/vesc_ackermann/share/vesc_ackermann/package.dsv'
+[3.342s] INFO:colcon.colcon_core.shell:Creating package script '/home/xytron/xycar_ws/install/vesc_ackermann/share/vesc_ackermann/package.sh'
+[3.345s] INFO:colcon.colcon_core.shell:Creating package script '/home/xytron/xycar_ws/install/vesc_ackermann/share/vesc_ackermann/package.bash'
+[3.347s] INFO:colcon.colcon_core.shell:Creating package script '/home/xytron/xycar_ws/install/vesc_ackermann/share/vesc_ackermann/package.zsh'
+[3.348s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/xytron/xycar_ws/install/vesc_ackermann/share/colcon-core/packages/vesc_ackermann)
+[3.352s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/xytron/xycar_ws/build/vesc_driver' returned '0': CMAKE_PREFIX_PATH=/home/xytron/xycar_ws/install/vesc_msgs:/home/xytron/xycar_ws/install/yolo_msgs:/home/xytron/xycar_ws/install/xycar_ultrasonic:/home/xytron/xycar_ws/install/xycar_msgs:/home/xytron/xycar_ws/install/xycar_lidar:/home/xytron/xycar_ws/install/vesc:/home/xytron/xycar_ws/install/vesc_driver:/home/xytron/xycar_ws/install/vesc_ackermann:/home/xytron/xycar_ws/install/app_web_controller:/home/xytron/xycar_ws/install/app_viewer_all:/home/xytron/xycar_ws/install/xycar_planner:/home/xytron/xycar_ws/install/control_motor:/home/xytron/xycar_ws/install/xycar_motor:/home/xytron/xycar_ws/install/xycar_imu:/home/xytron/xycar_ws/install/xycar_cam:/home/xytron/xycar_ws/install/app_ultra_viewer:/home/xytron/xycar_ws/install/app_turtlesim:/home/xytron/xycar_ws/install/app_sensor_drive:/home/xytron/xycar_ws/install/app_rule_drive_sim:/home/xytron/xycar_ws/install/app_pubsub:/home/xytron/xycar_ws/install/app_path_planning:/home/xytron/xycar_ws/install/app_hough_drive:/home/xytron/xycar_ws/install/app_cam_exposure:/home/xytron/xycar_ws/install/app_8_drive:/opt/ros/humble LD_LIBRARY_PATH=/home/xytron/xycar_ws/install/vesc_msgs/lib:/opt/ros/humble/lib:/home/xytron/xycar_ws/install/yolo_msgs/lib:/home/xytron/xycar_ws/install/xycar_msgs/lib:/home/xytron/xycar_ws/install/vesc_driver/lib:/home/xytron/xycar_ws/install/vesc_ackermann/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/xytron/xycar_ws/build/vesc_driver -- -j16 -l16
+[3.357s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/xytron/xycar_ws/build/vesc_driver': CMAKE_PREFIX_PATH=/home/xytron/xycar_ws/install/vesc_msgs:/home/xytron/xycar_ws/install/yolo_msgs:/home/xytron/xycar_ws/install/xycar_ultrasonic:/home/xytron/xycar_ws/install/xycar_msgs:/home/xytron/xycar_ws/install/xycar_lidar:/home/xytron/xycar_ws/install/vesc:/home/xytron/xycar_ws/install/vesc_driver:/home/xytron/xycar_ws/install/vesc_ackermann:/home/xytron/xycar_ws/install/app_web_controller:/home/xytron/xycar_ws/install/app_viewer_all:/home/xytron/xycar_ws/install/xycar_planner:/home/xytron/xycar_ws/install/control_motor:/home/xytron/xycar_ws/install/xycar_motor:/home/xytron/xycar_ws/install/xycar_imu:/home/xytron/xycar_ws/install/xycar_cam:/home/xytron/xycar_ws/install/app_ultra_viewer:/home/xytron/xycar_ws/install/app_turtlesim:/home/xytron/xycar_ws/install/app_sensor_drive:/home/xytron/xycar_ws/install/app_rule_drive_sim:/home/xytron/xycar_ws/install/app_pubsub:/home/xytron/xycar_ws/install/app_path_planning:/home/xytron/xycar_ws/install/app_hough_drive:/home/xytron/xycar_ws/install/app_cam_exposure:/home/xytron/xycar_ws/install/app_8_drive:/opt/ros/humble LD_LIBRARY_PATH=/home/xytron/xycar_ws/install/vesc_msgs/lib:/opt/ros/humble/lib:/home/xytron/xycar_ws/install/yolo_msgs/lib:/home/xytron/xycar_ws/install/xycar_msgs/lib:/home/xytron/xycar_ws/install/vesc_driver/lib:/home/xytron/xycar_ws/install/vesc_ackermann/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/xytron/xycar_ws/build/vesc_driver
+[3.390s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(vesc_driver)
+[3.390s] Level 1:colcon.colcon_core.environment:checking '/home/xytron/xycar_ws/install/vesc_driver' for CMake module files
+[3.391s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/xytron/xycar_ws/build/vesc_driver' returned '0': CMAKE_PREFIX_PATH=/home/xytron/xycar_ws/install/vesc_msgs:/home/xytron/xycar_ws/install/yolo_msgs:/home/xytron/xycar_ws/install/xycar_ultrasonic:/home/xytron/xycar_ws/install/xycar_msgs:/home/xytron/xycar_ws/install/xycar_lidar:/home/xytron/xycar_ws/install/vesc:/home/xytron/xycar_ws/install/vesc_driver:/home/xytron/xycar_ws/install/vesc_ackermann:/home/xytron/xycar_ws/install/app_web_controller:/home/xytron/xycar_ws/install/app_viewer_all:/home/xytron/xycar_ws/install/xycar_planner:/home/xytron/xycar_ws/install/control_motor:/home/xytron/xycar_ws/install/xycar_motor:/home/xytron/xycar_ws/install/xycar_imu:/home/xytron/xycar_ws/install/xycar_cam:/home/xytron/xycar_ws/install/app_ultra_viewer:/home/xytron/xycar_ws/install/app_turtlesim:/home/xytron/xycar_ws/install/app_sensor_drive:/home/xytron/xycar_ws/install/app_rule_drive_sim:/home/xytron/xycar_ws/install/app_pubsub:/home/xytron/xycar_ws/install/app_path_planning:/home/xytron/xycar_ws/install/app_hough_drive:/home/xytron/xycar_ws/install/app_cam_exposure:/home/xytron/xycar_ws/install/app_8_drive:/opt/ros/humble LD_LIBRARY_PATH=/home/xytron/xycar_ws/install/vesc_msgs/lib:/opt/ros/humble/lib:/home/xytron/xycar_ws/install/yolo_msgs/lib:/home/xytron/xycar_ws/install/xycar_msgs/lib:/home/xytron/xycar_ws/install/vesc_driver/lib:/home/xytron/xycar_ws/install/vesc_ackermann/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/xytron/xycar_ws/build/vesc_driver
+[3.391s] Level 1:colcon.colcon_core.environment:checking '/home/xytron/xycar_ws/install/vesc_driver' for CMake config files
+[3.392s] Level 1:colcon.colcon_core.shell:create_environment_hook('vesc_driver', 'cmake_prefix_path')
+[3.394s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xytron/xycar_ws/install/vesc_driver/share/vesc_driver/hook/cmake_prefix_path.ps1'
+[3.400s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/xytron/xycar_ws/install/vesc_driver/share/vesc_driver/hook/cmake_prefix_path.dsv'
+[3.403s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xytron/xycar_ws/install/vesc_driver/share/vesc_driver/hook/cmake_prefix_path.sh'
+[3.406s] Level 1:colcon.colcon_core.environment:checking '/home/xytron/xycar_ws/install/vesc_driver/lib'
+[3.406s] Level 1:colcon.colcon_core.shell:create_environment_hook('vesc_driver', 'ld_library_path_lib')
+[3.407s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xytron/xycar_ws/install/vesc_driver/share/vesc_driver/hook/ld_library_path_lib.ps1'
+[3.408s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/xytron/xycar_ws/install/vesc_driver/share/vesc_driver/hook/ld_library_path_lib.dsv'
+[3.410s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xytron/xycar_ws/install/vesc_driver/share/vesc_driver/hook/ld_library_path_lib.sh'
+[3.411s] Level 1:colcon.colcon_core.environment:checking '/home/xytron/xycar_ws/install/vesc_driver/bin'
+[3.411s] Level 1:colcon.colcon_core.environment:checking '/home/xytron/xycar_ws/install/vesc_driver/lib/pkgconfig/vesc_driver.pc'
+[3.411s] Level 1:colcon.colcon_core.environment:checking '/home/xytron/xycar_ws/install/vesc_driver/lib/python3.10/site-packages'
+[3.412s] Level 1:colcon.colcon_core.environment:checking '/home/xytron/xycar_ws/install/vesc_driver/bin'
+[3.412s] INFO:colcon.colcon_core.shell:Creating package script '/home/xytron/xycar_ws/install/vesc_driver/share/vesc_driver/package.ps1'
+[3.414s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/xytron/xycar_ws/install/vesc_driver/share/vesc_driver/package.dsv'
+[3.414s] INFO:colcon.colcon_core.shell:Creating package script '/home/xytron/xycar_ws/install/vesc_driver/share/vesc_driver/package.sh'
+[3.415s] INFO:colcon.colcon_core.shell:Creating package script '/home/xytron/xycar_ws/install/vesc_driver/share/vesc_driver/package.bash'
+[3.416s] INFO:colcon.colcon_core.shell:Creating package script '/home/xytron/xycar_ws/install/vesc_driver/share/vesc_driver/package.zsh'
+[3.417s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/xytron/xycar_ws/install/vesc_driver/share/colcon-core/packages/vesc_driver)
+[3.418s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(vesc_driver)
+[3.418s] Level 1:colcon.colcon_core.environment:checking '/home/xytron/xycar_ws/install/vesc_driver' for CMake module files
+[3.419s] Level 1:colcon.colcon_core.environment:checking '/home/xytron/xycar_ws/install/vesc_driver' for CMake config files
+[3.419s] Level 1:colcon.colcon_core.shell:create_environment_hook('vesc_driver', 'cmake_prefix_path')
+[3.419s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xytron/xycar_ws/install/vesc_driver/share/vesc_driver/hook/cmake_prefix_path.ps1'
+[3.420s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/xytron/xycar_ws/install/vesc_driver/share/vesc_driver/hook/cmake_prefix_path.dsv'
+[3.421s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xytron/xycar_ws/install/vesc_driver/share/vesc_driver/hook/cmake_prefix_path.sh'
+[3.422s] Level 1:colcon.colcon_core.environment:checking '/home/xytron/xycar_ws/install/vesc_driver/lib'
+[3.425s] Level 1:colcon.colcon_core.shell:create_environment_hook('vesc_driver', 'ld_library_path_lib')
+[3.428s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xytron/xycar_ws/install/vesc_driver/share/vesc_driver/hook/ld_library_path_lib.ps1'
+[3.430s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/xytron/xycar_ws/install/vesc_driver/share/vesc_driver/hook/ld_library_path_lib.dsv'
+[3.431s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xytron/xycar_ws/install/vesc_driver/share/vesc_driver/hook/ld_library_path_lib.sh'
+[3.433s] Level 1:colcon.colcon_core.environment:checking '/home/xytron/xycar_ws/install/vesc_driver/bin'
+[3.433s] Level 1:colcon.colcon_core.environment:checking '/home/xytron/xycar_ws/install/vesc_driver/lib/pkgconfig/vesc_driver.pc'
+[3.434s] Level 1:colcon.colcon_core.environment:checking '/home/xytron/xycar_ws/install/vesc_driver/lib/python3.10/site-packages'
+[3.434s] Level 1:colcon.colcon_core.environment:checking '/home/xytron/xycar_ws/install/vesc_driver/bin'
+[3.435s] INFO:colcon.colcon_core.shell:Creating package script '/home/xytron/xycar_ws/install/vesc_driver/share/vesc_driver/package.ps1'
+[3.436s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/xytron/xycar_ws/install/vesc_driver/share/vesc_driver/package.dsv'
+[3.438s] INFO:colcon.colcon_core.shell:Creating package script '/home/xytron/xycar_ws/install/vesc_driver/share/vesc_driver/package.sh'
+[3.440s] INFO:colcon.colcon_core.shell:Creating package script '/home/xytron/xycar_ws/install/vesc_driver/share/vesc_driver/package.bash'
+[3.440s] INFO:colcon.colcon_core.shell:Creating package script '/home/xytron/xycar_ws/install/vesc_driver/share/vesc_driver/package.zsh'
+[3.441s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/xytron/xycar_ws/install/vesc_driver/share/colcon-core/packages/vesc_driver)
+[3.442s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/xytron/xycar_ws/src/xycar_device/vesc/vesc' with build type 'ament_cmake'
+[3.442s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/xytron/xycar_ws/src/xycar_device/vesc/vesc'
+[3.443s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.444s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.496s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/xytron/xycar_ws/build/vesc': CMAKE_PREFIX_PATH=/home/xytron/xycar_ws/install/vesc_driver:/home/xytron/xycar_ws/install/vesc_ackermann:/home/xytron/xycar_ws/install/vesc_msgs:/home/xytron/xycar_ws/install/yolo_msgs:/home/xytron/xycar_ws/install/xycar_ultrasonic:/home/xytron/xycar_ws/install/xycar_msgs:/home/xytron/xycar_ws/install/xycar_lidar:/home/xytron/xycar_ws/install/vesc:/home/xytron/xycar_ws/install/app_web_controller:/home/xytron/xycar_ws/install/app_viewer_all:/home/xytron/xycar_ws/install/xycar_planner:/home/xytron/xycar_ws/install/control_motor:/home/xytron/xycar_ws/install/xycar_motor:/home/xytron/xycar_ws/install/xycar_imu:/home/xytron/xycar_ws/install/xycar_cam:/home/xytron/xycar_ws/install/app_ultra_viewer:/home/xytron/xycar_ws/install/app_turtlesim:/home/xytron/xycar_ws/install/app_sensor_drive:/home/xytron/xycar_ws/install/app_rule_drive_sim:/home/xytron/xycar_ws/install/app_pubsub:/home/xytron/xycar_ws/install/app_path_planning:/home/xytron/xycar_ws/install/app_hough_drive:/home/xytron/xycar_ws/install/app_cam_exposure:/home/xytron/xycar_ws/install/app_8_drive:/opt/ros/humble LD_LIBRARY_PATH=/home/xytron/xycar_ws/install/vesc_driver/lib:/home/xytron/xycar_ws/install/vesc_ackermann/lib:/home/xytron/xycar_ws/install/vesc_msgs/lib:/opt/ros/humble/lib:/home/xytron/xycar_ws/install/yolo_msgs/lib:/home/xytron/xycar_ws/install/xycar_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/xytron/xycar_ws/build/vesc -- -j16 -l16
+[3.601s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/xytron/xycar_ws/build/vesc' returned '0': CMAKE_PREFIX_PATH=/home/xytron/xycar_ws/install/vesc_driver:/home/xytron/xycar_ws/install/vesc_ackermann:/home/xytron/xycar_ws/install/vesc_msgs:/home/xytron/xycar_ws/install/yolo_msgs:/home/xytron/xycar_ws/install/xycar_ultrasonic:/home/xytron/xycar_ws/install/xycar_msgs:/home/xytron/xycar_ws/install/xycar_lidar:/home/xytron/xycar_ws/install/vesc:/home/xytron/xycar_ws/install/app_web_controller:/home/xytron/xycar_ws/install/app_viewer_all:/home/xytron/xycar_ws/install/xycar_planner:/home/xytron/xycar_ws/install/control_motor:/home/xytron/xycar_ws/install/xycar_motor:/home/xytron/xycar_ws/install/xycar_imu:/home/xytron/xycar_ws/install/xycar_cam:/home/xytron/xycar_ws/install/app_ultra_viewer:/home/xytron/xycar_ws/install/app_turtlesim:/home/xytron/xycar_ws/install/app_sensor_drive:/home/xytron/xycar_ws/install/app_rule_drive_sim:/home/xytron/xycar_ws/install/app_pubsub:/home/xytron/xycar_ws/install/app_path_planning:/home/xytron/xycar_ws/install/app_hough_drive:/home/xytron/xycar_ws/install/app_cam_exposure:/home/xytron/xycar_ws/install/app_8_drive:/opt/ros/humble LD_LIBRARY_PATH=/home/xytron/xycar_ws/install/vesc_driver/lib:/home/xytron/xycar_ws/install/vesc_ackermann/lib:/home/xytron/xycar_ws/install/vesc_msgs/lib:/opt/ros/humble/lib:/home/xytron/xycar_ws/install/yolo_msgs/lib:/home/xytron/xycar_ws/install/xycar_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/xytron/xycar_ws/build/vesc -- -j16 -l16
+[3.606s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/xytron/xycar_ws/build/vesc': CMAKE_PREFIX_PATH=/home/xytron/xycar_ws/install/vesc_driver:/home/xytron/xycar_ws/install/vesc_ackermann:/home/xytron/xycar_ws/install/vesc_msgs:/home/xytron/xycar_ws/install/yolo_msgs:/home/xytron/xycar_ws/install/xycar_ultrasonic:/home/xytron/xycar_ws/install/xycar_msgs:/home/xytron/xycar_ws/install/xycar_lidar:/home/xytron/xycar_ws/install/vesc:/home/xytron/xycar_ws/install/app_web_controller:/home/xytron/xycar_ws/install/app_viewer_all:/home/xytron/xycar_ws/install/xycar_planner:/home/xytron/xycar_ws/install/control_motor:/home/xytron/xycar_ws/install/xycar_motor:/home/xytron/xycar_ws/install/xycar_imu:/home/xytron/xycar_ws/install/xycar_cam:/home/xytron/xycar_ws/install/app_ultra_viewer:/home/xytron/xycar_ws/install/app_turtlesim:/home/xytron/xycar_ws/install/app_sensor_drive:/home/xytron/xycar_ws/install/app_rule_drive_sim:/home/xytron/xycar_ws/install/app_pubsub:/home/xytron/xycar_ws/install/app_path_planning:/home/xytron/xycar_ws/install/app_hough_drive:/home/xytron/xycar_ws/install/app_cam_exposure:/home/xytron/xycar_ws/install/app_8_drive:/opt/ros/humble LD_LIBRARY_PATH=/home/xytron/xycar_ws/install/vesc_driver/lib:/home/xytron/xycar_ws/install/vesc_ackermann/lib:/home/xytron/xycar_ws/install/vesc_msgs/lib:/opt/ros/humble/lib:/home/xytron/xycar_ws/install/yolo_msgs/lib:/home/xytron/xycar_ws/install/xycar_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/xytron/xycar_ws/build/vesc
+[3.628s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(vesc)
+[3.628s] Level 1:colcon.colcon_core.environment:checking '/home/xytron/xycar_ws/install/vesc' for CMake module files
+[3.629s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/xytron/xycar_ws/build/vesc' returned '0': CMAKE_PREFIX_PATH=/home/xytron/xycar_ws/install/vesc_driver:/home/xytron/xycar_ws/install/vesc_ackermann:/home/xytron/xycar_ws/install/vesc_msgs:/home/xytron/xycar_ws/install/yolo_msgs:/home/xytron/xycar_ws/install/xycar_ultrasonic:/home/xytron/xycar_ws/install/xycar_msgs:/home/xytron/xycar_ws/install/xycar_lidar:/home/xytron/xycar_ws/install/vesc:/home/xytron/xycar_ws/install/app_web_controller:/home/xytron/xycar_ws/install/app_viewer_all:/home/xytron/xycar_ws/install/xycar_planner:/home/xytron/xycar_ws/install/control_motor:/home/xytron/xycar_ws/install/xycar_motor:/home/xytron/xycar_ws/install/xycar_imu:/home/xytron/xycar_ws/install/xycar_cam:/home/xytron/xycar_ws/install/app_ultra_viewer:/home/xytron/xycar_ws/install/app_turtlesim:/home/xytron/xycar_ws/install/app_sensor_drive:/home/xytron/xycar_ws/install/app_rule_drive_sim:/home/xytron/xycar_ws/install/app_pubsub:/home/xytron/xycar_ws/install/app_path_planning:/home/xytron/xycar_ws/install/app_hough_drive:/home/xytron/xycar_ws/install/app_cam_exposure:/home/xytron/xycar_ws/install/app_8_drive:/opt/ros/humble LD_LIBRARY_PATH=/home/xytron/xycar_ws/install/vesc_driver/lib:/home/xytron/xycar_ws/install/vesc_ackermann/lib:/home/xytron/xycar_ws/install/vesc_msgs/lib:/opt/ros/humble/lib:/home/xytron/xycar_ws/install/yolo_msgs/lib:/home/xytron/xycar_ws/install/xycar_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/xytron/xycar_ws/build/vesc
+[3.629s] Level 1:colcon.colcon_core.environment:checking '/home/xytron/xycar_ws/install/vesc' for CMake config files
+[3.630s] Level 1:colcon.colcon_core.shell:create_environment_hook('vesc', 'cmake_prefix_path')
+[3.630s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xytron/xycar_ws/install/vesc/share/vesc/hook/cmake_prefix_path.ps1'
+[3.631s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/xytron/xycar_ws/install/vesc/share/vesc/hook/cmake_prefix_path.dsv'
+[3.631s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xytron/xycar_ws/install/vesc/share/vesc/hook/cmake_prefix_path.sh'
+[3.632s] Level 1:colcon.colcon_core.environment:checking '/home/xytron/xycar_ws/install/vesc/bin'
+[3.632s] Level 1:colcon.colcon_core.environment:checking '/home/xytron/xycar_ws/install/vesc/lib/pkgconfig/vesc.pc'
+[3.632s] Level 1:colcon.colcon_core.environment:checking '/home/xytron/xycar_ws/install/vesc/lib/python3.10/site-packages'
+[3.632s] Level 1:colcon.colcon_core.environment:checking '/home/xytron/xycar_ws/install/vesc/bin'
+[3.633s] INFO:colcon.colcon_core.shell:Creating package script '/home/xytron/xycar_ws/install/vesc/share/vesc/package.ps1'
+[3.633s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/xytron/xycar_ws/install/vesc/share/vesc/package.dsv'
+[3.634s] INFO:colcon.colcon_core.shell:Creating package script '/home/xytron/xycar_ws/install/vesc/share/vesc/package.sh'
+[3.634s] INFO:colcon.colcon_core.shell:Creating package script '/home/xytron/xycar_ws/install/vesc/share/vesc/package.bash'
+[3.637s] INFO:colcon.colcon_core.shell:Creating package script '/home/xytron/xycar_ws/install/vesc/share/vesc/package.zsh'
+[3.638s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/xytron/xycar_ws/install/vesc/share/colcon-core/packages/vesc)
+[3.644s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(vesc)
+[3.646s] Level 1:colcon.colcon_core.environment:checking '/home/xytron/xycar_ws/install/vesc' for CMake module files
+[3.648s] Level 1:colcon.colcon_core.environment:checking '/home/xytron/xycar_ws/install/vesc' for CMake config files
+[3.649s] Level 1:colcon.colcon_core.shell:create_environment_hook('vesc', 'cmake_prefix_path')
+[3.649s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xytron/xycar_ws/install/vesc/share/vesc/hook/cmake_prefix_path.ps1'
+[3.650s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/xytron/xycar_ws/install/vesc/share/vesc/hook/cmake_prefix_path.dsv'
+[3.651s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xytron/xycar_ws/install/vesc/share/vesc/hook/cmake_prefix_path.sh'
+[3.653s] Level 1:colcon.colcon_core.environment:checking '/home/xytron/xycar_ws/install/vesc/bin'
+[3.653s] Level 1:colcon.colcon_core.environment:checking '/home/xytron/xycar_ws/install/vesc/lib/pkgconfig/vesc.pc'
+[3.654s] Level 1:colcon.colcon_core.environment:checking '/home/xytron/xycar_ws/install/vesc/lib/python3.10/site-packages'
+[3.655s] Level 1:colcon.colcon_core.environment:checking '/home/xytron/xycar_ws/install/vesc/bin'
+[3.656s] INFO:colcon.colcon_core.shell:Creating package script '/home/xytron/xycar_ws/install/vesc/share/vesc/package.ps1'
+[3.659s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/xytron/xycar_ws/install/vesc/share/vesc/package.dsv'
+[3.660s] INFO:colcon.colcon_core.shell:Creating package script '/home/xytron/xycar_ws/install/vesc/share/vesc/package.sh'
+[3.660s] INFO:colcon.colcon_core.shell:Creating package script '/home/xytron/xycar_ws/install/vesc/share/vesc/package.bash'
+[3.661s] INFO:colcon.colcon_core.shell:Creating package script '/home/xytron/xycar_ws/install/vesc/share/vesc/package.zsh'
+[3.662s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/xytron/xycar_ws/install/vesc/share/colcon-core/packages/vesc)
+[3.893s] Level 1:colcon.colcon_core.environment:checking '/home/xytron/xycar_ws/install/xycar_cam' for CMake module files
+[3.894s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/xytron/xycar_ws/src/xycar_device/xycar_cam' returned '0': PYTHONPATH=/home/xytron/xycar_ws/build/xycar_cam/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/xytron/xycar_ws/install/xycar_cam/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/xycar_cam build --build-base /home/xytron/xycar_ws/build/xycar_cam/build install --record /home/xytron/xycar_ws/build/xycar_cam/install.log --single-version-externally-managed install_data
+[3.895s] Level 1:colcon.colcon_core.environment:checking '/home/xytron/xycar_ws/install/xycar_cam' for CMake config files
+[3.895s] Level 1:colcon.colcon_core.environment:checking '/home/xytron/xycar_ws/install/xycar_cam/lib'
+[3.895s] Level 1:colcon.colcon_core.environment:checking '/home/xytron/xycar_ws/install/xycar_cam/bin'
+[3.896s] Level 1:colcon.colcon_core.environment:checking '/home/xytron/xycar_ws/install/xycar_cam/lib/pkgconfig/xycar_cam.pc'
+[3.896s] Level 1:colcon.colcon_core.environment:checking '/home/xytron/xycar_ws/install/xycar_cam/lib/python3.10/site-packages'
+[3.896s] Level 1:colcon.colcon_core.shell:create_environment_hook('xycar_cam', 'pythonpath')
+[3.896s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xytron/xycar_ws/install/xycar_cam/share/xycar_cam/hook/pythonpath.ps1'
+[3.897s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/xytron/xycar_ws/install/xycar_cam/share/xycar_cam/hook/pythonpath.dsv'
+[3.897s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xytron/xycar_ws/install/xycar_cam/share/xycar_cam/hook/pythonpath.sh'
+[3.898s] Level 1:colcon.colcon_core.environment:checking '/home/xytron/xycar_ws/install/xycar_cam/bin'
+[3.898s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(xycar_cam)
+[3.899s] INFO:colcon.colcon_core.shell:Creating package script '/home/xytron/xycar_ws/install/xycar_cam/share/xycar_cam/package.ps1'
+[3.900s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/xytron/xycar_ws/install/xycar_cam/share/xycar_cam/package.dsv'
+[3.901s] INFO:colcon.colcon_core.shell:Creating package script '/home/xytron/xycar_ws/install/xycar_cam/share/xycar_cam/package.sh'
+[3.902s] INFO:colcon.colcon_core.shell:Creating package script '/home/xytron/xycar_ws/install/xycar_cam/share/xycar_cam/package.bash'
+[3.903s] INFO:colcon.colcon_core.shell:Creating package script '/home/xytron/xycar_ws/install/xycar_cam/share/xycar_cam/package.zsh'
+[3.904s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/xytron/xycar_ws/install/xycar_cam/share/colcon-core/packages/xycar_cam)
+[3.955s] Level 1:colcon.colcon_core.environment:checking '/home/xytron/xycar_ws/install/xycar_motor' for CMake module files
+[3.956s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/xytron/xycar_ws/src/xycar_device/xycar_motor' returned '0': PYTHONPATH=/home/xytron/xycar_ws/build/xycar_motor/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/xytron/xycar_ws/install/xycar_motor/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/xycar_motor build --build-base /home/xytron/xycar_ws/build/xycar_motor/build install --record /home/xytron/xycar_ws/build/xycar_motor/install.log --single-version-externally-managed install_data
+[3.956s] Level 1:colcon.colcon_core.environment:checking '/home/xytron/xycar_ws/install/xycar_motor' for CMake config files
+[3.957s] Level 1:colcon.colcon_core.environment:checking '/home/xytron/xycar_ws/install/xycar_motor/lib'
+[3.957s] Level 1:colcon.colcon_core.environment:checking '/home/xytron/xycar_ws/install/xycar_motor/bin'
+[3.957s] Level 1:colcon.colcon_core.environment:checking '/home/xytron/xycar_ws/install/xycar_motor/lib/pkgconfig/xycar_motor.pc'
+[3.957s] Level 1:colcon.colcon_core.environment:checking '/home/xytron/xycar_ws/install/xycar_motor/lib/python3.10/site-packages'
+[3.957s] Level 1:colcon.colcon_core.shell:create_environment_hook('xycar_motor', 'pythonpath')
+[3.958s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xytron/xycar_ws/install/xycar_motor/share/xycar_motor/hook/pythonpath.ps1'
+[3.958s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/xytron/xycar_ws/install/xycar_motor/share/xycar_motor/hook/pythonpath.dsv'
+[3.959s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xytron/xycar_ws/install/xycar_motor/share/xycar_motor/hook/pythonpath.sh'
+[3.960s] Level 1:colcon.colcon_core.environment:checking '/home/xytron/xycar_ws/install/xycar_motor/bin'
+[3.960s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(xycar_motor)
+[3.960s] INFO:colcon.colcon_core.shell:Creating package script '/home/xytron/xycar_ws/install/xycar_motor/share/xycar_motor/package.ps1'
+[3.961s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/xytron/xycar_ws/install/xycar_motor/share/xycar_motor/package.dsv'
+[3.962s] INFO:colcon.colcon_core.shell:Creating package script '/home/xytron/xycar_ws/install/xycar_motor/share/xycar_motor/package.sh'
+[3.963s] INFO:colcon.colcon_core.shell:Creating package script '/home/xytron/xycar_ws/install/xycar_motor/share/xycar_motor/package.bash'
+[3.964s] INFO:colcon.colcon_core.shell:Creating package script '/home/xytron/xycar_ws/install/xycar_motor/share/xycar_motor/package.zsh'
+[3.966s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/xytron/xycar_ws/install/xycar_motor/share/colcon-core/packages/xycar_motor)
+[3.992s] Level 1:colcon.colcon_core.environment:checking '/home/xytron/xycar_ws/install/xycar_planner' for CMake module files
+[3.993s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/xytron/xycar_ws/src/xycar_planner' returned '0': PYTHONPATH=/home/xytron/xycar_ws/build/xycar_planner/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/xytron/xycar_ws/install/xycar_planner/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/xycar_planner build --build-base /home/xytron/xycar_ws/build/xycar_planner/build install --record /home/xytron/xycar_ws/build/xycar_planner/install.log --single-version-externally-managed install_data
+[3.993s] Level 1:colcon.colcon_core.environment:checking '/home/xytron/xycar_ws/install/xycar_planner' for CMake config files
+[3.994s] Level 1:colcon.colcon_core.environment:checking '/home/xytron/xycar_ws/install/xycar_planner/lib'
+[3.994s] Level 1:colcon.colcon_core.environment:checking '/home/xytron/xycar_ws/install/xycar_planner/bin'
+[3.994s] Level 1:colcon.colcon_core.environment:checking '/home/xytron/xycar_ws/install/xycar_planner/lib/pkgconfig/xycar_planner.pc'
+[3.994s] Level 1:colcon.colcon_core.environment:checking '/home/xytron/xycar_ws/install/xycar_planner/lib/python3.10/site-packages'
+[3.994s] Level 1:colcon.colcon_core.shell:create_environment_hook('xycar_planner', 'pythonpath')
+[3.994s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xytron/xycar_ws/install/xycar_planner/share/xycar_planner/hook/pythonpath.ps1'
+[3.995s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/xytron/xycar_ws/install/xycar_planner/share/xycar_planner/hook/pythonpath.dsv'
+[3.995s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xytron/xycar_ws/install/xycar_planner/share/xycar_planner/hook/pythonpath.sh'
+[3.996s] Level 1:colcon.colcon_core.environment:checking '/home/xytron/xycar_ws/install/xycar_planner/bin'
+[3.996s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(xycar_planner)
+[3.997s] INFO:colcon.colcon_core.shell:Creating package script '/home/xytron/xycar_ws/install/xycar_planner/share/xycar_planner/package.ps1'
+[3.997s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/xytron/xycar_ws/install/xycar_planner/share/xycar_planner/package.dsv'
+[3.998s] INFO:colcon.colcon_core.shell:Creating package script '/home/xytron/xycar_ws/install/xycar_planner/share/xycar_planner/package.sh'
+[3.999s] INFO:colcon.colcon_core.shell:Creating package script '/home/xytron/xycar_ws/install/xycar_planner/share/xycar_planner/package.bash'
+[3.999s] INFO:colcon.colcon_core.shell:Creating package script '/home/xytron/xycar_ws/install/xycar_planner/share/xycar_planner/package.zsh'
+[3.999s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/xytron/xycar_ws/install/xycar_planner/share/colcon-core/packages/xycar_planner)
+[4.001s] Level 1:colcon.colcon_core.environment:checking '/home/xytron/xycar_ws/install/xycar_imu' for CMake module files
+[4.002s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/xytron/xycar_ws/src/xycar_device/xycar_imu' returned '0': PYTHONPATH=/home/xytron/xycar_ws/build/xycar_imu/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/xytron/xycar_ws/install/xycar_imu/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/xycar_imu build --build-base /home/xytron/xycar_ws/build/xycar_imu/build install --record /home/xytron/xycar_ws/build/xycar_imu/install.log --single-version-externally-managed install_data
+[4.003s] Level 1:colcon.colcon_core.environment:checking '/home/xytron/xycar_ws/install/xycar_imu' for CMake config files
+[4.003s] Level 1:colcon.colcon_core.environment:checking '/home/xytron/xycar_ws/install/xycar_imu/lib'
+[4.004s] Level 1:colcon.colcon_core.environment:checking '/home/xytron/xycar_ws/install/xycar_imu/bin'
+[4.004s] Level 1:colcon.colcon_core.environment:checking '/home/xytron/xycar_ws/install/xycar_imu/lib/pkgconfig/xycar_imu.pc'
+[4.004s] Level 1:colcon.colcon_core.environment:checking '/home/xytron/xycar_ws/install/xycar_imu/lib/python3.10/site-packages'
+[4.004s] Level 1:colcon.colcon_core.shell:create_environment_hook('xycar_imu', 'pythonpath')
+[4.005s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xytron/xycar_ws/install/xycar_imu/share/xycar_imu/hook/pythonpath.ps1'
+[4.007s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/xytron/xycar_ws/install/xycar_imu/share/xycar_imu/hook/pythonpath.dsv'
+[4.009s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xytron/xycar_ws/install/xycar_imu/share/xycar_imu/hook/pythonpath.sh'
+[4.011s] Level 1:colcon.colcon_core.environment:checking '/home/xytron/xycar_ws/install/xycar_imu/bin'
+[4.011s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(xycar_imu)
+[4.011s] INFO:colcon.colcon_core.shell:Creating package script '/home/xytron/xycar_ws/install/xycar_imu/share/xycar_imu/package.ps1'
+[4.012s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/xytron/xycar_ws/install/xycar_imu/share/xycar_imu/package.dsv'
+[4.013s] INFO:colcon.colcon_core.shell:Creating package script '/home/xytron/xycar_ws/install/xycar_imu/share/xycar_imu/package.sh'
+[4.014s] INFO:colcon.colcon_core.shell:Creating package script '/home/xytron/xycar_ws/install/xycar_imu/share/xycar_imu/package.bash'
+[4.016s] INFO:colcon.colcon_core.shell:Creating package script '/home/xytron/xycar_ws/install/xycar_imu/share/xycar_imu/package.zsh'
+[4.017s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/xytron/xycar_ws/install/xycar_imu/share/colcon-core/packages/xycar_imu)
+[4.052s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/xytron/xycar_ws/src/study/control_motor': CMAKE_PREFIX_PATH=/home/xytron/xycar_ws/install/xycar_msgs:/home/xytron/xycar_ws/install/yolo_msgs:/home/xytron/xycar_ws/install/xycar_ultrasonic:/home/xytron/xycar_ws/install/xycar_lidar:/home/xytron/xycar_ws/install/vesc:/home/xytron/xycar_ws/install/vesc_driver:/home/xytron/xycar_ws/install/vesc_ackermann:/home/xytron/xycar_ws/install/vesc_msgs:/home/xytron/xycar_ws/install/app_web_controller:/home/xytron/xycar_ws/install/app_viewer_all LD_LIBRARY_PATH=/home/xytron/xycar_ws/install/xycar_msgs/lib:/opt/ros/humble/lib:/home/xytron/xycar_ws/install/yolo_msgs/lib:/home/xytron/xycar_ws/install/vesc_driver/lib:/home/xytron/xycar_ws/install/vesc_ackermann/lib:/home/xytron/xycar_ws/install/vesc_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/xytron/xycar_ws/build/control_motor/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/xytron/xycar_ws/install/control_motor/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/control_motor build --build-base /home/xytron/xycar_ws/build/control_motor/build install --record /home/xytron/xycar_ws/build/control_motor/install.log --single-version-externally-managed install_data
+[4.447s] Level 1:colcon.colcon_core.environment:checking '/home/xytron/xycar_ws/install/control_motor' for CMake module files
+[4.448s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/xytron/xycar_ws/src/study/control_motor' returned '0': CMAKE_PREFIX_PATH=/home/xytron/xycar_ws/install/xycar_msgs:/home/xytron/xycar_ws/install/yolo_msgs:/home/xytron/xycar_ws/install/xycar_ultrasonic:/home/xytron/xycar_ws/install/xycar_lidar:/home/xytron/xycar_ws/install/vesc:/home/xytron/xycar_ws/install/vesc_driver:/home/xytron/xycar_ws/install/vesc_ackermann:/home/xytron/xycar_ws/install/vesc_msgs:/home/xytron/xycar_ws/install/app_web_controller:/home/xytron/xycar_ws/install/app_viewer_all LD_LIBRARY_PATH=/home/xytron/xycar_ws/install/xycar_msgs/lib:/opt/ros/humble/lib:/home/xytron/xycar_ws/install/yolo_msgs/lib:/home/xytron/xycar_ws/install/vesc_driver/lib:/home/xytron/xycar_ws/install/vesc_ackermann/lib:/home/xytron/xycar_ws/install/vesc_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/xytron/xycar_ws/build/control_motor/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/xytron/xycar_ws/install/control_motor/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/control_motor build --build-base /home/xytron/xycar_ws/build/control_motor/build install --record /home/xytron/xycar_ws/build/control_motor/install.log --single-version-externally-managed install_data
+[4.448s] Level 1:colcon.colcon_core.environment:checking '/home/xytron/xycar_ws/install/control_motor' for CMake config files
+[4.449s] Level 1:colcon.colcon_core.environment:checking '/home/xytron/xycar_ws/install/control_motor/lib'
+[4.449s] Level 1:colcon.colcon_core.environment:checking '/home/xytron/xycar_ws/install/control_motor/bin'
+[4.449s] Level 1:colcon.colcon_core.environment:checking '/home/xytron/xycar_ws/install/control_motor/lib/pkgconfig/control_motor.pc'
+[4.449s] Level 1:colcon.colcon_core.environment:checking '/home/xytron/xycar_ws/install/control_motor/lib/python3.10/site-packages'
+[4.449s] Level 1:colcon.colcon_core.shell:create_environment_hook('control_motor', 'pythonpath')
+[4.449s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xytron/xycar_ws/install/control_motor/share/control_motor/hook/pythonpath.ps1'
+[4.450s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/xytron/xycar_ws/install/control_motor/share/control_motor/hook/pythonpath.dsv'
+[4.450s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xytron/xycar_ws/install/control_motor/share/control_motor/hook/pythonpath.sh'
+[4.450s] Level 1:colcon.colcon_core.environment:checking '/home/xytron/xycar_ws/install/control_motor/bin'
+[4.451s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(control_motor)
+[4.451s] INFO:colcon.colcon_core.shell:Creating package script '/home/xytron/xycar_ws/install/control_motor/share/control_motor/package.ps1'
+[4.451s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/xytron/xycar_ws/install/control_motor/share/control_motor/package.dsv'
+[4.452s] INFO:colcon.colcon_core.shell:Creating package script '/home/xytron/xycar_ws/install/control_motor/share/control_motor/package.sh'
+[4.452s] INFO:colcon.colcon_core.shell:Creating package script '/home/xytron/xycar_ws/install/control_motor/share/control_motor/package.bash'
+[4.453s] INFO:colcon.colcon_core.shell:Creating package script '/home/xytron/xycar_ws/install/control_motor/share/control_motor/package.zsh'
+[4.453s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/xytron/xycar_ws/install/control_motor/share/colcon-core/packages/control_motor)
+[4.453s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[4.454s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[4.454s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[4.454s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[4.463s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[4.463s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[4.463s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[4.475s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[4.475s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/xytron/xycar_ws/install/local_setup.ps1'
+[4.476s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/xytron/xycar_ws/install/_local_setup_util_ps1.py'
+[4.478s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/xytron/xycar_ws/install/setup.ps1'
+[4.479s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/xytron/xycar_ws/install/local_setup.sh'
+[4.480s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/xytron/xycar_ws/install/_local_setup_util_sh.py'
+[4.480s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/xytron/xycar_ws/install/setup.sh'
+[4.482s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/xytron/xycar_ws/install/local_setup.bash'
+[4.483s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/xytron/xycar_ws/install/setup.bash'
+[4.485s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/xytron/xycar_ws/install/local_setup.zsh'
+[4.485s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/xytron/xycar_ws/install/setup.zsh'

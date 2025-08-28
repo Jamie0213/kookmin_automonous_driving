@@ -1,0 +1,24 @@
+[2.464s] Invoking command in '/home/xytron/xycar_ws/build/app_viewer_all': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/xytron/xycar_ws/build/app_viewer_all -- -j16 -l16
+[3.031s] Invoked command in '/home/xytron/xycar_ws/build/app_viewer_all' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/xytron/xycar_ws/build/app_viewer_all -- -j16 -l16
+[3.034s] Invoking command in '/home/xytron/xycar_ws/build/app_viewer_all': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/xytron/xycar_ws/build/app_viewer_all
+[3.077s] -- Install configuration: ""
+[3.077s] -- Up-to-date: /home/xytron/xycar_ws/install/app_viewer_all/share/app_viewer_all/launch
+[3.078s] -- Up-to-date: /home/xytron/xycar_ws/install/app_viewer_all/share/app_viewer_all/launch/app_viewer_all.launch.py
+[3.078s] -- Up-to-date: /home/xytron/xycar_ws/install/app_viewer_all/share/app_viewer_all/launch/__pycache__
+[3.079s] -- Up-to-date: /home/xytron/xycar_ws/install/app_viewer_all/share/app_viewer_all/launch/__pycache__/app_viewer_all.launch.cpython-38.pyc
+[3.079s] -- Up-to-date: /home/xytron/xycar_ws/install/app_viewer_all/share/ament_index/resource_index/package_run_dependencies/app_viewer_all
+[3.079s] -- Up-to-date: /home/xytron/xycar_ws/install/app_viewer_all/share/ament_index/resource_index/parent_prefix_path/app_viewer_all
+[3.079s] -- Up-to-date: /home/xytron/xycar_ws/install/app_viewer_all/share/app_viewer_all/environment/ament_prefix_path.sh
+[3.079s] -- Up-to-date: /home/xytron/xycar_ws/install/app_viewer_all/share/app_viewer_all/environment/ament_prefix_path.dsv
+[3.079s] -- Up-to-date: /home/xytron/xycar_ws/install/app_viewer_all/share/app_viewer_all/environment/path.sh
+[3.079s] -- Up-to-date: /home/xytron/xycar_ws/install/app_viewer_all/share/app_viewer_all/environment/path.dsv
+[3.079s] -- Up-to-date: /home/xytron/xycar_ws/install/app_viewer_all/share/app_viewer_all/local_setup.bash
+[3.079s] -- Up-to-date: /home/xytron/xycar_ws/install/app_viewer_all/share/app_viewer_all/local_setup.sh
+[3.079s] -- Up-to-date: /home/xytron/xycar_ws/install/app_viewer_all/share/app_viewer_all/local_setup.zsh
+[3.079s] -- Up-to-date: /home/xytron/xycar_ws/install/app_viewer_all/share/app_viewer_all/local_setup.dsv
+[3.082s] -- Installing: /home/xytron/xycar_ws/install/app_viewer_all/share/app_viewer_all/package.dsv
+[3.084s] -- Up-to-date: /home/xytron/xycar_ws/install/app_viewer_all/share/ament_index/resource_index/packages/app_viewer_all
+[3.088s] -- Up-to-date: /home/xytron/xycar_ws/install/app_viewer_all/share/app_viewer_all/cmake/app_viewer_allConfig.cmake
+[3.089s] -- Up-to-date: /home/xytron/xycar_ws/install/app_viewer_all/share/app_viewer_all/cmake/app_viewer_allConfig-version.cmake
+[3.089s] -- Up-to-date: /home/xytron/xycar_ws/install/app_viewer_all/share/app_viewer_all/package.xml
+[3.212s] Invoked command in '/home/xytron/xycar_ws/build/app_viewer_all' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/xytron/xycar_ws/build/app_viewer_all

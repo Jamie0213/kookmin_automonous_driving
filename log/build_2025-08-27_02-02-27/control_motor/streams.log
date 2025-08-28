@@ -1,0 +1,35 @@
+[1.258s] Invoking command in '/home/xytron/xycar_ws/src/study/control_motor': CMAKE_PREFIX_PATH=/home/xytron/xycar_ws/install/xycar_msgs:/home/xytron/xycar_ws/install/yolo_msgs:/home/xytron/xycar_ws/install/xycar_ultrasonic:/home/xytron/xycar_ws/install/xycar_lidar:/home/xytron/xycar_ws/install/vesc:/home/xytron/xycar_ws/install/vesc_driver:/home/xytron/xycar_ws/install/vesc_ackermann:/home/xytron/xycar_ws/install/vesc_msgs:/home/xytron/xycar_ws/install/app_web_controller:/home/xytron/xycar_ws/install/app_viewer_all LD_LIBRARY_PATH=/home/xytron/xycar_ws/install/xycar_msgs/lib:/opt/ros/humble/lib:/home/xytron/xycar_ws/install/yolo_msgs/lib:/home/xytron/xycar_ws/install/vesc_driver/lib:/home/xytron/xycar_ws/install/vesc_ackermann/lib:/home/xytron/xycar_ws/install/vesc_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/xytron/xycar_ws/build/control_motor/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/xytron/xycar_ws/install/control_motor/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/control_motor build --build-base /home/xytron/xycar_ws/build/control_motor/build install --record /home/xytron/xycar_ws/build/control_motor/install.log --single-version-externally-managed install_data
+[1.536s] running egg_info
+[1.538s] writing ../../../build/control_motor/control_motor.egg-info/PKG-INFO
+[1.538s] writing dependency_links to ../../../build/control_motor/control_motor.egg-info/dependency_links.txt
+[1.538s] writing entry points to ../../../build/control_motor/control_motor.egg-info/entry_points.txt
+[1.538s] writing requirements to ../../../build/control_motor/control_motor.egg-info/requires.txt
+[1.538s] writing top-level names to ../../../build/control_motor/control_motor.egg-info/top_level.txt
+[1.544s] reading manifest file '../../../build/control_motor/control_motor.egg-info/SOURCES.txt'
+[1.545s] writing manifest file '../../../build/control_motor/control_motor.egg-info/SOURCES.txt'
+[1.545s] running build
+[1.545s] running build_py
+[1.546s] copying control_motor/left_slidingwindow.py -> /home/xytron/xycar_ws/build/control_motor/build/lib/control_motor
+[1.547s] running install
+[1.547s] running install_lib
+[1.548s] copying /home/xytron/xycar_ws/build/control_motor/build/lib/control_motor/left_slidingwindow.py -> /home/xytron/xycar_ws/install/control_motor/lib/python3.10/site-packages/control_motor
+[1.549s] byte-compiling /home/xytron/xycar_ws/install/control_motor/lib/python3.10/site-packages/control_motor/left_slidingwindow.py to left_slidingwindow.cpython-310.pyc
+[1.552s] running install_data
+[1.552s] running install_egg_info
+[1.554s] removing '/home/xytron/xycar_ws/install/control_motor/lib/python3.10/site-packages/control_motor-0.0.0-py3.10.egg-info' (and everything under it)
+[1.554s] Copying ../../../build/control_motor/control_motor.egg-info to /home/xytron/xycar_ws/install/control_motor/lib/python3.10/site-packages/control_motor-0.0.0-py3.10.egg-info
+[1.555s] running install_scripts
+[1.578s] Installing imu_heading script to /home/xytron/xycar_ws/install/control_motor/lib/control_motor
+[1.578s] Installing is_orange script to /home/xytron/xycar_ws/install/control_motor/lib/control_motor
+[1.578s] Installing is_vehicle script to /home/xytron/xycar_ws/install/control_motor/lib/control_motor
+[1.578s] Installing kmu_motor_node script to /home/xytron/xycar_ws/install/control_motor/lib/control_motor
+[1.578s] Installing lane_detection script to /home/xytron/xycar_ws/install/control_motor/lib/control_motor
+[1.578s] Installing left_lane_detection script to /home/xytron/xycar_ws/install/control_motor/lib/control_motor
+[1.578s] Installing new_lane_detection script to /home/xytron/xycar_ws/install/control_motor/lib/control_motor
+[1.578s] Installing new_rubbercone_driver_node script to /home/xytron/xycar_ws/install/control_motor/lib/control_motor
+[1.579s] Installing obstacle script to /home/xytron/xycar_ws/install/control_motor/lib/control_motor
+[1.579s] Installing rubbercone_driver_node script to /home/xytron/xycar_ws/install/control_motor/lib/control_motor
+[1.579s] Installing trafficlight script to /home/xytron/xycar_ws/install/control_motor/lib/control_motor
+[1.579s] Installing vehicle_avoidance script to /home/xytron/xycar_ws/install/control_motor/lib/control_motor
+[1.579s] writing list of installed files to '/home/xytron/xycar_ws/build/control_motor/install.log'
+[1.622s] Invoked command in '/home/xytron/xycar_ws/src/study/control_motor' returned '0': CMAKE_PREFIX_PATH=/home/xytron/xycar_ws/install/xycar_msgs:/home/xytron/xycar_ws/install/yolo_msgs:/home/xytron/xycar_ws/install/xycar_ultrasonic:/home/xytron/xycar_ws/install/xycar_lidar:/home/xytron/xycar_ws/install/vesc:/home/xytron/xycar_ws/install/vesc_driver:/home/xytron/xycar_ws/install/vesc_ackermann:/home/xytron/xycar_ws/install/vesc_msgs:/home/xytron/xycar_ws/install/app_web_controller:/home/xytron/xycar_ws/install/app_viewer_all LD_LIBRARY_PATH=/home/xytron/xycar_ws/install/xycar_msgs/lib:/opt/ros/humble/lib:/home/xytron/xycar_ws/install/yolo_msgs/lib:/home/xytron/xycar_ws/install/vesc_driver/lib:/home/xytron/xycar_ws/install/vesc_ackermann/lib:/home/xytron/xycar_ws/install/vesc_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/xytron/xycar_ws/build/control_motor/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/xytron/xycar_ws/install/control_motor/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/control_motor build --build-base /home/xytron/xycar_ws/build/control_motor/build install --record /home/xytron/xycar_ws/build/control_motor/install.log --single-version-externally-managed install_data

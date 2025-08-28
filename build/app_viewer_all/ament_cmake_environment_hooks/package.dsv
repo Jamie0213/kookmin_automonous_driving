@@ -1,0 +1,4 @@
+source;share/app_viewer_all/local_setup.bash
+source;share/app_viewer_all/local_setup.dsv
+source;share/app_viewer_all/local_setup.sh
+source;share/app_viewer_all/local_setup.zsh

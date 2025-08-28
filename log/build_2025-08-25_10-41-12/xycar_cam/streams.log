@@ -1,0 +1,36 @@
+[6.027s] Invoking command in '/home/xytron/xycar_ws/src/xycar_device/xycar_cam': PYTHONPATH=/home/xytron/xycar_ws/build/xycar_cam/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/xytron/xycar_ws/install/xycar_cam/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/xycar_cam build --build-base /home/xytron/xycar_ws/build/xycar_cam/build install --record /home/xytron/xycar_ws/build/xycar_cam/install.log --single-version-externally-managed install_data
+[8.096s] running egg_info
+[8.096s] creating ../../../build/xycar_cam/xycar_cam.egg-info
+[8.096s] writing ../../../build/xycar_cam/xycar_cam.egg-info/PKG-INFO
+[8.097s] writing dependency_links to ../../../build/xycar_cam/xycar_cam.egg-info/dependency_links.txt
+[8.097s] writing entry points to ../../../build/xycar_cam/xycar_cam.egg-info/entry_points.txt
+[8.097s] writing requirements to ../../../build/xycar_cam/xycar_cam.egg-info/requires.txt
+[8.097s] writing top-level names to ../../../build/xycar_cam/xycar_cam.egg-info/top_level.txt
+[8.097s] writing manifest file '../../../build/xycar_cam/xycar_cam.egg-info/SOURCES.txt'
+[8.100s] reading manifest file '../../../build/xycar_cam/xycar_cam.egg-info/SOURCES.txt'
+[8.110s] writing manifest file '../../../build/xycar_cam/xycar_cam.egg-info/SOURCES.txt'
+[8.110s] running build
+[8.117s] running build_py
+[8.118s] creating /home/xytron/xycar_ws/build/xycar_cam/build
+[8.118s] creating /home/xytron/xycar_ws/build/xycar_cam/build/lib
+[8.118s] creating /home/xytron/xycar_ws/build/xycar_cam/build/lib/xycar_cam
+[8.118s] copying xycar_cam/__init__.py -> /home/xytron/xycar_ws/build/xycar_cam/build/lib/xycar_cam
+[8.118s] running install
+[8.118s] running install_lib
+[8.119s] creating /home/xytron/xycar_ws/install/xycar_cam/lib/python3.10/site-packages/xycar_cam
+[8.120s] copying /home/xytron/xycar_ws/build/xycar_cam/build/lib/xycar_cam/__init__.py -> /home/xytron/xycar_ws/install/xycar_cam/lib/python3.10/site-packages/xycar_cam
+[8.120s] byte-compiling /home/xytron/xycar_ws/install/xycar_cam/lib/python3.10/site-packages/xycar_cam/__init__.py to __init__.cpython-310.pyc
+[8.120s] running install_data
+[8.128s] creating /home/xytron/xycar_ws/install/xycar_cam/share/ament_index
+[8.130s] creating /home/xytron/xycar_ws/install/xycar_cam/share/ament_index/resource_index
+[8.141s] creating /home/xytron/xycar_ws/install/xycar_cam/share/ament_index/resource_index/packages
+[8.142s] copying resource/xycar_cam -> /home/xytron/xycar_ws/install/xycar_cam/share/ament_index/resource_index/packages
+[8.143s] copying package.xml -> /home/xytron/xycar_ws/install/xycar_cam/share/xycar_cam
+[8.143s] creating /home/xytron/xycar_ws/install/xycar_cam/share/xycar_cam/launch
+[8.143s] copying launch/xycar_cam.launch.py -> /home/xytron/xycar_ws/install/xycar_cam/share/xycar_cam/launch
+[8.143s] copying launch/xycar_cam_viewer.launch.py -> /home/xytron/xycar_ws/install/xycar_cam/share/xycar_cam/launch
+[8.143s] running install_egg_info
+[8.143s] Copying ../../../build/xycar_cam/xycar_cam.egg-info to /home/xytron/xycar_ws/install/xycar_cam/lib/python3.10/site-packages/xycar_cam-0.0.0-py3.10.egg-info
+[8.149s] running install_scripts
+[8.275s] writing list of installed files to '/home/xytron/xycar_ws/build/xycar_cam/install.log'
+[8.522s] Invoked command in '/home/xytron/xycar_ws/src/xycar_device/xycar_cam' returned '0': PYTHONPATH=/home/xytron/xycar_ws/build/xycar_cam/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/xytron/xycar_ws/install/xycar_cam/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/xycar_cam build --build-base /home/xytron/xycar_ws/build/xycar_cam/build install --record /home/xytron/xycar_ws/build/xycar_cam/install.log --single-version-externally-managed install_data

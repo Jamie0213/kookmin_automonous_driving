@@ -1,0 +1,20 @@
+[3.030s] Invoking command in '/home/xytron/xycar_ws/src/xycar_device/xycar_cam': PYTHONPATH=/home/xytron/xycar_ws/build/xycar_cam/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/xytron/xycar_ws/install/xycar_cam/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/xycar_cam build --build-base /home/xytron/xycar_ws/build/xycar_cam/build install --record /home/xytron/xycar_ws/build/xycar_cam/install.log --single-version-externally-managed install_data
+[3.839s] running egg_info
+[3.842s] writing ../../../build/xycar_cam/xycar_cam.egg-info/PKG-INFO
+[3.842s] writing dependency_links to ../../../build/xycar_cam/xycar_cam.egg-info/dependency_links.txt
+[3.843s] writing entry points to ../../../build/xycar_cam/xycar_cam.egg-info/entry_points.txt
+[3.843s] writing requirements to ../../../build/xycar_cam/xycar_cam.egg-info/requires.txt
+[3.843s] writing top-level names to ../../../build/xycar_cam/xycar_cam.egg-info/top_level.txt
+[3.849s] reading manifest file '../../../build/xycar_cam/xycar_cam.egg-info/SOURCES.txt'
+[3.850s] writing manifest file '../../../build/xycar_cam/xycar_cam.egg-info/SOURCES.txt'
+[3.850s] running build
+[3.851s] running build_py
+[3.851s] running install
+[3.851s] running install_lib
+[3.854s] running install_data
+[3.854s] running install_egg_info
+[3.862s] removing '/home/xytron/xycar_ws/install/xycar_cam/lib/python3.10/site-packages/xycar_cam-0.0.0-py3.10.egg-info' (and everything under it)
+[3.865s] Copying ../../../build/xycar_cam/xycar_cam.egg-info to /home/xytron/xycar_ws/install/xycar_cam/lib/python3.10/site-packages/xycar_cam-0.0.0-py3.10.egg-info
+[3.869s] running install_scripts
+[3.911s] writing list of installed files to '/home/xytron/xycar_ws/build/xycar_cam/install.log'
+[4.012s] Invoked command in '/home/xytron/xycar_ws/src/xycar_device/xycar_cam' returned '0': PYTHONPATH=/home/xytron/xycar_ws/build/xycar_cam/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/xytron/xycar_ws/install/xycar_cam/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/xycar_cam build --build-base /home/xytron/xycar_ws/build/xycar_cam/build install --record /home/xytron/xycar_ws/build/xycar_cam/install.log --single-version-externally-managed install_data

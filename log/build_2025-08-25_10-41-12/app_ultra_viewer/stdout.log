@@ -1,0 +1,35 @@
+running egg_info
+creating ../../../build/app_ultra_viewer/app_ultra_viewer.egg-info
+writing ../../../build/app_ultra_viewer/app_ultra_viewer.egg-info/PKG-INFO
+writing dependency_links to ../../../build/app_ultra_viewer/app_ultra_viewer.egg-info/dependency_links.txt
+writing entry points to ../../../build/app_ultra_viewer/app_ultra_viewer.egg-info/entry_points.txt
+writing requirements to ../../../build/app_ultra_viewer/app_ultra_viewer.egg-info/requires.txt
+writing top-level names to ../../../build/app_ultra_viewer/app_ultra_viewer.egg-info/top_level.txt
+writing manifest file '../../../build/app_ultra_viewer/app_ultra_viewer.egg-info/SOURCES.txt'
+reading manifest file '../../../build/app_ultra_viewer/app_ultra_viewer.egg-info/SOURCES.txt'
+writing manifest file '../../../build/app_ultra_viewer/app_ultra_viewer.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/xytron/xycar_ws/build/app_ultra_viewer/build
+creating /home/xytron/xycar_ws/build/app_ultra_viewer/build/lib
+creating /home/xytron/xycar_ws/build/app_ultra_viewer/build/lib/app_ultra_viewer
+copying app_ultra_viewer/__init__.py -> /home/xytron/xycar_ws/build/app_ultra_viewer/build/lib/app_ultra_viewer
+copying app_ultra_viewer/app_ultra_viewer.py -> /home/xytron/xycar_ws/build/app_ultra_viewer/build/lib/app_ultra_viewer
+running install
+running install_lib
+creating /home/xytron/xycar_ws/install/app_ultra_viewer/lib/python3.10/site-packages/app_ultra_viewer
+copying /home/xytron/xycar_ws/build/app_ultra_viewer/build/lib/app_ultra_viewer/__init__.py -> /home/xytron/xycar_ws/install/app_ultra_viewer/lib/python3.10/site-packages/app_ultra_viewer
+copying /home/xytron/xycar_ws/build/app_ultra_viewer/build/lib/app_ultra_viewer/app_ultra_viewer.py -> /home/xytron/xycar_ws/install/app_ultra_viewer/lib/python3.10/site-packages/app_ultra_viewer
+byte-compiling /home/xytron/xycar_ws/install/app_ultra_viewer/lib/python3.10/site-packages/app_ultra_viewer/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/xytron/xycar_ws/install/app_ultra_viewer/lib/python3.10/site-packages/app_ultra_viewer/app_ultra_viewer.py to app_ultra_viewer.cpython-310.pyc
+running install_data
+creating /home/xytron/xycar_ws/install/app_ultra_viewer/share/ament_index
+creating /home/xytron/xycar_ws/install/app_ultra_viewer/share/ament_index/resource_index
+creating /home/xytron/xycar_ws/install/app_ultra_viewer/share/ament_index/resource_index/packages
+copying resource/app_ultra_viewer -> /home/xytron/xycar_ws/install/app_ultra_viewer/share/ament_index/resource_index/packages
+copying package.xml -> /home/xytron/xycar_ws/install/app_ultra_viewer/share/app_ultra_viewer
+running install_egg_info
+Copying ../../../build/app_ultra_viewer/app_ultra_viewer.egg-info to /home/xytron/xycar_ws/install/app_ultra_viewer/lib/python3.10/site-packages/app_ultra_viewer-0.0.0-py3.10.egg-info
+running install_scripts
+Installing app_ultra_viewer script to /home/xytron/xycar_ws/install/app_ultra_viewer/lib/app_ultra_viewer
+writing list of installed files to '/home/xytron/xycar_ws/build/app_ultra_viewer/install.log'

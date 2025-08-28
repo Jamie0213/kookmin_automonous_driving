@@ -1,0 +1,58 @@
+running egg_info
+creating ../../../build/xycar_imu/xycar_imu.egg-info
+writing ../../../build/xycar_imu/xycar_imu.egg-info/PKG-INFO
+writing dependency_links to ../../../build/xycar_imu/xycar_imu.egg-info/dependency_links.txt
+writing entry points to ../../../build/xycar_imu/xycar_imu.egg-info/entry_points.txt
+writing requirements to ../../../build/xycar_imu/xycar_imu.egg-info/requires.txt
+writing top-level names to ../../../build/xycar_imu/xycar_imu.egg-info/top_level.txt
+writing manifest file '../../../build/xycar_imu/xycar_imu.egg-info/SOURCES.txt'
+reading manifest file '../../../build/xycar_imu/xycar_imu.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../../build/xycar_imu/xycar_imu.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/xytron/xycar_ws/build/xycar_imu/build
+creating /home/xytron/xycar_ws/build/xycar_imu/build/lib
+creating /home/xytron/xycar_ws/build/xycar_imu/build/lib/xycar_imu
+copying src/xycar_imu/__init__.py -> /home/xytron/xycar_ws/build/xycar_imu/build/lib/xycar_imu
+copying src/xycar_imu/display_3D_visualization.py -> /home/xytron/xycar_ws/build/xycar_imu/build/lib/xycar_imu
+copying src/xycar_imu/imu_node.py -> /home/xytron/xycar_ws/build/xycar_imu/build/lib/xycar_imu
+creating /home/xytron/xycar_ws/build/xycar_imu/build/lib/xycar_imu/lib
+copying src/xycar_imu/lib/__init__.py -> /home/xytron/xycar_ws/build/xycar_imu/build/lib/xycar_imu/lib
+copying src/xycar_imu/lib/serial_commands.py -> /home/xytron/xycar_ws/build/xycar_imu/build/lib/xycar_imu/lib
+running install
+running install_lib
+creating /home/xytron/xycar_ws/install/xycar_imu/lib/python3.10/site-packages/xycar_imu
+copying /home/xytron/xycar_ws/build/xycar_imu/build/lib/xycar_imu/__init__.py -> /home/xytron/xycar_ws/install/xycar_imu/lib/python3.10/site-packages/xycar_imu
+copying /home/xytron/xycar_ws/build/xycar_imu/build/lib/xycar_imu/display_3D_visualization.py -> /home/xytron/xycar_ws/install/xycar_imu/lib/python3.10/site-packages/xycar_imu
+creating /home/xytron/xycar_ws/install/xycar_imu/lib/python3.10/site-packages/xycar_imu/lib
+copying /home/xytron/xycar_ws/build/xycar_imu/build/lib/xycar_imu/lib/__init__.py -> /home/xytron/xycar_ws/install/xycar_imu/lib/python3.10/site-packages/xycar_imu/lib
+copying /home/xytron/xycar_ws/build/xycar_imu/build/lib/xycar_imu/lib/serial_commands.py -> /home/xytron/xycar_ws/install/xycar_imu/lib/python3.10/site-packages/xycar_imu/lib
+copying /home/xytron/xycar_ws/build/xycar_imu/build/lib/xycar_imu/imu_node.py -> /home/xytron/xycar_ws/install/xycar_imu/lib/python3.10/site-packages/xycar_imu
+byte-compiling /home/xytron/xycar_ws/install/xycar_imu/lib/python3.10/site-packages/xycar_imu/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/xytron/xycar_ws/install/xycar_imu/lib/python3.10/site-packages/xycar_imu/display_3D_visualization.py to display_3D_visualization.cpython-310.pyc
+byte-compiling /home/xytron/xycar_ws/install/xycar_imu/lib/python3.10/site-packages/xycar_imu/lib/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/xytron/xycar_ws/install/xycar_imu/lib/python3.10/site-packages/xycar_imu/lib/serial_commands.py to serial_commands.cpython-310.pyc
+byte-compiling /home/xytron/xycar_ws/install/xycar_imu/lib/python3.10/site-packages/xycar_imu/imu_node.py to imu_node.cpython-310.pyc
+running install_data
+creating /home/xytron/xycar_ws/install/xycar_imu/share/ament_index
+creating /home/xytron/xycar_ws/install/xycar_imu/share/ament_index/resource_index
+creating /home/xytron/xycar_ws/install/xycar_imu/share/ament_index/resource_index/packages
+copying resource/xycar_imu -> /home/xytron/xycar_ws/install/xycar_imu/share/ament_index/resource_index/packages
+copying package.xml -> /home/xytron/xycar_ws/install/xycar_imu/share/xycar_imu
+creating /home/xytron/xycar_ws/install/xycar_imu/share/xycar_imu/launch
+copying launch/xycar_imu_and_display.launch.py -> /home/xytron/xycar_ws/install/xycar_imu/share/xycar_imu/launch
+copying launch/xycar_imu.launch.py -> /home/xytron/xycar_ws/install/xycar_imu/share/xycar_imu/launch
+copying launch/razor-pub-diags.launch.py -> /home/xytron/xycar_ws/install/xycar_imu/share/xycar_imu/launch
+copying launch/xycar_imu_viewer.launch.py -> /home/xytron/xycar_ws/install/xycar_imu/share/xycar_imu/launch
+copying launch/xycar_imu_display.launch.py -> /home/xytron/xycar_ws/install/xycar_imu/share/xycar_imu/launch
+creating /home/xytron/xycar_ws/install/xycar_imu/share/xycar_imu/config
+copying config/xycar_imu.yaml -> /home/xytron/xycar_ws/install/xycar_imu/share/xycar_imu/config
+copying config/razor_diags.yaml -> /home/xytron/xycar_ws/install/xycar_imu/share/xycar_imu/config
+copying config/razor.yaml -> /home/xytron/xycar_ws/install/xycar_imu/share/xycar_imu/config
+running install_egg_info
+Copying ../../../build/xycar_imu/xycar_imu.egg-info to /home/xytron/xycar_ws/install/xycar_imu/lib/python3.10/site-packages/xycar_imu-1.2.0-py3.10.egg-info
+running install_scripts
+Installing display_3D_visualization_node script to /home/xytron/xycar_ws/install/xycar_imu/lib/xycar_imu
+Installing imu_node script to /home/xytron/xycar_ws/install/xycar_imu/lib/xycar_imu
+writing list of installed files to '/home/xytron/xycar_ws/build/xycar_imu/install.log'

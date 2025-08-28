@@ -1,0 +1,24 @@
+[2.382s] Invoking command in '/home/xytron/xycar_ws/build/app_web_controller': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/xytron/xycar_ws/build/app_web_controller -- -j16 -l16
+[2.912s] Invoked command in '/home/xytron/xycar_ws/build/app_web_controller' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/xytron/xycar_ws/build/app_web_controller -- -j16 -l16
+[2.914s] Invoking command in '/home/xytron/xycar_ws/build/app_web_controller': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/xytron/xycar_ws/build/app_web_controller
+[3.028s] -- Install configuration: ""
+[3.028s] -- Up-to-date: /home/xytron/xycar_ws/install/app_web_controller/share/app_web_controller/launch
+[3.028s] -- Up-to-date: /home/xytron/xycar_ws/install/app_web_controller/share/app_web_controller/launch/app_web_controller.launch.py
+[3.028s] -- Up-to-date: /home/xytron/xycar_ws/install/app_web_controller/share/app_web_controller/launch/__pycache__
+[3.028s] -- Up-to-date: /home/xytron/xycar_ws/install/app_web_controller/share/app_web_controller/launch/__pycache__/app_web_controller.launch.cpython-38.pyc
+[3.028s] -- Up-to-date: /home/xytron/xycar_ws/install/app_web_controller/share/ament_index/resource_index/package_run_dependencies/app_web_controller
+[3.028s] -- Up-to-date: /home/xytron/xycar_ws/install/app_web_controller/share/ament_index/resource_index/parent_prefix_path/app_web_controller
+[3.028s] -- Up-to-date: /home/xytron/xycar_ws/install/app_web_controller/share/app_web_controller/environment/ament_prefix_path.sh
+[3.028s] -- Up-to-date: /home/xytron/xycar_ws/install/app_web_controller/share/app_web_controller/environment/ament_prefix_path.dsv
+[3.028s] -- Up-to-date: /home/xytron/xycar_ws/install/app_web_controller/share/app_web_controller/environment/path.sh
+[3.029s] -- Up-to-date: /home/xytron/xycar_ws/install/app_web_controller/share/app_web_controller/environment/path.dsv
+[3.029s] -- Up-to-date: /home/xytron/xycar_ws/install/app_web_controller/share/app_web_controller/local_setup.bash
+[3.030s] -- Up-to-date: /home/xytron/xycar_ws/install/app_web_controller/share/app_web_controller/local_setup.sh
+[3.031s] -- Up-to-date: /home/xytron/xycar_ws/install/app_web_controller/share/app_web_controller/local_setup.zsh
+[3.032s] -- Up-to-date: /home/xytron/xycar_ws/install/app_web_controller/share/app_web_controller/local_setup.dsv
+[3.033s] -- Installing: /home/xytron/xycar_ws/install/app_web_controller/share/app_web_controller/package.dsv
+[3.034s] -- Up-to-date: /home/xytron/xycar_ws/install/app_web_controller/share/ament_index/resource_index/packages/app_web_controller
+[3.037s] -- Up-to-date: /home/xytron/xycar_ws/install/app_web_controller/share/app_web_controller/cmake/app_web_controllerConfig.cmake
+[3.038s] -- Up-to-date: /home/xytron/xycar_ws/install/app_web_controller/share/app_web_controller/cmake/app_web_controllerConfig-version.cmake
+[3.039s] -- Up-to-date: /home/xytron/xycar_ws/install/app_web_controller/share/app_web_controller/package.xml
+[3.103s] Invoked command in '/home/xytron/xycar_ws/build/app_web_controller' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/xytron/xycar_ws/build/app_web_controller

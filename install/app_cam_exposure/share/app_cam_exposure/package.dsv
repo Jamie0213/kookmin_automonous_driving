@@ -1,0 +1,6 @@
+source;share/app_cam_exposure/hook/pythonpath.ps1
+source;share/app_cam_exposure/hook/pythonpath.dsv
+source;share/app_cam_exposure/hook/pythonpath.sh
+source;share/app_cam_exposure/hook/ament_prefix_path.ps1
+source;share/app_cam_exposure/hook/ament_prefix_path.dsv
+source;share/app_cam_exposure/hook/ament_prefix_path.sh

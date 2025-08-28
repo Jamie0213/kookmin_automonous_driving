@@ -1,0 +1,3 @@
+[console_scripts]
+app_ultra_viewer = app_ultra_viewer.app_ultra_viewer:main
+
